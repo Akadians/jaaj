@@ -14,7 +14,7 @@ public class TitleController : MonoBehaviour
 
     public void Play()
     {
-
+        //cena de curtscene;
     }
 
     public void Exit()

@@ -5,20 +5,19 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using FMODUnity;
 
+public enum GameState
+{
+    MAIN_MENU, GAMEPLAY, PAUSE
+}
+
 public class GameController : MonoBehaviour
 {
+    public static GameController Instance;
+    public GameState currentState;
 
-
-    // Start is called before the first frame update
-    void Start()
+    public void ChangeGameState(GameState newState)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        currentState = newState;
     }
 
     public void ClosedAplication()

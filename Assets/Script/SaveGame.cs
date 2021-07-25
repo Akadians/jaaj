@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class SaveGame : MonoBehaviour
@@ -20,7 +21,7 @@ public class SaveGame : MonoBehaviour
 
     public void Save()
     {
-
+        PlayerPrefs.SetInt("saveScene", SceneManager.GetActiveScene().buildIndex);
     }
 
     public bool CheckHasSave()
