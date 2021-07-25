@@ -40,6 +40,15 @@ public class GameController : MonoBehaviour
         }
     }
 
+    private void Update() {
+
+        //==== DEBUG ====
+        if(Input.GetKeyDown(KeyCode.N))
+        {   
+            NextScene();
+        }
+    }
+
     #region SCENEMANAGEMENT
     public void NextScene()
     {
