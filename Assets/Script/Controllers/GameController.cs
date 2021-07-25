@@ -65,10 +65,5 @@ public class GameController : MonoBehaviour
     public void ChangeGameState(GameState newState)
     {
         currentState = newState;
-    }
-
-    public void ClosedAplication()
-    {
-
-    }
+    }   
 }
