@@ -9,12 +9,12 @@ public class TitleController : MonoBehaviour
 
     private void Start()
     {
-        //checar se existe um save e desabilitar ou habilitar a interacao    
+        btnContinue.interactable = SaveGame.Instance.CheckHasSave();
     }
 
     public void Play()
     {
-        
+
     }
 
     public void Exit()
