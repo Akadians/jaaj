@@ -14,7 +14,12 @@ public class TitleController : MonoBehaviour
 
     public void Play()
     {
-        //cena de curtscene;
+        GameController.Instance.NextScene();
+    }
+
+    public void Continue()
+    {
+        GameController.Instance.LoadSaveScene();
     }
 
     public void Exit()

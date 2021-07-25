@@ -22,15 +22,17 @@ public class SaveGame : MonoBehaviour
     public void Save()
     {
         PlayerPrefs.SetInt("saveScene", SceneManager.GetActiveScene().buildIndex);
+        print("Salvou: " + PlayerPrefs.GetInt("saveScene"));
     }
 
     public bool CheckHasSave()
     {
+        print("Checou: " + PlayerPrefs.GetInt("saveScene"));
         return PlayerPrefs.GetInt("saveScene") != 0;
     }
 
-    public void Load()
+    public int GetSaveSceneID()
     {
-
+        return PlayerPrefs.GetInt("saveScene");
     }
 }
