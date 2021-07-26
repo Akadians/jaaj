@@ -12,6 +12,7 @@ public class Bull : MonoBehaviour
     private Rigidbody2D rb;
 
     public BullState currentState;
+    public ParticleSystem chargeParticle;
     public float lookDistance;
     public float walkSpeed;
     public float chargeSpeed;
@@ -59,6 +60,7 @@ public class Bull : MonoBehaviour
             if(hit.collider.gameObject.tag == "Player" && currentState != BullState.RUN)
             {
                 ChangeState(BullState.RUN);
+                chargeParticle.Play();
             }
         }   
     }
@@ -119,11 +121,6 @@ public class Bull : MonoBehaviour
         currentState = newState;
         switch (currentState)
         {
-            case BullState.RUN:
-                StopCoroutine(Delay(BullState.PATROL, 3f));
-                StartCoroutine(Delay(BullState.PATROL, 3f));
-            break;
-
             case BullState.STUN:
                 StopCoroutine(Delay(BullState.PATROL, 2.5f));
                 StartCoroutine(Delay(BullState.PATROL, 2.5f));
