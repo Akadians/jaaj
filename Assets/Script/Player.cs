@@ -6,8 +6,18 @@ using UnityEngine;
 [Serializable]
 public struct PlayerStruct
 {
+    [Header("Player")]
     public Rigidbody2D rigB;
     public Animator anim;
+    public Transform groundCheckA;
+    public Transform groundCheckB;
+
+    [Header("FX")]
+    public ParticleSystem jumpParticle;
+
+    [Header("Bools")]
+    public bool IsJumping;
+    public bool Doublejump;
 }
 
 
@@ -20,27 +30,18 @@ public class Player : MonoBehaviour
 
     public int IdPlayer;
 
-    public bool IsJumping;
-    public bool Doublejump;
-
     public LayerMask FloorCheck;
 
     public GameObject[] Power; // Lista com sprites dos projeteis.
 
     private Vector3 movement;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
+    
     void Update()
     {
         Move();
         Changer();
+        GroundCheck();
         Jump();
         Skill();       
     }
@@ -89,35 +90,34 @@ public class Player : MonoBehaviour
         }
     }
 
+    void GroundCheck()
+    {
+        players[IdPlayer].IsJumping = !Physics2D.OverlapArea(players[IdPlayer].groundCheckA.position, players[IdPlayer].groundCheckB.position, FloorCheck);
+    }
+
+
     void Jump()
     {
         if (Input.GetButtonDown("Jump"))
         {
-            if (!IsJumping)
+            if(!players[IdPlayer].IsJumping)
             {
                 players[IdPlayer].rigB.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
-                IsJumping = true;
-                Doublejump = true;
+                players[IdPlayer].jumpParticle.Play();
+
+                players[IdPlayer].IsJumping = true;
+                players[IdPlayer].Doublejump = true;
                 //players[IdPlayer].anim.SetBool("Jump", true); // Trigger da animação pulo.
                 return;
             }
-            else if (Doublejump)
+            else if(players[IdPlayer].Doublejump)
             {
+                //zera a velocidade para manter a estabilidade do corpo
+                players[IdPlayer].rigB.velocity = new Vector2(players[IdPlayer].rigB.velocity.x, 0);
                 players[IdPlayer].rigB.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
-                Doublejump = false;                
+                players[IdPlayer].Doublejump = false;  
                 return;
             }
-        }
-    }
-
-    void OnCollisionEnter2D(Collision2D collision) // Não Funcional.
-    {        
-        if (collision.gameObject.layer == FloorCheck)
-        {
-            IsJumping = false;
-            Debug.Log("Check");
-            return;
-            //players[IdPlayer].anim.SetBool("Jump", false);
         }
     }
 }
