@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="MixerGroup" id="{51898049-6098-4b8e-9191-af38337f9386}">
+		<property name="name">
+			<value>sfx_player</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{733e49c8-1ea4-415c-9275-de58fd6cefe3}</destination>
+		</relationship>
+		<relationship name="masters">
+			<destination>{6b9089f2-6868-4d82-99f8-38ca6a3c5e5a}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{e8b7f0f4-0adc-44db-a159-3c819aaed43d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{625b62ca-c23f-42aa-a4cc-c6dadfba31b1}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{27b62708-fc2c-4e86-bfa5-a6dfe390c117}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{733e49c8-1ea4-415c-9275-de58fd6cefe3}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>0.799999952</value>
+		</property>
+	</object>
+	<object class="MixerBusEffectChain" id="{e8b7f0f4-0adc-44db-a159-3c819aaed43d}">
+		<relationship name="effects">
+			<destination>{866cda11-cb67-4bcd-b8b3-dabe821eeac1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{625b62ca-c23f-42aa-a4cc-c6dadfba31b1}" />
+	<object class="MixerBusFader" id="{866cda11-cb67-4bcd-b8b3-dabe821eeac1}" />
+</objects>
