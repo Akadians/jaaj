@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{8263aba6-3cfc-45b1-bfc1-970ecc120ee5}">
+		<property name="assetPath">
+			<value>sfx/sfx_player/player_footstep/sfx_footstep_lama_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.17395833333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bfc69f9b-651d-4bd7-917b-858104e18926}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -5,11 +5,12 @@ using UnityEngine.UI;
 
 public class TitleController : MonoBehaviour
 {
-    public Button btnContinue;
+    [SerializeField]
+    private Button btnContinue;
 
     private void Start()
     {
-        btnContinue.interactable = SaveGame.Instance.CheckHasSave();
+        CheckContinue();
     }
 
     public void Play()
@@ -17,6 +18,10 @@ public class TitleController : MonoBehaviour
         GameController.Instance.NextScene();
     }
 
+    private void CheckContinue ()
+    {
+        btnContinue.interactable = SaveGame.Instance.CheckHasSave();
+    }
     public void Continue()
     {
         GameController.Instance.LoadSaveScene();
