@@ -5061,7 +5061,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
@@ -5761,8 +5761,8 @@ MonoBehaviour:
     jumpParticle: {fileID: 149704052}
     IsJumping: 0
     Doublejump: 0
-  Speed: 10
-  JumpForce: 7
+  Speed: 7
+  JumpForce: 80
   IdPlayer: 0
   FloorCheck:
     serializedVersion: 2
@@ -5879,7 +5879,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 2
