@@ -5043,7 +5043,7 @@ GameObject:
   - component: {fileID: 356392684}
   - component: {fileID: 356392685}
   m_Layer: 0
-  m_Name: hero 2
+  m_Name: Nyu
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5095,7 +5095,7 @@ Transform:
   m_GameObject: {fileID: 356392679}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.74, y: 2.43, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_Children:
   - {fileID: 492219036}
   - {fileID: 112785157}
@@ -5162,8 +5162,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 252ca4e2079b6ca4b9461b2eab2c397e, type: 3}
-  m_Color: {r: 0.9150943, g: 0, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 162280ebb8e41db45b4b4f0a0da620e8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5917,7 +5917,7 @@ GameObject:
   - component: {fileID: 1578358511}
   - component: {fileID: 1578358512}
   m_Layer: 0
-  m_Name: hero 1
+  m_Name: Niu
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -5969,7 +5969,7 @@ Transform:
   m_GameObject: {fileID: 1578358506}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.82, y: -1.41, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_Children:
   - {fileID: 1498580580}
   - {fileID: 1364126834}
@@ -6017,8 +6017,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 252ca4e2079b6ca4b9461b2eab2c397e, type: 3}
-  m_Color: {r: 0.16981131, g: 0.14177643, b: 0.14177643, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 49f581f204d4335468f4d5f6816fdfd5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
