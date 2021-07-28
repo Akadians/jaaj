@@ -12,7 +12,7 @@ namespace FMODUnity
         {
             if (TargetRuntimeManager)
             {
-                TargetRuntimeManager.ExecuteOnGUI();
+                //TargetRuntimeManager.ExecuteOnGUI();
             }
         }
     }
