@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using FMODUnity;
 
 [Serializable]
 public struct PlayerStruct
@@ -26,6 +27,7 @@ public class Player : MonoBehaviour
 {
     public PlayerStruct[] players;
 
+    public SoundController PlayerSound;
     public float Speed;
     public float JumpForce;
 
@@ -125,6 +127,7 @@ public class Player : MonoBehaviour
             {
                 players[IdPlayer].rigB.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                 players[IdPlayer].jumpParticle.Play();
+                
 
                 players[IdPlayer].IsJumping = true;
                 players[IdPlayer].Doublejump = true;                                
