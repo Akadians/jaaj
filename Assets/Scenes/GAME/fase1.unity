@@ -2032,6 +2032,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1437545273}
     m_Modifications:
+    - target: {fileID: 7505568427925558830, guid: 6ab666a42d58baf418e6e69046e0d715,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7505568428158132871, guid: 6ab666a42d58baf418e6e69046e0d715,
+        type: 3}
+      propertyPath: raycastLayers.m_Bits
+      value: 2561
+      objectReference: {fileID: 0}
     - target: {fileID: 7505568428524431714, guid: 6ab666a42d58baf418e6e69046e0d715,
         type: 3}
       propertyPath: m_Name
@@ -2045,7 +2055,7 @@ PrefabInstance:
     - target: {fileID: 7505568428524431715, guid: 6ab666a42d58baf418e6e69046e0d715,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -223.61
+      value: -221.1
       objectReference: {fileID: 0}
     - target: {fileID: 7505568428524431715, guid: 6ab666a42d58baf418e6e69046e0d715,
         type: 3}
@@ -2092,6 +2102,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7505568429083746901, guid: 6ab666a42d58baf418e6e69046e0d715,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.59
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ab666a42d58baf418e6e69046e0d715, type: 3}
 --- !u!4 &470415431 stripped
@@ -2114,7 +2129,7 @@ GameObject:
   - component: {fileID: 472817995}
   m_Layer: 9
   m_Name: 2 mask - Wall
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2519,7 +2534,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 11, y: -4, z: 0}
+  - first: {x: 15, y: -4, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 16
@@ -2529,7 +2544,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 12, y: -4, z: 0}
+  - first: {x: 16, y: -4, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -2829,7 +2844,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 11, y: -3, z: 0}
+  - first: {x: 15, y: -3, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 16
@@ -2839,7 +2854,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 12, y: -3, z: 0}
+  - first: {x: 16, y: -3, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 14
@@ -17015,7 +17030,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 11, y: -2, z: 0}
+  - first: {x: 15, y: -2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 10
@@ -17025,7 +17040,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 12, y: -2, z: 0}
+  - first: {x: 16, y: -2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 9
@@ -32538,6 +32553,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 667141862}
     m_Modifications:
+    - target: {fileID: 791567918723637163, guid: 72ca3d9199c8ba84e818f4620eb9b24e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 791567919022908366, guid: 72ca3d9199c8ba84e818f4620eb9b24e,
         type: 3}
       propertyPath: m_Name
@@ -32603,6 +32623,11 @@ PrefabInstance:
       propertyPath: CMCam
       value: 
       objectReference: {fileID: 1674403147}
+    - target: {fileID: 791567919882688422, guid: 72ca3d9199c8ba84e818f4620eb9b24e,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72ca3d9199c8ba84e818f4620eb9b24e, type: 3}
 --- !u!1001 &3918684202664082387
