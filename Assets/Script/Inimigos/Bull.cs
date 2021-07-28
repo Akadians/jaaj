@@ -11,17 +11,21 @@ public class Bull : MonoBehaviour, ISkill
         
     private Rigidbody2D rb;
     private EnemyBehaviour behaviour;
+    private Animator Anim;
+    private int changeAnimation;
     public BullState currentState;
     public ParticleSystem chargeParticle;
     public float chargeSpeed;
     public bool isRevived;
     
     
+    
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         behaviour = GetComponent<EnemyBehaviour>();
-        behaviour.target = behaviour.wayPoints[0];
+        Anim = GetComponent<Animator>();
+        behaviour.target = behaviour.wayPoints[0];        
     }
 
     private void Update()
@@ -36,6 +40,7 @@ public class Bull : MonoBehaviour, ISkill
                 Skill();
             break;
         }
+        AnimationChanger();
                 
     }
     
@@ -51,12 +56,6 @@ public class Bull : MonoBehaviour, ISkill
         //animacao de morte
         //indicador que pode ser revivido
     }
-
-    void RealDead()
-    {
-
-    }
-
 
     void ChangeState(BullState newState)
     {
@@ -127,5 +126,11 @@ public class Bull : MonoBehaviour, ISkill
                 }
             break;
         }        
-    }         
+    } 
+    
+    void AnimationChanger ()
+    {
+        changeAnimation = ((int)currentState);
+        Anim.SetInteger("State", changeAnimation);
+    }
 }
