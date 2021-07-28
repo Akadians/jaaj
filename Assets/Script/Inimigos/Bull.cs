@@ -112,7 +112,7 @@ public class Bull : MonoBehaviour, ISkill
         switch(other.gameObject.tag)
         {
             case "Player":
-                RaycastHit2D hit = behaviour.CheckRayCast();
+                RaycastHit2D hit = behaviour.CheckRayCastHorizontal();
 
                 if(hit.collider != null)
                 {
