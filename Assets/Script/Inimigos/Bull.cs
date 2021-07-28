@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 public class Bull : MonoBehaviour, ISkill
@@ -7,13 +8,14 @@ public class Bull : MonoBehaviour, ISkill
     {
         PATROL, RUN, STUN, DEAD, FOLLOW
     }
-
+        
     private Rigidbody2D rb;
     private EnemyBehaviour behaviour;
     public BullState currentState;
     public ParticleSystem chargeParticle;
     public float chargeSpeed;
     public bool isRevived;
+    
     
     private void Start()
     {
@@ -34,6 +36,7 @@ public class Bull : MonoBehaviour, ISkill
                 Skill();
             break;
         }
+                
     }
     
     public void Skill()
@@ -123,7 +126,6 @@ public class Bull : MonoBehaviour, ISkill
                     }
                 }
             break;
-        }
-        
-    }
+        }        
+    }         
 }

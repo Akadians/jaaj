@@ -50,14 +50,20 @@ public class Player : MonoBehaviour
     {
         movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
         players[IdPlayer].rigB.transform.position += movement * Time.deltaTime * Speed;
+        players[IdPlayer].anim.SetBool("Jumping", false);
 
         if (movement != Vector3.zero)// Checkagem de movimento para animação.
         {
-            //players[IdPlayer].anim.SetBool("Move", true);            
+            players[IdPlayer].anim.SetBool("Move", true);            
         }
         else
         {
-            //players[IdPlayer].anim.SetBool("Move", false);            
+            players[IdPlayer].anim.SetBool("Move", false);            
+        }
+
+        if(players[IdPlayer].IsJumping != false)
+        {
+            players[IdPlayer].anim.SetBool("Jumping", true);
         }
     }
 
@@ -97,7 +103,8 @@ public class Player : MonoBehaviour
 
 
     void Jump()
-    {
+    {       
+
         if (Input.GetButtonDown("Jump"))
         {
             if(!players[IdPlayer].IsJumping)
@@ -106,8 +113,7 @@ public class Player : MonoBehaviour
                 players[IdPlayer].jumpParticle.Play();
 
                 players[IdPlayer].IsJumping = true;
-                players[IdPlayer].Doublejump = true;
-                //players[IdPlayer].anim.SetBool("Jump", true); // Trigger da animação pulo.
+                players[IdPlayer].Doublejump = true;                                
                 return;
             }
             else if(players[IdPlayer].Doublejump)
@@ -115,9 +121,9 @@ public class Player : MonoBehaviour
                 //zera a velocidade para manter a estabilidade do corpo
                 players[IdPlayer].rigB.velocity = new Vector2(players[IdPlayer].rigB.velocity.x, 0);
                 players[IdPlayer].rigB.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
-                players[IdPlayer].Doublejump = false;  
+                players[IdPlayer].Doublejump = false;                
                 return;
-            }
+            }            
         }
     }
 }

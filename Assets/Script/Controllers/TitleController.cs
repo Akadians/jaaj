@@ -8,6 +8,8 @@ public class TitleController : MonoBehaviour
     [SerializeField]
     private Button btnContinue;
 
+    public Dropdown Quality;
+
     private void Start()
     {
         CheckContinue();
@@ -30,5 +32,10 @@ public class TitleController : MonoBehaviour
     public void Exit()
     {
         Application.Quit();
+    }
+
+    public void SetQuality (int qualityIndex)
+    {
+        QualitySettings.SetQualityLevel(qualityIndex);        
     }
 }

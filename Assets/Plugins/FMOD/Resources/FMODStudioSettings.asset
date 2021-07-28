@@ -600,8 +600,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: JAAJ v0/JAAJ v0.fspro
-  sourceBankPath: JAAJ v0/Build
+  sourceProjectPath: Assets/JAAJ v0/JAAJ v0.fspro
+  sourceBankPath: Assets/JAAJ v0/Build
   SourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
