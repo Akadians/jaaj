@@ -229,7 +229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 1
   chargeParticle: {fileID: 5790070191177686749}
-  chargeSpeed: 10
+  chargeSpeed: 8
   isRevived: 0
 --- !u!95 &7505568428158132868
 Animator:
