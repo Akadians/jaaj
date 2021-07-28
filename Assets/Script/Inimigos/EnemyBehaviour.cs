@@ -15,7 +15,12 @@ public class EnemyBehaviour : MonoBehaviour
     [HideInInspector]public int side;
     [HideInInspector]public Transform target;
     [HideInInspector]public int idWayPoint;
-    
+
+    private void Start()
+    {
+        target = wayPoints[0];    
+    }
+
     public virtual void Patrol()
     {
         target.position = new Vector3(wayPoints[idWayPoint].position.x, transform.position.y, transform.position.z);
@@ -30,17 +35,22 @@ public class EnemyBehaviour : MonoBehaviour
             target = wayPoints[idWayPoint];
         }
 
-        if(transform.position.x > target.position.x && isLookLeft)
+        ControlFlip(target);
+    }
+
+    public void ControlFlip(Transform targ)
+    {
+        if(transform.position.x > targ.position.x && isLookLeft)
         {
             Flip();
         }
-        else if(transform.position.x < target.position.x && !isLookLeft)
+        else if(transform.position.x < targ.position.x && !isLookLeft)
         {
             Flip();
         }
     }
 
-    public virtual RaycastHit2D CheckRayCast()
+    public virtual RaycastHit2D CheckRayCastHorizontal()
     {
         if(isLookLeft) { side = 1; } else { side = -1;}
         RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right * side, lookDistance, raycastLayers);
@@ -48,7 +58,15 @@ public class EnemyBehaviour : MonoBehaviour
         return hit;
     }
 
-    public virtual void Flip()
+    public virtual RaycastHit2D CheckRayCastToPosition(Vector2 objectPosition)
+    {
+        Vector2 direction = ((Vector2)transform.position - objectPosition)*-1;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, lookDistance, raycastLayers);
+        Debug.DrawRay(transform.position, direction, Color.red, 0.2f);
+        return hit;
+    }
+
+    public void Flip()
     {
         isLookLeft = !isLookLeft;
         
