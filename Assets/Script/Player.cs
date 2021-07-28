@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 [Serializable]
 public struct PlayerStruct
@@ -10,7 +11,7 @@ public struct PlayerStruct
     public Rigidbody2D rigB;
     public Animator anim;
     public Transform groundCheckA;
-    public Transform groundCheckB;
+    public Transform groundCheckB;    
 
     [Header("FX")]
     public ParticleSystem jumpParticle;
@@ -36,7 +37,9 @@ public class Player : MonoBehaviour
 
     private Vector3 movement;
 
-    
+    public CinemachineVirtualCamera CMCam;
+
+
     void Update()
     {
         Move();
@@ -60,8 +63,17 @@ public class Player : MonoBehaviour
         {
             players[IdPlayer].anim.SetBool("Move", false);            
         }
+        if (Input.GetAxis("Horizontal") < 0f)
+        {
+            players[IdPlayer].rigB.transform.eulerAngles = new Vector3(0f, 0f, 0f);
+        }
+        else if (Input.GetAxis("Horizontal") > 0f)
+        {
+            players[IdPlayer].rigB.transform.eulerAngles = new Vector3(0f, 180f, 0f);
+        }
 
-        if(players[IdPlayer].IsJumping != false)
+
+        if (players[IdPlayer].IsJumping != false)
         {
             players[IdPlayer].anim.SetBool("Jumping", true);
         }
@@ -94,6 +106,8 @@ public class Player : MonoBehaviour
             IdPlayer--;
             return;
         }
+
+        CameraFollow();
     }
 
     void GroundCheck()
@@ -125,6 +139,11 @@ public class Player : MonoBehaviour
                 return;
             }            
         }
+    }
+
+    void CameraFollow ()
+    {
+        CMCam.Follow = players[IdPlayer].rigB.transform;
     }
 }
 
