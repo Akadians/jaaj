@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 791567918723637167}
   - component: {fileID: 791567918723637166}
   - component: {fileID: 791567918723637169}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Niu
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791567918723637163}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.37, y: -3.1, z: 0}
+  m_LocalPosition: {x: -17.77, y: -3.1, z: 0}
   m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_Children:
   - {fileID: 791567918744686373}
@@ -167,7 +167,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 791567918744686373}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: groundCheckA
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
@@ -197,7 +197,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 791567918877058355}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: groundCheckB
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
@@ -228,6 +228,8 @@ GameObject:
   m_Component:
   - component: {fileID: 791567919022908368}
   - component: {fileID: 791567919022908369}
+  - component: {fileID: 1577420250}
+  - component: {fileID: 1577420252}
   m_Layer: 0
   m_Name: PlayersController
   m_TagString: Untagged
@@ -242,7 +244,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791567919022908366}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -230, y: -129.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -278,16 +280,52 @@ MonoBehaviour:
     jumpParticle: {fileID: 791567920112174133}
     IsJumping: 0
     Doublejump: 0
+  PlayerSound: {fileID: 0}
   Speed: 7
   JumpForce: 80
   IdPlayer: 0
   FloorCheck:
     serializedVersion: 2
-    m_Bits: 18432
+    m_Bits: 2048
   Power:
   - {fileID: 0}
   - {fileID: 0}
   CMCam: {fileID: 0}
+--- !u!114 &1577420250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791567919022908366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/sfx/player/sfx_player_footstep
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &1577420252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791567919022908366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 245c54996ab754a42a227e2dd66bd45d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &791567919253638892
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,7 +337,7 @@ GameObject:
   - component: {fileID: 791567919253638895}
   - component: {fileID: 791567919253638897}
   - component: {fileID: 791567919253638894}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: GroundParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5110,7 +5148,7 @@ GameObject:
   - component: {fileID: 791567919456407710}
   - component: {fileID: 791567919456407712}
   - component: {fileID: 791567919456407713}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: GroundParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9921,7 +9959,7 @@ GameObject:
   - component: {fileID: 791567919561754835}
   - component: {fileID: 791567919561754833}
   - component: {fileID: 791567919561754832}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: JumpParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14730,7 +14768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 791567919751062493}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: groundCheckA
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
@@ -14765,9 +14803,9 @@ GameObject:
   - component: {fileID: 791567919882688426}
   - component: {fileID: 791567919882688429}
   - component: {fileID: 791567919882688428}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Nyu
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14779,8 +14817,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 791567919882688422}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.68, y: -3.05, z: 0}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -19.6, y: -3.05, z: 0}
   m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
   m_Children:
   - {fileID: 791567919751062493}
@@ -14789,7 +14827,7 @@ Transform:
   - {fileID: 791567919456407710}
   m_Father: {fileID: 791567919022908368}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!70 &791567919882688424
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -14920,7 +14958,7 @@ GameObject:
   - component: {fileID: 791567920112174135}
   - component: {fileID: 791567920112174133}
   - component: {fileID: 791567920112174132}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: JumpParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19729,7 +19767,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 791567920209935940}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: groundCheckB
   m_TagString: Untagged
   m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}

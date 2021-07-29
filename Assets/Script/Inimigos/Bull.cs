@@ -6,7 +6,7 @@ public class Bull : MonoBehaviour, ISkill
 {   
     public enum BullState
     {
-        PATROL, RUN, STUN, DEAD, FOLLOW
+        PATROL, RUN, STUN, DEAD
     }
         
     private Rigidbody2D rb;
