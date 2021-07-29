@@ -1,27 +1,26 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
+
+public enum SkillType
+{
+    BULL_SKILL, CAT_SKILL, BAT_SKILL  
+}
 
 public class UIControler : MonoBehaviour
 {
     public GameObject PowerIconObject;
-    
-    // Start is called before the first frame update
+    public Image powerIcon;
+    public Sprite[] powerSprites;
+
     void Start()
     {
-
+        //PowerIconObject.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ChangePowerIcon(SkillType newSkill)
     {
-
-    }
-
-    public void PowerIcon()
-    {
-          
+        powerIcon.sprite = powerSprites[(int)newSkill];
     }
 
     public void HavePower(bool have)
