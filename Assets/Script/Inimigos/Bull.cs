@@ -110,8 +110,6 @@ public class Bull : MonoBehaviour, ISkill
 
                 if(hit.collider != null)
                 {
-                    print(hit.collider.gameObject.name);
-
                     if(hit.collider.gameObject.tag == "Player" && currentState != BullState.RUN)
                     {
                         ChangeState(BullState.RUN);

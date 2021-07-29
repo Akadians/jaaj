@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class PlayerCheckCollision : MonoBehaviour
 {
+    private Player _Player;
+    public int idPlayer;
     public ParticleSystem downParticle;
+
+    private void Start()
+    {
+        _Player = FindObjectOfType(typeof(Player)) as Player;    
+    }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -12,6 +19,13 @@ public class PlayerCheckCollision : MonoBehaviour
         {
             case 11:
                 downParticle.Play();
+            break;
+        }
+
+        switch(other.gameObject.tag)
+        {
+            case "EnemyHit":
+                _Player.GetDamage(idPlayer);
             break;
         }
     }
