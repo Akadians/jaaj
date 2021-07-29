@@ -9,6 +9,7 @@ using FMODUnity;
 public struct PlayerStruct
 {
     [Header("Player")]
+    public SpriteRenderer sr;
     public Rigidbody2D rigB;
     public Animator anim;
     public Transform groundCheckA;
@@ -98,18 +99,26 @@ public class Player : MonoBehaviour
 
     void Changer() //Metodo de troca do heroi.
     {
+        
         if (Input.GetKeyDown(KeyCode.Q) && IdPlayer == 0)
         {
-            IdPlayer++;
+            ChangerSortingOrder(1);
             return;
         }
         else if (Input.GetKeyDown(KeyCode.Q) && IdPlayer == 1)
         {
-            IdPlayer--;
+            ChangerSortingOrder(-1);
             return;
         }
-
+        
         CameraFollow();
+    }
+
+    void ChangerSortingOrder(int nextId)
+    {
+        players[IdPlayer].sr.sortingOrder = 0;
+        IdPlayer += nextId;
+        players[IdPlayer].sr.sortingOrder = 1;
     }
 
     void GroundCheck()
