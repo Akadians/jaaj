@@ -25,6 +25,38 @@ public class EnemyBehaviour : MonoBehaviour
     {
         target.position = new Vector3(wayPoints[idWayPoint].position.x, transform.position.y, transform.position.z);
         transform.position = Vector3.MoveTowards(transform.position, target.position, patrolSpeed * Time.deltaTime);
+        
+        WayPointControl();
+        ControlFlip(target);
+    }
+
+    public void FlyPatrol(bool isRandom)
+    {
+        if(isRandom)
+        {
+            WayPointRandomControl();
+        }
+        else
+        {
+            WayPointControl();
+        }
+
+        transform.position = Vector3.MoveTowards(transform.position, target.position, patrolSpeed * Time.deltaTime);
+        
+        ControlFlip(target);
+    }
+
+    void WayPointRandomControl()
+    {
+        if(transform.position == target.position)
+        {
+            idWayPoint = Random.Range(0, wayPoints.Length);
+            target = wayPoints[idWayPoint];
+        }
+    }
+
+    void WayPointControl()
+    {
         if(transform.position == target.position)
         {
             idWayPoint++;
@@ -34,8 +66,6 @@ public class EnemyBehaviour : MonoBehaviour
             }
             target = wayPoints[idWayPoint];
         }
-
-        ControlFlip(target);
     }
 
     public void ControlFlip(Transform targ)
@@ -73,5 +103,10 @@ public class EnemyBehaviour : MonoBehaviour
         float s = transform.localScale.x *-1;
         Vector3 newScale = new Vector3(s, transform.localScale.y, transform.localScale.z);
         transform.localScale = newScale;
+    }
+
+    public void Dead()
+    {
+        this.gameObject.layer = 16;
     }
 }

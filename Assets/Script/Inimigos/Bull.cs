@@ -52,7 +52,6 @@ public class Bull : MonoBehaviour, ISkill
 
     void Dead()
     {
-        ChangeState(BullState.DEAD);
         //animacao de morte
         //indicador que pode ser revivido
     }
@@ -65,6 +64,11 @@ public class Bull : MonoBehaviour, ISkill
             case BullState.STUN:
                 StopCoroutine(Delay(BullState.PATROL, 2.5f));
                 StartCoroutine(Delay(BullState.PATROL, 2.5f));
+            break;
+
+            case BullState.DEAD:
+                behaviour.Dead();
+                Dead();
             break;
         }
     }
@@ -87,20 +91,10 @@ public class Bull : MonoBehaviour, ISkill
 
             break;
 
-            case "DestructableWall":
-
-            break;
-        }
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        switch(other.gameObject.tag)
-        {
             case "PlayerHit":
                 if(currentState != BullState.DEAD)
                 {   
-                    Dead();
+                   ChangeState(BullState.DEAD);
                 }
 
             break;
