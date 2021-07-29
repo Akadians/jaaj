@@ -41,11 +41,13 @@ public class Cat : MonoBehaviour
 
     void FixedUpdate()
     {
+        if(currentState == CatState.DEAD) {return;}
         isTouchInGround = Physics2D.OverlapArea(groundCheckA.position, groundCheckB.position, floorLayer);        
     }
 
     private void Update()
     {
+        if(currentState == CatState.DEAD) {return;}
         switch(currentState)
         {
             case CatState.PATROL:
@@ -75,6 +77,7 @@ public class Cat : MonoBehaviour
 
     void ChangeState(CatState newState)
     {
+        if(currentState == CatState.DEAD) {return;}
         if(!isBacking)
         {
             currentState = newState;
@@ -102,12 +105,22 @@ public class Cat : MonoBehaviour
                 StopCoroutine(StartAttack());
                 StartCoroutine(StartAttack());
             break;
+
+            case CatState.DEAD:
+                behaviour.Dead();
+                Dead();
+            break;
         }
 
         if(isLookToPlayer)
         {
             StopCoroutine(WaitTime());
         }
+    }
+
+    void Dead()
+    {
+
     }
 
     IEnumerator ResetPosition()
@@ -136,8 +149,9 @@ public class Cat : MonoBehaviour
         }
     }
 
-    private void OnTriggerStay2D(Collider2D other) {
-        
+    private void OnTriggerStay2D(Collider2D other) 
+    {
+        if(currentState == CatState.DEAD) {return;}
         switch(other.gameObject.tag)
         {
             case "Player":
@@ -183,4 +197,17 @@ public class Cat : MonoBehaviour
             StartCoroutine(WaitTouchGround());
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        switch(other.gameObject.tag)
+        {
+            case "PlayerHit":
+                if(currentState != CatState.DEAD)
+                {
+                    ChangeState(CatState.DEAD);
+                }
+            break;
+        }
+    }   
 }
