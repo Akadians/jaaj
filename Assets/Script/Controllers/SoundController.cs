@@ -23,7 +23,7 @@ public class SoundController : MonoBehaviour
 
     public void PlayerJump()
     {
-        //FMODUnity.RuntimeManager.PlayOneShot(sfx_player_jump, transform.position);
+        //playerState.start(StudioEventEmitter);
     }
     public void PlayerDeath()
     {

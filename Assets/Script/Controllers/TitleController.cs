@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +7,8 @@ public class TitleController : MonoBehaviour
     [SerializeField]
     private Button btnContinue;
 
-    public Dropdown Quality;
+    public Dropdown Quality;   
+
 
     private void Start()
     {
@@ -20,7 +20,7 @@ public class TitleController : MonoBehaviour
         GameController.Instance.NextScene();
     }
 
-    private void CheckContinue ()
+    private void CheckContinue()
     {
         btnContinue.interactable = SaveGame.Instance.CheckHasSave();
     }
@@ -34,8 +34,8 @@ public class TitleController : MonoBehaviour
         Application.Quit();
     }
 
-    public void SetQuality (int qualityIndex)
+    public void SetQuality(int qualityIndex)
     {
-        QualitySettings.SetQualityLevel(qualityIndex);        
+        QualitySettings.SetQualityLevel(qualityIndex);
     }
 }
