@@ -1,18 +1,19 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class TitleController : MonoBehaviour
 {
     [SerializeField]
-    private Button btnContinue;
+    private Button btnContinue;    
 
-    public Dropdown Quality;   
+    public TMP_Dropdown QualityDropDown;    
 
 
     private void Start()
-    {
-        CheckContinue();
+    {        
+        CheckContinue();        
     }
 
     public void Play()
@@ -38,4 +39,9 @@ public class TitleController : MonoBehaviour
     {
         QualitySettings.SetQualityLevel(qualityIndex);
     }
+    
+    public void SetFullScreen (bool isFullScreen)
+    {
+        Screen.fullScreen = isFullScreen;
+    }   
 }
