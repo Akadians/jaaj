@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 7505568428158132868}
   m_Layer: 13
   m_Name: Bull
-  m_TagString: Untagged
+  m_TagString: EnemyHit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

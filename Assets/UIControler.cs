@@ -1,22 +1,53 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
-public enum SkillType
+[Serializable]
+public struct Heart
 {
-    BULL_SKILL, CAT_SKILL, BAT_SKILL  
+    public GameObject[] heartsGameObject;
+    public Animator[] heartsAnimator;
 }
 
 public class UIControler : MonoBehaviour
 {
     public GameObject PowerIconObject;
+    public Heart hearts;
+    public RuntimeAnimatorController[] heartsAnimators;
     public Image powerIcon;
     public Sprite[] powerSprites;
-
+    public GameObject gameoverPanel;
     void Start()
     {
         //PowerIconObject.SetActive(false);
     }
+
+    public void ChangeHUD(int id)
+    {
+        foreach(Animator a in hearts.heartsAnimator)
+        {
+           a.runtimeAnimatorController = heartsAnimators[id];
+        }
+    }
+
+    public void UpdateHUD(int currentHp)
+    {
+        DisableHearts();
+        for(int i = 0; i < currentHp; i++)
+        {
+            hearts.heartsGameObject[i].SetActive(true);
+        }
+    }
+
+    void DisableHearts()
+    {
+        foreach(GameObject g in hearts.heartsGameObject)
+        {
+            g.SetActive(false);
+        }
+    }
+
 
     public void ChangePowerIcon(SkillType newSkill)
     {

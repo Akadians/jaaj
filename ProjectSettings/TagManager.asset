@@ -7,6 +7,7 @@ TagManager:
   - Floor
   - Wall
   - PlayerHit
+  - EnemyHit
   layers:
   - Default
   - TransparentFX
@@ -25,7 +26,7 @@ TagManager:
   - Hero
   - EnemyHit
   - EnemyDead
-  - 
+  - Invencible
   - 
   - 
   - 

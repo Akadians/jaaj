@@ -4,6 +4,10 @@ public interface ISkill
 {
     void Skill();
 }
+public enum SkillType
+{
+    BULL_SKILL, CAT_SKILL, BAT_SKILL  
+}
 
 public class EnemyBehaviour : MonoBehaviour
 {   
