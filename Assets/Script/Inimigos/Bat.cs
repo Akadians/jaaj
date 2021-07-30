@@ -12,6 +12,7 @@ public class Bat : MonoBehaviour, ISkill
 {
     [HideInInspector]public EnemyBehaviour behaviour;
     private Rigidbody2D rb;
+    private Animator Anim;
 
     public BatState currentState;
     public bool isDetectedPlayer;
@@ -22,15 +23,22 @@ public class Bat : MonoBehaviour, ISkill
     public float timeAttack;
     private bool isAttack;
     public bool isRandomMoviment;
+    public int changeAnimation;
+
     void Start()
     {
         behaviour = GetComponent<EnemyBehaviour>();
         rb = GetComponent<Rigidbody2D>();
+        Anim = GetComponent<Animator>();
     }
 
     void Update()
     {
-        if(currentState == BatState.DEAD) {return;}
+        if(currentState == BatState.DEAD) 
+        {
+            Anim.SetInteger("State", 2);
+            return;
+        }
         ControlState();
 
         switch(currentState)
@@ -44,6 +52,7 @@ public class Bat : MonoBehaviour, ISkill
                 behaviour.ControlFlip(playerTransform);
             break;
         }
+        AnimationChanger();
     }
 
     void GunRotation()
@@ -78,7 +87,7 @@ public class Bat : MonoBehaviour, ISkill
     public void Skill()
     {
         if(playerTransform != null)
-        {
+        {            
             GameObject temp = Instantiate(shotPrefab, gunPoint.position, Quaternion.identity);
             temp.transform.right = gunPoint.right;
             temp.GetComponent<Shot>().SetBulletSpeed(shotSpeed);
@@ -133,5 +142,10 @@ public class Bat : MonoBehaviour, ISkill
         {
             //animacao de caido no chao
         }
+    }
+    void AnimationChanger()
+    {
+        changeAnimation = ((int)currentState);
+        Anim.SetInteger("State", changeAnimation);
     }
 }
