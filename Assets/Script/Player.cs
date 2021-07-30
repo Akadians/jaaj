@@ -35,16 +35,23 @@ public class Player : MonoBehaviour
     [Header("Players Config")]
     public SkillType currentSkill;
     public SoundController PlayerSound;
+
+    [Header("Niu Shot")]
+    public GameObject niuShotPrefab;
+    public Transform niuGun;
+    public int shotSpeed;
+    public int shotCharges = 3;
+    private int currentCharge; 
+    public float addChargeTime = 2f;
+    private bool isShoting;
+
+    [Header("Config")]
     public int maxGodSend = 5;
     public int godsend;
     public int maxHp = 3;
     public float Speed;
     public float JumpForce;
-
     public LayerMask FloorCheck;
-    public LayerMask EventCount;
-
-    public GameObject[] Power; // Lista com sprites dos projeteis.
     public CinemachineVirtualCamera CMCam;
 
     [Header("DamageConfig")]
@@ -52,10 +59,8 @@ public class Player : MonoBehaviour
     public Color damageColor2;
     public float invencibilityTime1;
     public float invencibilityTime2;
-
     private bool isDead;
     private Vector3 movement;
-
     private int currentHp;
     private int IdPlayer;
 
@@ -64,6 +69,7 @@ public class Player : MonoBehaviour
         _UIController = FindObjectOfType(typeof(UIControler)) as UIControler;
         _UIController.UpdateGodSendBar(godsend, maxGodSend);
         currentHp = maxHp;
+        currentCharge = shotCharges;
     }
 
     void Update()
@@ -103,9 +109,50 @@ public class Player : MonoBehaviour
         players[1].anim.SetBool("Jumping", players[1].IsJumping);
     }
 
+    IEnumerator ResetCharge()
+    {
+        yield return new WaitForSeconds(addChargeTime);
+        currentCharge ++;
+
+        if(currentCharge >= shotCharges)
+        {
+            currentCharge = shotCharges;
+            StopCoroutine(ResetCharge());
+        }
+        else
+        {
+            StartCoroutine(ResetCharge());
+        }
+    }
+
+    IEnumerator DelayShot()
+    {
+        isShoting = true;
+        SkillAnimation();
+        yield return new WaitForSeconds(0.6f);
+        GameObject temp = Instantiate(niuShotPrefab, niuGun.position, Quaternion.identity);
+        temp.transform.right = niuGun.right;
+        temp.GetComponent<Shot>().SetBulletSpeed(shotSpeed);
+        isShoting = false;
+    }
+
+    void Skill()
+    {
+        if(currentCharge > 0)
+        {
+            StartCoroutine(DelayShot());
+            StopCoroutine(ResetCharge());
+            StartCoroutine(ResetCharge());
+        }
+    }
+
     void Interaction()
     {
-        if (Input.GetKeyDown(KeyCode.E) && players[IdPlayer].isCanInteract == true && players[IdPlayer].interactionObject != null)
+        if(Input.GetKeyDown(KeyCode.E) && IdPlayer == 0 && !isShoting)
+        {
+            Skill();
+        }
+        else if (Input.GetKeyDown(KeyCode.E) && players[IdPlayer].isCanInteract == true && players[IdPlayer].interactionObject != null)
         {
             SkillAnimation();
             switch (players[IdPlayer].interactionObject.interactionType)
@@ -127,7 +174,6 @@ public class Player : MonoBehaviour
                     }
                     break;
             }
-
         }
     }
 

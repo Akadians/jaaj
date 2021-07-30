@@ -25,15 +25,22 @@ public class Shot : MonoBehaviour
         Destroy(this.gameObject);    
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
         switch(other.gameObject.tag)
         {
             case "Player":
+                print("Bateu Player");
+            break;
+        }
 
+        switch(other.gameObject.layer)
+        {
+            case 11:
+                Destroy(this.gameObject);
             break;
 
-            default:
+            case 9:
                 Destroy(this.gameObject);
             break;
         }
