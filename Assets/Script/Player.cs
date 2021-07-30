@@ -1,9 +1,7 @@
-﻿using System;
+﻿using Cinemachine;
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using Cinemachine;
-using FMODUnity;
 
 [Serializable]
 public struct PlayerStruct
@@ -13,7 +11,7 @@ public struct PlayerStruct
     public Rigidbody2D rigB;
     public Animator anim;
     public Transform groundCheckA;
-    public Transform groundCheckB;    
+    public Transform groundCheckB;
 
     [Header("FX")]
     public ParticleSystem jumpParticle;
@@ -44,6 +42,7 @@ public class Player : MonoBehaviour
     public float JumpForce;
 
     public LayerMask FloorCheck;
+    public LayerMask EventCount;
 
     public GameObject[] Power; // Lista com sprites dos projeteis.
     public CinemachineVirtualCamera CMCam;
@@ -56,7 +55,7 @@ public class Player : MonoBehaviour
 
     private bool isDead;
     private Vector3 movement;
-    
+
     private int currentHp;
     private int IdPlayer;
 
@@ -69,12 +68,11 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if(isDead) { movement = Vector3.zero; return;}
+        if (isDead) { movement = Vector3.zero; return; }
         Move();
         Changer();
         GroundCheck();
-        Jump();
-        Skill();
+        Jump();        
         Interaction();
     }
 
@@ -85,11 +83,11 @@ public class Player : MonoBehaviour
 
         if (movement != Vector3.zero)// Checkagem de movimento para animação.
         {
-            players[IdPlayer].anim.SetBool("Move", true);            
+            players[IdPlayer].anim.SetBool("Move", true);
         }
         else
         {
-            players[IdPlayer].anim.SetBool("Move", false);            
+            players[IdPlayer].anim.SetBool("Move", false);
         }
 
         if (Input.GetAxis("Horizontal") < 0f)
@@ -107,16 +105,17 @@ public class Player : MonoBehaviour
 
     void Interaction()
     {
-        if(Input.GetKeyDown(KeyCode.E) && players[IdPlayer].isCanInteract == true && players[IdPlayer].interactionObject != null)
+        if (Input.GetKeyDown(KeyCode.E) && players[IdPlayer].isCanInteract == true && players[IdPlayer].interactionObject != null)
         {
-            switch(players[IdPlayer].interactionObject.interactionType)
+            SkillAnimation();
+            switch (players[IdPlayer].interactionObject.interactionType)
             {
                 case InteractionType.GET_SKILL:
                     players[IdPlayer].interactionObject.Interact();
-                break;
+                    break;
 
                 case InteractionType.OBJECT_INTERACTION:
-                    if(godsend >= players[IdPlayer].interactionObject.godSendRequired)
+                    if (godsend >= players[IdPlayer].interactionObject.godSendRequired)
                     {
                         godsend -= players[IdPlayer].interactionObject.godSendRequired;
                         players[IdPlayer].interactionObject.Interact();
@@ -126,16 +125,16 @@ public class Player : MonoBehaviour
                     {
                         _UIController.OpenAttentionPanel();
                     }
-                break;
+                    break;
             }
-            
+
         }
     }
 
     public void GetGodSend(int qtd)
     {
         godsend += qtd;
-        if(godsend >= maxGodSend)
+        if (godsend >= maxGodSend)
         {
             godsend = maxGodSend;
         }
@@ -148,24 +147,14 @@ public class Player : MonoBehaviour
         _UIController.ChangePowerIcon(currentSkill);
     }
 
-    void Skill()
+    void SkillAnimation()
     {
-        if (Input.GetKeyDown(KeyCode.E) && IdPlayer == 0)
-        {
-            //Instantiate(Power[0], transform.position, transform.rotation); ////Opção para Gerar projetil.
-            return;
-        }
-        else if (Input.GetKeyDown(KeyCode.E) && IdPlayer == 1)
-        {
-            //Instantiate(Power[1], transform.position, transform.rotation); //Opção para Gerar projetil.
-            return;
-        }
-
+        players[IdPlayer].anim.SetTrigger("Attack");
     }
 
     void Changer() //Metodo de troca do heroi.
     {
-        
+
         if (Input.GetKeyDown(KeyCode.Q) && IdPlayer == 0)
         {
             ChangerSortingOrder(1);
@@ -176,13 +165,13 @@ public class Player : MonoBehaviour
             ChangerSortingOrder(-1);
             return;
         }
-        
+
         CameraFollow();
     }
 
     void ChangerSortingOrder(int nextId)
     {
-        CheckInteractables();   
+        CheckInteractables();
         players[IdPlayer].anim.SetBool("Move", false);
         players[IdPlayer].sr.sortingOrder = 0;
         IdPlayer += nextId;
@@ -192,7 +181,7 @@ public class Player : MonoBehaviour
 
     void CheckInteractables()
     {
-        if(players[IdPlayer].interactionObject != null)
+        if (players[IdPlayer].interactionObject != null)
         {
             players[IdPlayer].isCanInteract = false;
             players[IdPlayer].interactionObject.attentionIcon.SetActive(false);
@@ -208,32 +197,32 @@ public class Player : MonoBehaviour
 
 
     void Jump()
-    {       
+    {
 
         if (Input.GetButtonDown("Jump"))
         {
-            if(!players[IdPlayer].IsJumping)
+            if (!players[IdPlayer].IsJumping)
             {
                 players[IdPlayer].rigB.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                 players[IdPlayer].jumpParticle.Play();
                 //PlayerSound.PlayerJump();
 
                 players[IdPlayer].IsJumping = true;
-                players[IdPlayer].Doublejump = true;                                
+                players[IdPlayer].Doublejump = true;
                 return;
             }
-            else if(players[IdPlayer].Doublejump)
+            else if (players[IdPlayer].Doublejump)
             {
                 //zera a velocidade para manter a estabilidade do corpo
                 players[IdPlayer].rigB.velocity = new Vector2(players[IdPlayer].rigB.velocity.x, 0);
                 players[IdPlayer].rigB.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
-                players[IdPlayer].Doublejump = false;                
+                players[IdPlayer].Doublejump = false;
                 return;
-            }            
+            }
         }
     }
 
-    void CameraFollow ()
+    void CameraFollow()
     {
         CMCam.Follow = players[IdPlayer].rigB.transform;
     }
@@ -247,7 +236,7 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(invencibilityTime2);
         players[id].sr.color = Color.white;
 
-        if(!isDead)
+        if (!isDead)
         {
             players[id].rigB.gameObject.layer = 14;
         }
@@ -256,7 +245,7 @@ public class Player : MonoBehaviour
     public void GetDamage(int id)
     {
         currentHp--;
-        if(currentHp <= 0)
+        if (currentHp <= 0)
         {
             currentHp = 0;
             Dead();
@@ -270,10 +259,10 @@ public class Player : MonoBehaviour
     void KnockBack(int id)
     {
         players[id].rigB.velocity = Vector2.zero;
-        Vector2 knockDir = (players[id].rigB.transform.right)* JumpForce;
+        Vector2 knockDir = (players[id].rigB.transform.right) * JumpForce;
         players[id].rigB.AddForce(new Vector2(knockDir.x, JumpForce), ForceMode2D.Impulse);
     }
-    
+
     void Dead()
     {
         isDead = true;
