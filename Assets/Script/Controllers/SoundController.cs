@@ -13,16 +13,7 @@ public class SoundController : MonoBehaviour
     {
 
     }
-
-    public void PlayerJump()
-    {
-        //FMODUnity.RuntimeManager.PlayOneShot("");
-    }
-    public void PlayerDeath()
-    {
-
-    }
-
+    // TitleButton Sounds Method //
     public void ConfigButtonSound()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/ui/sfx_ui_menu_config");
@@ -46,6 +37,20 @@ public class SoundController : MonoBehaviour
     public void BackButton()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/ui/sfx_ui_menu_volume_menos");
+    }
+
+    // Players Sounds Method //
+    public void PlayerJump()
+    {
+        //FMODUnity.RuntimeManager.PlayOneShot("");
+    }
+    public void PlayerDeath()
+    {
+        //FMODUnity.RuntimeManager.PlayOneShot("");
+    }
+    public void SkillPlayer()
+    {
+        //FMODUnity.RuntimeManager.PlayOneShot("");
     }
 
 }
