@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-
+public enum InteractionType
+{
+    GET_SKILL, OBJECT_INTERACTION
+}
 public class Interaction : MonoBehaviour
 {
     private Player _Player;
 
-    public enum InteractionType
-    {
-        GET_SKILL, OBJECT_INTERACTION
-    }
-
     public InteractionType interactionType;
     public SkillType skillType;
     public GameObject attentionIcon;
+    public int godSendRequired = 1;
+    public int qtdGodSend = 1;
+    public bool isSecondInteraction;
 
     private void Start()
     {
@@ -28,11 +29,20 @@ public class Interaction : MonoBehaviour
         {
             case InteractionType.GET_SKILL:
                 _Player.ChangeSkill(skillType);
+                if(!isSecondInteraction)
+                {
+                    _Player.GetGodSend(qtdGodSend);
+                }
+
             break;
 
             case InteractionType.OBJECT_INTERACTION:
-                this.gameObject.SendMessage("Interaction", SendMessageOptions.RequireReceiver);
+                if(!isSecondInteraction)
+                {
+                    this.gameObject.SendMessage("Interaction", SendMessageOptions.RequireReceiver);
+                }
             break;
         }
+        isSecondInteraction = true;
     }
 }

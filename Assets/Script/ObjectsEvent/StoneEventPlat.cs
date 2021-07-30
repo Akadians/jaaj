@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class StoneEventPlat : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Animator treeAnimator;
+    public string triggerName;
+
+    private void Start()
     {
-        
+        treeAnimator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Interaction()
     {
-        
+        treeAnimator.SetTrigger(triggerName);
     }
 }

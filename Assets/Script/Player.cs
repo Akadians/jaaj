@@ -37,6 +37,8 @@ public class Player : MonoBehaviour
     [Header("Players Config")]
     public SkillType currentSkill;
     public SoundController PlayerSound;
+    public int maxGodSend = 5;
+    public int godsend;
     public int maxHp = 3;
     public float Speed;
     public float JumpForce;
@@ -61,6 +63,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _UIController = FindObjectOfType(typeof(UIControler)) as UIControler;
+        _UIController.UpdateGodSendBar(godsend, maxGodSend);
         currentHp = maxHp;
     }
 
@@ -106,10 +109,38 @@ public class Player : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E) && players[IdPlayer].isCanInteract == true && players[IdPlayer].interactionObject != null)
         {
-            players[IdPlayer].interactionObject.Interact();
+            switch(players[IdPlayer].interactionObject.interactionType)
+            {
+                case InteractionType.GET_SKILL:
+                    players[IdPlayer].interactionObject.Interact();
+                break;
+
+                case InteractionType.OBJECT_INTERACTION:
+                    if(godsend >= players[IdPlayer].interactionObject.godSendRequired)
+                    {
+                        godsend -= players[IdPlayer].interactionObject.godSendRequired;
+                        players[IdPlayer].interactionObject.Interact();
+                        CheckInteractables();
+                    }
+                    else
+                    {
+                        _UIController.OpenAttentionPanel();
+                    }
+                break;
+            }
+            
         }
     }
 
+    public void GetGodSend(int qtd)
+    {
+        godsend += qtd;
+        if(godsend >= maxGodSend)
+        {
+            godsend = maxGodSend;
+        }
+        _UIController.UpdateGodSendBar(godsend, maxGodSend);
+    }
 
     public void ChangeSkill(SkillType newSkill)
     {
