@@ -21,6 +21,10 @@ public struct PlayerStruct
     [Header("Bools")]
     public bool IsJumping;
     public bool Doublejump;
+
+    [Header("Interaction System")]
+    public Interaction interactionObject;
+    public bool isCanInteract;
 }
 
 
@@ -31,6 +35,7 @@ public class Player : MonoBehaviour
     public PlayerStruct[] players;
 
     [Header("Players Config")]
+    public SkillType currentSkill;
     public SoundController PlayerSound;
     public int maxHp = 3;
     public float Speed;
@@ -46,6 +51,7 @@ public class Player : MonoBehaviour
     public Color damageColor2;
     public float invencibilityTime1;
     public float invencibilityTime2;
+
     private bool isDead;
     private Vector3 movement;
     
@@ -65,7 +71,8 @@ public class Player : MonoBehaviour
         Changer();
         GroundCheck();
         Jump();
-        Skill();       
+        Skill();
+        Interaction();
     }
 
     void Move()
@@ -93,6 +100,21 @@ public class Player : MonoBehaviour
 
         players[0].anim.SetBool("Jumping", players[0].IsJumping);
         players[1].anim.SetBool("Jumping", players[1].IsJumping);
+    }
+
+    void Interaction()
+    {
+        if(Input.GetKeyDown(KeyCode.E) && players[IdPlayer].isCanInteract == true && players[IdPlayer].interactionObject != null)
+        {
+            players[IdPlayer].interactionObject.Interact();
+        }
+    }
+
+
+    public void ChangeSkill(SkillType newSkill)
+    {
+        currentSkill = newSkill;
+        _UIController.ChangePowerIcon(currentSkill);
     }
 
     void Skill()
@@ -129,11 +151,22 @@ public class Player : MonoBehaviour
 
     void ChangerSortingOrder(int nextId)
     {
+        CheckInteractables();   
         players[IdPlayer].anim.SetBool("Move", false);
         players[IdPlayer].sr.sortingOrder = 0;
         IdPlayer += nextId;
         players[IdPlayer].sr.sortingOrder = 1;
         _UIController.ChangeHUD(IdPlayer);
+    }
+
+    void CheckInteractables()
+    {
+        if(players[IdPlayer].interactionObject != null)
+        {
+            players[IdPlayer].isCanInteract = false;
+            players[IdPlayer].interactionObject.attentionIcon.SetActive(false);
+            players[IdPlayer].interactionObject = null;
+        }
     }
 
     void GroundCheck()

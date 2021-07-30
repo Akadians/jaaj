@@ -29,4 +29,34 @@ public class PlayerCheckCollision : MonoBehaviour
             break;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        switch(other.gameObject.layer)
+        {
+            case 18:
+                if(_Player.players[idPlayer].interactionObject == null)
+                {
+                     _Player.players[idPlayer].interactionObject = other.GetComponent<Interaction>();
+                }
+                _Player.players[idPlayer].isCanInteract = true;
+                _Player.players[idPlayer].interactionObject.attentionIcon.SetActive(true);
+            break; 
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        switch(other.gameObject.layer)
+        {
+            case 18:
+                _Player.players[idPlayer].isCanInteract = false;
+                if(_Player.players[idPlayer].interactionObject != null)
+                {
+                    _Player.players[idPlayer].interactionObject.attentionIcon.SetActive(false);
+                    _Player.players[idPlayer].interactionObject = null;
+                }
+            break; 
+        }
+    }
 }
