@@ -1,133 +1,115 @@
 fileFormatVersion: 2
-guid: e0493156459ed964db1a65b8358e8341
+guid: 595eccb2a6a3bba4da53dbadd5367a26
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8785675635371141434
-    second: modelo de tile set final 32 x 32(NOVO)_0
+      213: 3396752507527770776
+    second: tileset level 02 32x32_0
   - first:
-      213: 734834628203994015
-    second: modelo de tile set final 32 x 32(NOVO)_1
+      213: 8068755893534491476
+    second: tileset level 02 32x32_1
   - first:
-      213: 7108299289616001157
-    second: modelo de tile set final 32 x 32(NOVO)_2
+      213: 6442874414283891465
+    second: tileset level 02 32x32_2
   - first:
-      213: 6125481267959636590
-    second: modelo de tile set final 32 x 32(NOVO)_3
+      213: -599679107622699630
+    second: tileset level 02 32x32_3
   - first:
-      213: 2582973706032235519
-    second: modelo de tile set final 32 x 32(NOVO)_4
+      213: 5690844996583581937
+    second: tileset level 02 32x32_4
   - first:
-      213: -8743692891022857076
-    second: modelo de tile set final 32 x 32(NOVO)_5
+      213: 2149720792038566644
+    second: tileset level 02 32x32_5
   - first:
-      213: -1255973119135067725
-    second: modelo de tile set final 32 x 32(NOVO)_6
+      213: 4337907755983605448
+    second: tileset level 02 32x32_6
   - first:
-      213: 8420599861977788276
-    second: modelo de tile set final 32 x 32(NOVO)_7
+      213: -5042518978088876565
+    second: tileset level 02 32x32_7
   - first:
-      213: 5646641182486729748
-    second: modelo de tile set final 32 x 32(NOVO)_8
+      213: -4265194538888046795
+    second: tileset level 02 32x32_8
   - first:
-      213: 2669570912104931092
-    second: modelo de tile set final 32 x 32(NOVO)_9
+      213: -7089968281046437405
+    second: tileset level 02 32x32_9
   - first:
-      213: -5349080453334117724
-    second: modelo de tile set final 32 x 32(NOVO)_10
+      213: 1491634786941869772
+    second: tileset level 02 32x32_10
   - first:
-      213: -2313691721741350790
-    second: modelo de tile set final 32 x 32(NOVO)_11
+      213: -9018509891457072426
+    second: tileset level 02 32x32_11
   - first:
-      213: 7657925022968176816
-    second: modelo de tile set final 32 x 32(NOVO)_12
+      213: 7471430795432537859
+    second: tileset level 02 32x32_12
   - first:
-      213: 810356922214059438
-    second: modelo de tile set final 32 x 32(NOVO)_13
+      213: -5667860031814281996
+    second: tileset level 02 32x32_13
   - first:
-      213: -8118574320161221846
-    second: modelo de tile set final 32 x 32(NOVO)_14
+      213: -8174712776531940025
+    second: tileset level 02 32x32_14
   - first:
-      213: -4727270228461782387
-    second: modelo de tile set final 32 x 32(NOVO)_15
+      213: -2342342859548449272
+    second: tileset level 02 32x32_15
   - first:
-      213: -7411601129239140040
-    second: modelo de tile set final 32 x 32(NOVO)_16
+      213: 5105153071715554777
+    second: tileset level 02 32x32_16
   - first:
-      213: -8416994463149803939
-    second: modelo de tile set final 32 x 32(NOVO)_17
+      213: 7641725005929186520
+    second: tileset level 02 32x32_17
   - first:
-      213: 3229476065710982381
-    second: modelo de tile set final 32 x 32(NOVO)_18
+      213: 5298524877011370200
+    second: tileset level 02 32x32_18
   - first:
-      213: 7899877244386620204
-    second: modelo de tile set final 32 x 32(NOVO)_19
+      213: -8873698121974698759
+    second: tileset level 02 32x32_19
   - first:
-      213: 203100938515669379
-    second: modelo de tile set final 32 x 32(NOVO)_20
+      213: -2078344336926894075
+    second: tileset level 02 32x32_20
   - first:
-      213: 7690339018180719590
-    second: modelo de tile set final 32 x 32(NOVO)_21
+      213: 823541208129649740
+    second: tileset level 02 32x32_21
   - first:
-      213: -6003939838709756537
-    second: modelo de tile set final 32 x 32(NOVO)_22
+      213: -2449281615401801421
+    second: tileset level 02 32x32_22
   - first:
-      213: 86387433718333186
-    second: modelo de tile set final 32 x 32(NOVO)_23
+      213: 718822520266208868
+    second: tileset level 02 32x32_23
   - first:
-      213: -306604940992809117
-    second: modelo de tile set final 32 x 32(NOVO)_24
+      213: 7530560470672799426
+    second: tileset level 02 32x32_24
   - first:
-      213: -6226310433203305065
-    second: modelo de tile set final 32 x 32(NOVO)_25
+      213: -3024620265409225393
+    second: tileset level 02 32x32_25
   - first:
-      213: -6789960405603699945
-    second: modelo de tile set final 32 x 32(NOVO)_26
+      213: -6021190683087431979
+    second: tileset level 02 32x32_26
   - first:
-      213: -7980022849383798786
-    second: modelo de tile set final 32 x 32(NOVO)_27
+      213: 4463315338474599808
+    second: tileset level 02 32x32_27
   - first:
-      213: 7103917318898745081
-    second: modelo de tile set final 32 x 32(NOVO)_28
+      213: 7656182755121832880
+    second: tileset level 02 32x32_28
   - first:
-      213: -4868122272901967736
-    second: modelo de tile set final 32 x 32(NOVO)_29
+      213: -4680349763987664899
+    second: tileset level 02 32x32_29
   - first:
-      213: -1674211554223553727
-    second: modelo de tile set final 32 x 32(NOVO)_30
+      213: -619401516418794632
+    second: tileset level 02 32x32_30
   - first:
-      213: -5309281545754685670
-    second: modelo de tile set final 32 x 32(NOVO)_31
+      213: 8114932914998368297
+    second: tileset level 02 32x32_31
   - first:
-      213: -1667889859846115610
-    second: modelo de tile set final 32 x 32(NOVO)_32
+      213: -5544846996422982534
+    second: tileset level 02 32x32_32
   - first:
-      213: -415837322014722703
-    second: modelo de tile set final 32 x 32(NOVO)_33
+      213: 8057988757872492616
+    second: tileset level 02 32x32_33
   - first:
-      213: 3751650742457144756
-    second: modelo de tile set final 32 x 32(NOVO)_34
+      213: 2255864816740471193
+    second: tileset level 02 32x32_34
   - first:
-      213: -6999376527476987367
-    second: modelo de tile set final 32 x 32(NOVO)_35
-  - first:
-      213: -1198725400192273765
-    second: modelo de tile set final 32 x 32(NOVO)_36
-  - first:
-      213: -7796931408580525616
-    second: modelo de tile set final 32 x 32(NOVO)_37
-  - first:
-      213: -6241754425460590394
-    second: modelo de tile set final 32 x 32(NOVO)_38
-  - first:
-      213: -6869639510052150489
-    second: modelo de tile set final 32 x 32(NOVO)_39
-  - first:
-      213: 2354622417103662501
-    second: modelo de tile set final 32 x 32(NOVO)_40
-  - first:
-      213: -1851937229568062386
-    second: modelo de tile set final 32 x 32(NOVO)_41
+      213: -191045941326265125
+    second: tileset level 02 32x32_35
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -190,7 +172,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -202,19 +184,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -226,7 +196,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -238,7 +208,19 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -249,133 +231,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 416
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c616e1ee82031680800000000000000
-      internalID: -8785675635371141434
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 416
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9b51c67338a23a00800000000000000
-      internalID: 734834628203994015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 416
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58829b2ea80c5a260800000000000000
-      internalID: 7108299289616001157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 384
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e622b0f42c4120550800000000000000
-      internalID: 6125481267959636590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 384
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff3c93486e098d320800000000000000
-      internalID: 2582973706032235519
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 384
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8c697544a928a680800000000000000
-      internalID: -8743692891022857076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_6
+      name: tileset level 02 32x32_0
       rect:
         serializedVersion: 2
         x: 0
@@ -389,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b1d3824a13e19ee0800000000000000
-      internalID: -1255973119135067725
+      spriteID: 8923c19a860b32f20800000000000000
+      internalID: 3396752507527770776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_7
+      name: tileset level 02 32x32_1
       rect:
         serializedVersion: 2
         x: 32
@@ -410,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47fa3e0d5fafbd470800000000000000
-      internalID: 8420599861977788276
+      spriteID: 453867d2cbaf9ff60800000000000000
+      internalID: 8068755893534491476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_8
+      name: tileset level 02 32x32_2
       rect:
         serializedVersion: 2
         x: 64
@@ -431,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41496300d36ec5e40800000000000000
-      internalID: 5646641182486729748
+      spriteID: 90328dbd420b96950800000000000000
+      internalID: 6442874414283891465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_9
+      name: tileset level 02 32x32_3
       rect:
         serializedVersion: 2
         x: 0
@@ -452,14 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41fdabeb9983c0520800000000000000
-      internalID: 2669570912104931092
+      spriteID: 29dfce267038da7f0800000000000000
+      internalID: -599679107622699630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_10
+      name: tileset level 02 32x32_4
       rect:
         serializedVersion: 2
         x: 32
@@ -473,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a2d8081baf34c5b0800000000000000
-      internalID: -5349080453334117724
+      spriteID: 1f86c2d7f51f9fe40800000000000000
+      internalID: 5690844996583581937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_11
+      name: tileset level 02 32x32_5
       rect:
         serializedVersion: 2
         x: 64
@@ -494,14 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7848d533ad14efd0800000000000000
-      internalID: -2313691721741350790
+      spriteID: 4faeabfaba755dd10800000000000000
+      internalID: 2149720792038566644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_12
+      name: tileset level 02 32x32_6
       rect:
         serializedVersion: 2
         x: 0
@@ -515,14 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b0e7962c3a664a60800000000000000
-      internalID: 7657925022968176816
+      spriteID: 8ce80dfee18533c30800000000000000
+      internalID: 4337907755983605448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_13
+      name: tileset level 02 32x32_7
       rect:
         serializedVersion: 2
         x: 32
@@ -536,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ead09d9c357fe3b00800000000000000
-      internalID: 810356922214059438
+      spriteID: be5c8d1b4bf550ab0800000000000000
+      internalID: -5042518978088876565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_14
+      name: tileset level 02 32x32_8
       rect:
         serializedVersion: 2
         x: 64
@@ -557,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a239e2c7ba7055f80800000000000000
-      internalID: -8118574320161221846
+      spriteID: 53754a33a2cfec4c0800000000000000
+      internalID: -4265194538888046795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_15
+      name: tileset level 02 32x32_9
       rect:
         serializedVersion: 2
         x: 0
@@ -578,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8a714bf5cc556eb0800000000000000
-      internalID: -4727270228461782387
+      spriteID: 3e1b073a96f5b9d90800000000000000
+      internalID: -7089968281046437405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_16
+      name: tileset level 02 32x32_10
       rect:
         serializedVersion: 2
         x: 32
@@ -599,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83921d29a04b42990800000000000000
-      internalID: -7411601129239140040
+      spriteID: cce194a8fe953b410800000000000000
+      internalID: 1491634786941869772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_17
+      name: tileset level 02 32x32_11
       rect:
         serializedVersion: 2
         x: 64
@@ -620,14 +476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d56b6838124d03b80800000000000000
-      internalID: -8416994463149803939
+      spriteID: 6d2ca5c2901d7d280800000000000000
+      internalID: -9018509891457072426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_18
+      name: tileset level 02 32x32_12
       rect:
         serializedVersion: 2
         x: 0
@@ -641,14 +497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de4445b0f5761dc20800000000000000
-      internalID: 3229476065710982381
+      spriteID: 30fabad19badfa760800000000000000
+      internalID: 7471430795432537859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_19
+      name: tileset level 02 32x32_13
       rect:
         serializedVersion: 2
         x: 32
@@ -662,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c233bd89f7002ad60800000000000000
-      internalID: 7899877244386620204
+      spriteID: 4f45317a457b751b0800000000000000
+      internalID: -5667860031814281996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_20
+      name: tileset level 02 32x32_14
       rect:
         serializedVersion: 2
         x: 64
@@ -683,14 +539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38166cd3a3f81d200800000000000000
-      internalID: 203100938515669379
+      spriteID: 74d67fd8a069d8e80800000000000000
+      internalID: -8174712776531940025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_21
+      name: tileset level 02 32x32_15
       rect:
         serializedVersion: 2
         x: 0
@@ -704,14 +560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e3fcf4879299ba60800000000000000
-      internalID: 7690339018180719590
+      spriteID: 806217a54935e7fd0800000000000000
+      internalID: -2342342859548449272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_22
+      name: tileset level 02 32x32_16
       rect:
         serializedVersion: 2
         x: 32
@@ -725,14 +581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d83e4e688bdaca0800000000000000
-      internalID: -6003939838709756537
+      spriteID: 9d59993aba529d640800000000000000
+      internalID: 5105153071715554777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_23
+      name: tileset level 02 32x32_17
       rect:
         serializedVersion: 2
         x: 64
@@ -746,14 +602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20fb6dbc9e8e23100800000000000000
-      internalID: 86387433718333186
+      spriteID: 8d401a1c76cdc0a60800000000000000
+      internalID: 7641725005929186520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_24
+      name: tileset level 02 32x32_18
       rect:
         serializedVersion: 2
         x: 0
@@ -767,14 +623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3677ebd3e68bebbf0800000000000000
-      internalID: -306604940992809117
+      spriteID: 8d045d78d44288940800000000000000
+      internalID: 5298524877011370200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_25
+      name: tileset level 02 32x32_19
       rect:
         serializedVersion: 2
         x: 32
@@ -788,14 +644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 795cb9f36a3b799a0800000000000000
-      internalID: -6226310433203305065
+      spriteID: 9fca5aba29a4ad480800000000000000
+      internalID: -8873698121974698759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_26
+      name: tileset level 02 32x32_20
       rect:
         serializedVersion: 2
         x: 64
@@ -809,14 +665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71336016cf635c1a0800000000000000
-      internalID: -6789960405603699945
+      spriteID: 508178c46dc3823e0800000000000000
+      internalID: -2078344336926894075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_27
+      name: tileset level 02 32x32_21
       rect:
         serializedVersion: 2
         x: 0
@@ -830,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef76afa9f73414190800000000000000
-      internalID: -7980022849383798786
+      spriteID: c4cb6709d5ecd6b00800000000000000
+      internalID: 823541208129649740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_28
+      name: tileset level 02 32x32_22
       rect:
         serializedVersion: 2
         x: 32
@@ -851,14 +707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fe74b2d92f269260800000000000000
-      internalID: 7103917318898745081
+      spriteID: 339a41ff857620ed0800000000000000
+      internalID: -2449281615401801421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_29
+      name: tileset level 02 32x32_23
       rect:
         serializedVersion: 2
         x: 64
@@ -872,14 +728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 880d280d594f07cb0800000000000000
-      internalID: -4868122272901967736
+      spriteID: 466b4011645c9f900800000000000000
+      internalID: 718822520266208868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_30
+      name: tileset level 02 32x32_24
       rect:
         serializedVersion: 2
         x: 0
@@ -893,14 +749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14386a7367104c8e0800000000000000
-      internalID: -1674211554223553727
+      spriteID: 2c6fc0679dce18860800000000000000
+      internalID: 7530560470672799426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_31
+      name: tileset level 02 32x32_25
       rect:
         serializedVersion: 2
         x: 32
@@ -914,14 +770,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1f41cc5094a156b0800000000000000
-      internalID: -5309281545754685670
+      spriteID: f4dd5dbc4e36606d0800000000000000
+      internalID: -3024620265409225393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_32
+      name: tileset level 02 32x32_26
       rect:
         serializedVersion: 2
         x: 64
@@ -935,14 +791,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ee656362077ad8e0800000000000000
-      internalID: -1667889859846115610
+      spriteID: 5d69ea1b9fe607ca0800000000000000
+      internalID: -6021190683087431979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_33
+      name: tileset level 02 32x32_27
       rect:
         serializedVersion: 2
         x: 0
@@ -956,14 +812,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17576f8a826aa3af0800000000000000
-      internalID: -415837322014722703
+      spriteID: 085b45617a1e0fd30800000000000000
+      internalID: 4463315338474599808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_34
+      name: tileset level 02 32x32_28
       rect:
         serializedVersion: 2
         x: 32
@@ -977,14 +833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b51d71297a801430800000000000000
-      internalID: 3751650742457144756
+      spriteID: 0b3228ec6a9304a60800000000000000
+      internalID: 7656182755121832880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_35
+      name: tileset level 02 32x32_29
       rect:
         serializedVersion: 2
         x: 64
@@ -998,14 +854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91ae68ee1283dde90800000000000000
-      internalID: -6999376527476987367
+      spriteID: dff8eecefae0c0fb0800000000000000
+      internalID: -4680349763987664899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_36
+      name: tileset level 02 32x32_30
       rect:
         serializedVersion: 2
         x: 0
@@ -1019,14 +875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b923d4289954d5fe0800000000000000
-      internalID: -1198725400192273765
+      spriteID: 87bf4804a917767f0800000000000000
+      internalID: -619401516418794632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_37
+      name: tileset level 02 32x32_31
       rect:
         serializedVersion: 2
         x: 32
@@ -1040,14 +896,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d1c87d913cbbc390800000000000000
-      internalID: -7796931408580525616
+      spriteID: 9285a9ecd780e9070800000000000000
+      internalID: 8114932914998368297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_38
+      name: tileset level 02 32x32_32
       rect:
         serializedVersion: 2
         x: 64
@@ -1061,14 +917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c8f2379b65d069a0800000000000000
-      internalID: -6241754425460590394
+      spriteID: a74015cd80fbc03b0800000000000000
+      internalID: -5544846996422982534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_39
+      name: tileset level 02 32x32_33
       rect:
         serializedVersion: 2
         x: 0
@@ -1082,14 +938,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7236a5433432aa0a0800000000000000
-      internalID: -6869639510052150489
+      spriteID: 840c41d051ab3df60800000000000000
+      internalID: 8057988757872492616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_40
+      name: tileset level 02 32x32_34
       rect:
         serializedVersion: 2
         x: 32
@@ -1103,14 +959,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ada2afec9c4da020800000000000000
-      internalID: 2354622417103662501
+      spriteID: 9911e1749117e4f10800000000000000
+      internalID: 2255864816740471193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: modelo de tile set final 32 x 32(NOVO)_41
+      name: tileset level 02 32x32_35
       rect:
         serializedVersion: 2
         x: 64
@@ -1124,8 +980,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4c4645d6e89c46e0800000000000000
-      internalID: -1851937229568062386
+      spriteID: bd4c7738ab4495df0800000000000000
+      internalID: -191045941326265125
       vertices: []
       indices: 
       edges: []
