@@ -60,6 +60,6 @@ public class UIControler : MonoBehaviour
 
     public void HavePower(bool have)
     {
-        PowerIconObject.SetActive(have);
+        //PowerIconObject.SetActive(have);
     }
 }

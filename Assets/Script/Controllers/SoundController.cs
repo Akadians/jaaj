@@ -2,6 +2,7 @@
 
 public class SoundController : MonoBehaviour
 {
+    private FMOD.Studio.EventInstance soundInstance;
     // Start is called before the first frame update
     void Start()
     {
@@ -38,6 +39,14 @@ public class SoundController : MonoBehaviour
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/ui/sfx_ui_menu_volume_menos");
     }
+
+    // Fase01 Sounds Method //
+
+    public void BackgroundMusic ()
+    {
+        
+    }
+
 
     // Players Sounds Method //
     public void PlayerJump()
