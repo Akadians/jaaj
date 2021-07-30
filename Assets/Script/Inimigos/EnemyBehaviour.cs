@@ -6,7 +6,7 @@ public interface ISkill
 }
 public enum SkillType
 {
-    BULL_SKILL, CAT_SKILL, BAT_SKILL  
+    NONE, BULL_SKILL, CAT_SKILL, BAT_SKILL  
 }
 
 public class EnemyBehaviour : MonoBehaviour

@@ -20,7 +20,7 @@ public class UIControler : MonoBehaviour
     public GameObject gameoverPanel;
     void Start()
     {
-        //PowerIconObject.SetActive(false);
+        HavePower(false);
     }
 
     public void ChangeHUD(int id)
@@ -51,18 +51,15 @@ public class UIControler : MonoBehaviour
 
     public void ChangePowerIcon(SkillType newSkill)
     {
-        powerIcon.sprite = powerSprites[(int)newSkill];
+        if(newSkill != SkillType.NONE)
+        {
+            HavePower(true);
+            powerIcon.sprite = powerSprites[(int)newSkill];
+        }
     }
 
     public void HavePower(bool have)
     {
-        if (have != false)
-        {
-            PowerIconObject.SetActive(true);
-        }
-        else
-        {
-            PowerIconObject.SetActive(false);
-        }
+        PowerIconObject.SetActive(have);
     }
 }

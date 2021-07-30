@@ -27,7 +27,7 @@ TagManager:
   - EnemyHit
   - EnemyDead
   - Invencible
-  - 
+  - CheckInteraction
   - 
   - 
   - 
