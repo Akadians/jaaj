@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
@@ -16,8 +17,11 @@ public class UIControler : MonoBehaviour
     public Heart hearts;
     public RuntimeAnimatorController[] heartsAnimators;
     public Image powerIcon;
+    public Image godSendBar;
     public Sprite[] powerSprites;
-    public GameObject gameoverPanel;
+    [SerializeField]private GameObject gameoverPanel;
+    public float timeToDisablePanel = 3f;
+    [SerializeField]private GameObject attentionPanel;
     void Start()
     {
         HavePower(false);
@@ -40,6 +44,11 @@ public class UIControler : MonoBehaviour
         }
     }
 
+    public void UpdateGodSendBar(int current, int max)
+    {
+        godSendBar.fillAmount = current / max;
+    }
+
     void DisableHearts()
     {
         foreach(GameObject g in hearts.heartsGameObject)
@@ -54,12 +63,31 @@ public class UIControler : MonoBehaviour
         if(newSkill != SkillType.NONE)
         {
             HavePower(true);
-            powerIcon.sprite = powerSprites[(int)newSkill];
+            int idSkill = (int)newSkill -1;
+            powerIcon.sprite = powerSprites[idSkill];
         }
     }
 
     public void HavePower(bool have)
     {
         //PowerIconObject.SetActive(have);
+    }
+
+    public void OpenAttentionPanel()
+    {
+        StopCoroutine(CloseAttectionPanel());
+        StartCoroutine(CloseAttectionPanel());
+    }
+
+    IEnumerator CloseAttectionPanel()
+    {
+        attentionPanel.SetActive(true);
+        yield return new WaitForSeconds(timeToDisablePanel);
+        attentionPanel.SetActive(false);
+    }
+
+    public void OpenGameoverPanel()
+    {
+
     }
 }

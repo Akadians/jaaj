@@ -37,8 +37,11 @@ public class PlayerCheckCollision : MonoBehaviour
             case 18:
                 if(_Player.players[idPlayer].interactionObject == null)
                 {
-                     _Player.players[idPlayer].interactionObject = other.GetComponent<Interaction>();
+                    _Player.players[idPlayer].interactionObject = other.GetComponent<Interaction>();
                 }
+
+                if(_Player.players[idPlayer].interactionObject.isSecondInteraction &&  _Player.players[idPlayer].interactionObject.interactionType == InteractionType.OBJECT_INTERACTION)
+                {return;}
                 _Player.players[idPlayer].isCanInteract = true;
                 _Player.players[idPlayer].interactionObject.attentionIcon.SetActive(true);
             break; 
