@@ -14,6 +14,7 @@ public class Cat : MonoBehaviour
     public float offsetY = 3f;
     public float downMass = 30f;
     public bool isTeleportedBack = true; //teleportou para o ponto de patrulha
+    
 
     [Header("Ground Check")]
     public LayerMask floorLayer;
@@ -29,13 +30,16 @@ public class Cat : MonoBehaviour
     private Vector2 target = Vector2.zero;
     private Transform player;
     private EnemyBehaviour behaviour;
+    private Animator Anim;
     private float startMass;
+    private int changeAnimation;
 
 
     private void Start() 
     {
         behaviour = GetComponent<EnemyBehaviour>();
         rb = GetComponent<Rigidbody2D>();
+        Anim = GetComponent<Animator>();
         startMass = rb.mass;
     }
 
@@ -63,7 +67,8 @@ public class Cat : MonoBehaviour
                     behaviour.ControlFlip(player);
                 break;  
 
-        }    
+        }
+        AnimationChanger();
     }
 
     IEnumerator WaitTime()
@@ -209,5 +214,10 @@ public class Cat : MonoBehaviour
                 }
             break;
         }
-    }   
+    }
+    void AnimationChanger()
+    {
+        changeAnimation = ((int)currentState);
+        Anim.SetInteger("State", changeAnimation);
+    }
 }
