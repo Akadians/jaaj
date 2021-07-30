@@ -13,8 +13,7 @@ public class Cat : MonoBehaviour
     public float waitTime = 3f;
     public float offsetY = 3f;
     public float downMass = 30f;
-    public bool isTeleportedBack = true; //teleportou para o ponto de patrulha
-    
+    public bool isTeleportedBack = true; //teleportou para o ponto de patrulha    
 
     [Header("Ground Check")]
     public LayerMask floorLayer;
@@ -45,7 +44,11 @@ public class Cat : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(currentState == CatState.DEAD) {return;}
+        if(currentState == CatState.DEAD)
+        {
+            Anim.SetInteger("State", 3);
+            return;
+        }
         isTouchInGround = Physics2D.OverlapArea(groundCheckA.position, groundCheckB.position, floorLayer);        
     }
 
@@ -65,8 +68,7 @@ public class Cat : MonoBehaviour
             case CatState.WAIT:
                     if(player == null) {return;}
                     behaviour.ControlFlip(player);
-                break;  
-
+                break; 
         }
         AnimationChanger();
     }
