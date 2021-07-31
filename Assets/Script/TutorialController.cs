@@ -39,14 +39,17 @@ public class TutorialController : MonoBehaviour
         if (IdTex >= 3 && IdTex < 6)
         {
             JumpTuto();
+            return;
         }
         if (IdTex >= 6 && IdTex < 8)
         {
             CombatTuto();
+            return;
         }
         if (IdTex >= 8 && IdTex < 11)
         {
             ActiveTuto();
+            return;
         }
     }
     void IntroTuto()

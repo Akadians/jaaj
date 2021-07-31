@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002BD662D0C08 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000002BD662D9638 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,41 +18,41 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] SoundI::release                          : mus_dual_gameplay_1_jug_drum (000002BD8C341408)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_jug_drum (000002BD6B408238)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_jug_drum (000002BD667D2208)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_bellsphere basic (000002BD8C33FAB8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_bellsphere basic (000002BD6B408D98)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_bellsphere basic (000002BD667D37F8)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_harp (000002BD8C340838)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_harp (000002BD6B408718)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_harp (000002BD667D2058)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_oboe (000002BD8C340688)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_oboe (000002BD6B408A58)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_jug_drum (000002BD965D54C8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_jug_drum (000002BCD0D2A998)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_jug_drum (000002BD667D2DD8)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_bellsphere basic (000002BD965D5318)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bellsphere basic (000002BCD0D2A7F8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bellsphere basic (000002BD667D2F88)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_harp (000002BD965D4748)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_harp (000002BCD0D2B1B8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_harp (000002BD667D2568)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_oboe (000002BD965D3D28)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_oboe (000002BCD0D2ACD8)
 [LOG] SoundI::release                          :     mus_dual_gameplay_1_oboe (000002BD667D2C28)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_strgs (000002BD965D54C8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_strgs (000002BD6B408BF8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_strgs (000002BD667D1EA8)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_labs cyclosa (000002BD965D4AA8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_labs cyclosa (000002BD9014D6C8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_labs cyclosa (000002BD8C340178)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_bass (000002BD965D4748)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_bass (000002BD9014D1E8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_bass (000002BD8C340B98)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_ocarina (000002BD965D4598)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_strgs (000002BD965D59D8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_strgs (000002BCD0D2A658)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_strgs (000002BD667D2058)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_labs cyclosa (000002BD965D5828)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_labs cyclosa (000002BCD0D2AE78)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_labs cyclosa (000002BD667D23B8)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_bass (000002BD8C341408)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bass (000002BD9014D528)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bass (000002BD667D3648)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_ocarina (000002BD8C340178)
 [LOG] SoundI::release                          :     mus_dual_gameplay_1_ocarina (000002BD9014D388)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_ocarina (000002BD8C3404D8)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_ample_perc (000002BD965D4E08)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_ample_perc (000002BD9014D528)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_ample_perc (000002BD8C33FC68)
-[LOG] SoundI::release                          :  (000002BD96EF8E78)
-[LOG] SoundI::release                          :     sfx_amb_passaros_1 (000002BD120686C8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_ocarina (000002BD667D37F8)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_ample_perc (000002BD8C33FC68)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_ample_perc (000002BD9014D6C8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_ample_perc (000002BD965D4FB8)
+[LOG] SoundI::release                          :  (000002BD96EF9888)
+[LOG] SoundI::release                          :     sfx_amb_passaros_1 (000002BD12067348)
+[LOG] SoundI::release                          :  (000002BD96EF9158)
+[LOG] SoundI::release                          :     sfx_amb_passaros_2 (000002BD120657A8)
 [LOG] SoundI::release                          :  (000002BD96EF9718)
-[LOG] SoundI::release                          :     sfx_amb_passaros_2 (000002BD12067EA8)
-[LOG] SoundI::release                          :  (000002BD96EF8468)
-[LOG] SoundI::release                          :     sfx_amb_passaros_3 (000002BD120679C8)
-[LOG] SoundI::release                          :  (000002BD96EF8FE8)
-[LOG] SoundI::release                          :     sfx_amb_ambiente (000002BD12067D08)
+[LOG] SoundI::release                          :     sfx_amb_passaros_3 (000002BD12067EA8)
+[LOG] SoundI::release                          :  (000002BD96EF8018)
+[LOG] SoundI::release                          :     sfx_amb_ambiente (000002BD12065608)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -63,3 +63,12 @@
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
 [LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
