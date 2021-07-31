@@ -213,6 +213,7 @@ public class Player : MonoBehaviour
         }
 
         CameraFollow();
+        _UIController.ChangeHUD(IdPlayer);
     }
 
     void ChangerSortingOrder(int nextId)

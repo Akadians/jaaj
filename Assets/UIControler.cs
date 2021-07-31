@@ -18,6 +18,8 @@ public class UIControler : MonoBehaviour
     public RuntimeAnimatorController[] heartsAnimators;
     public Image powerIcon;
     public Image godSendBar;
+    public Image heroHUD;
+    public Sprite[] heroesImage;
     public Sprite[] powerSprites;
     [SerializeField]private GameObject gameoverPanel;
     public float timeToDisablePanel = 3f;
@@ -33,6 +35,7 @@ public class UIControler : MonoBehaviour
         {
            a.runtimeAnimatorController = heartsAnimators[id];
         }
+        heroHUD.sprite = heroesImage[id];
     }
 
     public void UpdateHUD(int currentHp)
