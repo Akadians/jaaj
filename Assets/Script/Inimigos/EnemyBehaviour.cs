@@ -16,6 +16,9 @@ public class EnemyBehaviour : MonoBehaviour
     public Transform[] wayPoints;
     public float patrolSpeed;
     public bool isLookLeft;
+    [Header("Drop")]
+    public GameObject dropPrefab;
+    public float offsetY;
     [HideInInspector]public int side;
     [HideInInspector]public Transform target;
     [HideInInspector]public int idWayPoint;
@@ -108,9 +111,19 @@ public class EnemyBehaviour : MonoBehaviour
         Vector3 newScale = new Vector3(s, transform.localScale.y, transform.localScale.z);
         transform.localScale = newScale;
     }
+    
+    void Drop()
+    {
+        Rigidbody2D enemyRb = GetComponent<Rigidbody2D>();
+        enemyRb.velocity =  new Vector2(0f, enemyRb.velocity.y);
+        
+        Vector2 dropPos = new Vector2(transform.position.x, transform.position.y + offsetY);
+        Instantiate(dropPrefab, dropPos, Quaternion.identity);
+    }
 
     public void Dead()
     {
         this.gameObject.layer = 16;
+        Drop();
     }
 }

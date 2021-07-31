@@ -115,7 +115,6 @@ public class Cat : MonoBehaviour
 
             case CatState.DEAD:
                 behaviour.Dead();
-                Dead();
             break;
         }
 
@@ -123,11 +122,6 @@ public class Cat : MonoBehaviour
         {
             StopCoroutine(WaitTime());
         }
-    }
-
-    void Dead()
-    {
-
     }
 
     IEnumerator ResetPosition()

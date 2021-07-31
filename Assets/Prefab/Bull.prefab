@@ -212,6 +212,9 @@ MonoBehaviour:
   - {fileID: 7505568427925558830}
   patrolSpeed: 5
   isLookLeft: 1
+  dropPrefab: {fileID: 3176314012975549633, guid: 86d1828849481654e80bb4354e74fcd7,
+    type: 3}
+  offsetY: 0.2
   side: 0
   target: {fileID: 0}
   idWayPoint: 0

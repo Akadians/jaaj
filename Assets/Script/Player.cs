@@ -67,9 +67,9 @@ public class Player : MonoBehaviour
     private void Start()
     {
         _UIController = FindObjectOfType(typeof(UIControler)) as UIControler;
-        _UIController.UpdateGodSendBar(godsend, maxGodSend);
         currentHp = maxHp;
         currentCharge = shotCharges;
+        _UIController.UpdateGodSendBar(godsend, maxGodSend);
     }
 
     void Update()
