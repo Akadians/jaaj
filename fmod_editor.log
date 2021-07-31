@@ -18,3 +18,48 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
+[LOG] SoundI::release                          : mus_dual_gameplay_1_jug_drum (000002BD8C341408)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_jug_drum (000002BD6B408238)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_jug_drum (000002BD667D2208)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_bellsphere basic (000002BD8C33FAB8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bellsphere basic (000002BD6B408D98)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bellsphere basic (000002BD667D37F8)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_harp (000002BD8C340838)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_harp (000002BD6B408718)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_harp (000002BD667D2058)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_oboe (000002BD8C340688)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_oboe (000002BD6B408A58)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_oboe (000002BD667D2C28)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_strgs (000002BD965D54C8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_strgs (000002BD6B408BF8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_strgs (000002BD667D1EA8)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_labs cyclosa (000002BD965D4AA8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_labs cyclosa (000002BD9014D6C8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_labs cyclosa (000002BD8C340178)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_bass (000002BD965D4748)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bass (000002BD9014D1E8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bass (000002BD8C340B98)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_ocarina (000002BD965D4598)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_ocarina (000002BD9014D388)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_ocarina (000002BD8C3404D8)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_ample_perc (000002BD965D4E08)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_ample_perc (000002BD9014D528)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_ample_perc (000002BD8C33FC68)
+[LOG] SoundI::release                          :  (000002BD96EF8E78)
+[LOG] SoundI::release                          :     sfx_amb_passaros_1 (000002BD120686C8)
+[LOG] SoundI::release                          :  (000002BD96EF9718)
+[LOG] SoundI::release                          :     sfx_amb_passaros_2 (000002BD12067EA8)
+[LOG] SoundI::release                          :  (000002BD96EF8468)
+[LOG] SoundI::release                          :     sfx_amb_passaros_3 (000002BD120679C8)
+[LOG] SoundI::release                          :  (000002BD96EF8FE8)
+[LOG] SoundI::release                          :     sfx_amb_ambiente (000002BD12067D08)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.

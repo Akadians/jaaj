@@ -1181,7 +1181,7 @@ RectTransform:
   m_Children:
   - {fileID: 816341599}
   m_Father: {fileID: 838431015}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -1208,7 +1208,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\" Essas criaturas n\xE3o s\xE3o m\xE1s, s\xF3 foram assoladas pela loucura
-    vinda do sofrimento, use {E} para Niu  aliviar o sofrimento deles, deixando-os
+    vinda do sofrimento, aperte {E} para Niu  aliviar o sofrimento deles, deixando-os
     descansar o sono da morte.\"\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1993,9 +1993,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '"Uma pedra grande na frente.
-
-    Aperte {Space} para pular os obstaculos."'
+  m_text: "\"Uma pedra grande na frente.\nAperte {Space} para pular os obst\xE1culos.\""
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -7037,8 +7035,8 @@ RectTransform:
   - {fileID: 287605044}
   - {fileID: 1940849755}
   - {fileID: 601787748}
-  - {fileID: 174990084}
   - {fileID: 1555119042}
+  - {fileID: 174990084}
   - {fileID: 247515562}
   - {fileID: 1182413931}
   - {fileID: 19758006}
@@ -7063,7 +7061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -7250,6 +7248,7 @@ Transform:
   m_Children:
   - {fileID: 963925012}
   - {fileID: 1702175864}
+  - {fileID: 1094937019}
   m_Father: {fileID: 596620144}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7266,6 +7265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PanelText: {fileID: 838431014}
+  Player: {fileID: 1292630569}
   MainTex: {fileID: 941358836}
   TutorialTex:
   - {fileID: 941358836}
@@ -7274,14 +7274,15 @@ MonoBehaviour:
   - {fileID: 287605045}
   - {fileID: 1940849756}
   - {fileID: 601787749}
-  - {fileID: 174990085}
   - {fileID: 1555119043}
+  - {fileID: 174990085}
   - {fileID: 247515563}
   - {fileID: 1182413932}
   - {fileID: 19758007}
   IdTex: 0
   col01: {fileID: 963925011}
   col02: {fileID: 1702175863}
+  col03: {fileID: 1094937018}
 --- !u!1 &884640829
 GameObject:
   m_ObjectHideFlags: 0
@@ -7750,8 +7751,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\" Niu e Nyu est\xE3o juntos nessa jorgada mas voc\xEA controlar\xE1 uma
-    por vez, elas tem jogabilidade e caracteristicas unicas e sua miss\xE3o \xE9
-    combina-las para superar os desafios.\"\t"
+    por vez, elas tem jogabilidade e caracter\xEDsticas \xFAnicas e sua miss\xE3o
+    \xE9 combin\xE1-las para superar os desafios.\"\t"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -15537,7 +15538,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.027914315, y: 0.14329314}
+  m_Offset: {x: 0.012586014, y: 0.14329314}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -15548,7 +15549,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.31889242, y: 0.7134137}
+  m_Size: {x: 0.07023375, y: 0.7134137}
   m_EdgeRadius: 0
 --- !u!114 &963925014
 MonoBehaviour:
@@ -15563,6 +15564,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PanelText: {fileID: 838431014}
+  Player: {fileID: 0}
   MainTex: {fileID: 941358836}
   TutorialTex:
   - {fileID: 941358836}
@@ -15571,14 +15573,15 @@ MonoBehaviour:
   - {fileID: 287605045}
   - {fileID: 1940849756}
   - {fileID: 601787749}
-  - {fileID: 174990085}
   - {fileID: 1555119043}
+  - {fileID: 174990085}
   - {fileID: 247515563}
   - {fileID: 1182413932}
   - {fileID: 19758007}
   IdTex: 0
   col01: {fileID: 963925011}
   col02: {fileID: 1702175863}
+  col03: {fileID: 1094937018}
 --- !u!1 &970392257
 GameObject:
   m_ObjectHideFlags: 0
@@ -16479,6 +16482,95 @@ Transform:
   m_Father: {fileID: 1394396708}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1094937018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1094937019}
+  - component: {fileID: 1094937021}
+  - component: {fileID: 1094937020}
+  m_Layer: 0
+  m_Name: Col_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1094937019
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094937018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.493, y: -0.115, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 879432608}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1094937020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094937018}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49a16da5b4cad4d49b950954a33e8056, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PanelText: {fileID: 838431014}
+  Player: {fileID: 0}
+  MainTex: {fileID: 941358836}
+  TutorialTex:
+  - {fileID: 941358836}
+  - {fileID: 1272350658}
+  - {fileID: 2061366080}
+  - {fileID: 287605045}
+  - {fileID: 1940849756}
+  - {fileID: 601787749}
+  - {fileID: 1555119043}
+  - {fileID: 174990085}
+  - {fileID: 247515563}
+  - {fileID: 1182413932}
+  - {fileID: 19758007}
+  IdTex: 0
+  col01: {fileID: 963925011}
+  col02: {fileID: 1702175863}
+  col03: {fileID: 1094937018}
+--- !u!61 &1094937021
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094937018}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.13830358, y: 0.14329314}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.09811391, y: 0.7134137}
+  m_EdgeRadius: 0
 --- !u!1 &1099368308
 GameObject:
   m_ObjectHideFlags: 0
@@ -18638,7 +18730,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\"Voce usar\xE1 {AWSD} para se movimentar.\""
+  m_text: "\"Voc\xEA usar\xE1 {AWSD} para se movimentar.\""
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -18879,6 +18971,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1292630569 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 791567919022908366, guid: 72ca3d9199c8ba84e818f4620eb9b24e,
+    type: 3}
+  m_PrefabInstance: {fileID: 791567920232515905}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1292682772
 GameObject:
   m_ObjectHideFlags: 0
@@ -20771,7 +20869,7 @@ RectTransform:
   m_Children:
   - {fileID: 171423456}
   m_Father: {fileID: 838431015}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
@@ -20797,9 +20895,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\"Os poderes de Niu s\xE3o mais efetivos para combater criaturas hostis,
-    deixe Nyuem um local seguro, v\xE1 enfrentar o inimigo, aperte {Q} para poder
-    usa seu poder\""
+  m_text: "\"Os poderes de Niu s\xE3o mais efetivos para combater criaturas host\xEDs,
+    deixe Nyu em um local seguro.\""
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 79459efec17a4d00a321bdcc27bbc385, type: 2}
@@ -21714,7 +21811,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1702175863}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.677, y: -0.238, z: 0}
+  m_LocalPosition: {x: 2.911, y: 0.137, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 879432608}
@@ -21733,6 +21830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PanelText: {fileID: 838431014}
+  Player: {fileID: 0}
   MainTex: {fileID: 941358836}
   TutorialTex:
   - {fileID: 941358836}
@@ -21741,14 +21839,15 @@ MonoBehaviour:
   - {fileID: 287605045}
   - {fileID: 1940849756}
   - {fileID: 601787749}
-  - {fileID: 174990085}
   - {fileID: 1555119043}
+  - {fileID: 174990085}
   - {fileID: 247515563}
   - {fileID: 1182413932}
   - {fileID: 19758007}
   IdTex: 0
   col01: {fileID: 963925011}
   col02: {fileID: 1702175863}
+  col03: {fileID: 1094937018}
 --- !u!61 &1702175866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21762,7 +21861,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.027914315, y: 0.14329314}
+  m_Offset: {x: 0.0006640367, y: 0.2097156}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -21773,7 +21872,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.31889242, y: 0.7134137}
+  m_Size: {x: 0.073640026, y: 0.5805688}
   m_EdgeRadius: 0
 --- !u!1 &1715326528
 GameObject:
