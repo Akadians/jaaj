@@ -35,6 +35,7 @@ public class Player : MonoBehaviour
     [Header("Players Config")]
     public SkillType currentSkill;
     public SoundController PlayerSound;
+    public bool isTutoActive;
 
     [Header("Niu Shot")]
     public GameObject niuShotPrefab;
@@ -77,7 +78,29 @@ public class Player : MonoBehaviour
 
     void Update()
     {
+        if(isTutoActive)
+        {
+            if(players[0].rigB.gameObject.layer != 17)
+            {
+                players[IdPlayer].rigB.velocity = new Vector2(0f, players[IdPlayer].rigB.velocity.y);
+                players[0].rigB.gameObject.layer = 17;
+                players[1].rigB.gameObject.layer = 17;
+            }
+            GroundCheck();
+            players[0].anim.SetBool("Jumping", players[0].IsJumping);
+            players[1].anim.SetBool("Jumping", players[1].IsJumping);
+            players[0].anim.SetBool("Move", false);
+            players[1].anim.SetBool("Move", false);
+            return;
+        }
+        else if(players[0].rigB.gameObject.layer != 14)
+        {
+            players[0].rigB.gameObject.layer = 14;
+            players[1].rigB.gameObject.layer = 14;
+        }
+
         if (isDead) { movement = Vector3.zero; return; }
+
         Move();
         Changer();
         GroundCheck();
