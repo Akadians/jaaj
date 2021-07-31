@@ -36,6 +36,7 @@ Transform:
   - {fileID: 791567918877058355}
   - {fileID: 791567919561754835}
   - {fileID: 791567919253638895}
+  - {fileID: 889908363061979914}
   m_Father: {fileID: 791567919022908368}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -275,6 +276,8 @@ MonoBehaviour:
     jumpParticle: {fileID: 791567919561754833}
     IsJumping: 0
     Doublejump: 0
+    interactionObject: {fileID: 0}
+    isCanInteract: 0
   - sr: {fileID: 791567919882688429}
     rigB: {fileID: 791567919882688425}
     anim: {fileID: 791567919882688426}
@@ -283,16 +286,24 @@ MonoBehaviour:
     jumpParticle: {fileID: 791567920112174133}
     IsJumping: 0
     Doublejump: 0
+    interactionObject: {fileID: 0}
+    isCanInteract: 0
+  currentSkill: 0
   PlayerSound: {fileID: 0}
+  niuShotPrefab: {fileID: 5173667023245255207, guid: 1524e059bc041424eb2d17dd6d69ca8c,
+    type: 3}
+  niuGun: {fileID: 889908363061979914}
+  shotSpeed: 0
+  shotCharges: 3
+  addChargeTime: 2
+  maxGodSend: 5
+  godsend: 0
   maxHp: 3
   Speed: 7
   JumpForce: 80
   FloorCheck:
     serializedVersion: 2
     m_Bits: 2048
-  Power:
-  - {fileID: 0}
-  - {fileID: 0}
   CMCam: {fileID: 0}
   damageColor1: {r: 0.5754717, g: 0, b: 0, a: 1}
   damageColor2: {r: 1, g: 1, b: 1, a: 0.4117647}
@@ -19796,3 +19807,33 @@ Transform:
   m_Father: {fileID: 791567919882688427}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4101336108831464120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 889908363061979914}
+  m_Layer: 14
+  m_Name: NiuGun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &889908363061979914
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4101336108831464120}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -0.235, y: -0.132, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 791567918723637164}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
