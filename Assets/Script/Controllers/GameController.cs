@@ -58,6 +58,16 @@ public class GameController : MonoBehaviour
         _FadeController.LoadSaveScene();
     }
 
+    public void ChangeScene(string name)
+    {
+        _FadeController.ChangeScene(name);
+    }
+
+    public void ReloadScene()
+    {
+        _FadeController.ReloadScene();
+    }
+
     #endregion
 
     public void ChangeGameState(GameState newState)

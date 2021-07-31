@@ -313,6 +313,7 @@ public class Player : MonoBehaviour
     void Dead()
     {
         isDead = true;
+        _UIController.OpenGameoverPanel();
     }
 
 }
