@@ -22,11 +22,20 @@ public class UIControler : MonoBehaviour
     public Sprite[] heroesImage;
     public Sprite[] powerSprites;
     [SerializeField]private GameObject gameoverPanel;
+    [SerializeField]private GameObject pausePanel;
     public float timeToDisablePanel = 3f;
     [SerializeField]private GameObject attentionPanel;
     void Start()
     {
         HavePower(false);
+    }
+
+    private void Update() {
+
+        if(Input.GetKeyDown(KeyCode.Escape) && !pausePanel.activeSelf)
+        {
+            OpenPausePanel();
+        }
     }
 
     public void ChangeHUD(int id)
@@ -91,6 +100,29 @@ public class UIControler : MonoBehaviour
 
     public void OpenGameoverPanel()
     {
+        gameoverPanel.SetActive(true);
+    }
 
+    public void ReloadScene()
+    {
+        GameController.Instance.ReloadScene();
+    }
+
+    public void ChangeScene(string name)
+    {
+        GameController.Instance.ChangeScene(name);
+    }
+
+    public void OpenPausePanel()
+    {
+        pausePanel.SetActive(!pausePanel.activeSelf);
+        if(pausePanel.activeSelf)
+        {
+            Time.timeScale = 0;
+        }
+        else
+        {
+            Time.timeScale = 1;
+        }
     }
 }

@@ -23,6 +23,16 @@ public class FadeController : MonoBehaviour
         StartCoroutine(LoadSaveSceneFade());
     }
 
+    public void ChangeScene(string name)
+    {
+        StartCoroutine(ChangeSceneFade(name));
+    }
+
+    public void ReloadScene()
+    {
+        StartCoroutine(ReloadSceneFade());
+    }
+
     IEnumerator NextSceneFade()
     {
         isFadeCompleted = false;
@@ -42,6 +52,26 @@ public class FadeController : MonoBehaviour
         yield return new WaitForEndOfFrame();
         yield return new WaitUntil(() => isFadeCompleted);
         SceneManager.LoadScene(SaveGame.Instance.GetSaveSceneID());
+        anim.SetTrigger("fade");
+    }
+
+    IEnumerator ReloadSceneFade()
+    {
+        isFadeCompleted = false;
+        anim.SetTrigger("fade");
+        yield return new WaitForEndOfFrame();
+        yield return new WaitUntil(() => isFadeCompleted);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        anim.SetTrigger("fade");
+    }
+
+    IEnumerator ChangeSceneFade(string name)
+    {
+        isFadeCompleted = false;
+        anim.SetTrigger("fade");
+        yield return new WaitForEndOfFrame();
+        yield return new WaitUntil(() => isFadeCompleted);
+        SceneManager.LoadScene(name);
         anim.SetTrigger("fade");
     }
 
