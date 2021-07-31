@@ -7,6 +7,8 @@ public enum InteractionType
 {
     GET_SKILL, OBJECT_INTERACTION
 }
+
+[RequireComponent(typeof(BoxCollider2D))]
 public class Interaction : MonoBehaviour
 {
     private Player _Player;

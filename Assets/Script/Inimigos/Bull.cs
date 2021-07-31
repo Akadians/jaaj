@@ -95,6 +95,7 @@ public class Bull : MonoBehaviour, ISkill
                 if(currentState != BullState.DEAD)
                 {   
                    ChangeState(BullState.DEAD);
+                   Destroy(other.gameObject);
                 }
 
             break;

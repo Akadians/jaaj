@@ -17,7 +17,7 @@ public class UIControler : MonoBehaviour
     public Heart hearts;
     public RuntimeAnimatorController[] heartsAnimators;
     public Image powerIcon;
-    public Image godSendBar;
+    public Image[] bars;
     public Image heroHUD;
     public Sprite[] heroesImage;
     public Sprite[] powerSprites;
@@ -45,6 +45,11 @@ public class UIControler : MonoBehaviour
            a.runtimeAnimatorController = heartsAnimators[id];
         }
         heroHUD.sprite = heroesImage[id];
+        foreach(Image i in bars)
+        {
+            i.gameObject.SetActive(false);
+        }
+        bars[id].gameObject.SetActive(true);
     }
 
     public void UpdateHUD(int currentHp)
@@ -56,9 +61,14 @@ public class UIControler : MonoBehaviour
         }
     }
 
-    public void UpdateGodSendBar(int current, int max)
+    public void UpdateGodSendBar(float current, float max)
     {
-        godSendBar.fillAmount = current / max;
+        bars[1].fillAmount = current / max;
+    }
+
+    public void UpdateNiuBar(float current, float max)
+    {
+        bars[0].fillAmount = current / max;
     }
 
     void DisableHearts()
@@ -82,7 +92,7 @@ public class UIControler : MonoBehaviour
 
     public void HavePower(bool have)
     {
-        //PowerIconObject.SetActive(have);
+        PowerIconObject.SetActive(have);
     }
 
     public void OpenAttentionPanel()
