@@ -320,7 +320,6 @@ public class Player : MonoBehaviour
         isDead = true;
         _UIController.OpenGameoverPanel();
     }
-
 }
 
 
