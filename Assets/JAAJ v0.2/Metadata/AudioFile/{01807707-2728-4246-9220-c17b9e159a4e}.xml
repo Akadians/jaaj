@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{01807707-2728-4246-9220-c17b9e159a4e}">
+		<property name="assetPath">
+			<value>sfx/sfx_enemies/bull/sfx_enemies_boi_footstep_3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.75624999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bfc69f9b-651d-4bd7-917b-858104e18926}</destination>
+		</relationship>
+	</object>
+</objects>

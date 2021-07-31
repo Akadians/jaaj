@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{65e5caea-f06f-4454-88b3-c27768b9c4ab}">
+		<property name="assetPath">
+			<value>sfx/sfx_player/Player_Jump/sfx_player_jump_double_2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bfc69f9b-651d-4bd7-917b-858104e18926}</destination>
+		</relationship>
+	</object>
+</objects>

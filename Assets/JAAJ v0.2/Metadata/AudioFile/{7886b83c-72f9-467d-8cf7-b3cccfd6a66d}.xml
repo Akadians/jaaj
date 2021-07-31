@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{7886b83c-72f9-467d-8cf7-b3cccfd6a66d}">
+		<property name="assetPath">
+			<value>music/music_level_3/mus_dual_gameplay_3_asian kit3_bip.ogg</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>76.532970521541955</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bfc69f9b-651d-4bd7-917b-858104e18926}</destination>
+		</relationship>
+	</object>
+</objects>
