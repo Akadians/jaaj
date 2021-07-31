@@ -69,7 +69,10 @@ public class Player : MonoBehaviour
         _UIController = FindObjectOfType(typeof(UIControler)) as UIControler;
         currentHp = maxHp;
         currentCharge = shotCharges;
+        _UIController.ChangeHUD(0);
         _UIController.UpdateGodSendBar(godsend, maxGodSend);
+        _UIController.UpdateNiuBar(currentCharge, shotCharges);
+ 
     }
 
     void Update()
@@ -113,16 +116,15 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(addChargeTime);
         currentCharge ++;
-
+        
         if(currentCharge >= shotCharges)
         {
             currentCharge = shotCharges;
+            _UIController.UpdateNiuBar(currentCharge, shotCharges);
             StopCoroutine(ResetCharge());
         }
-        else
-        {
-            StartCoroutine(ResetCharge());
-        }
+        
+        _UIController.UpdateNiuBar(currentCharge, shotCharges);
     }
 
     IEnumerator DelayShot()
@@ -140,6 +142,8 @@ public class Player : MonoBehaviour
     {
         if(currentCharge > 0)
         {
+            currentCharge--;
+            _UIController.UpdateNiuBar(currentCharge, shotCharges);
             StartCoroutine(DelayShot());
             StopCoroutine(ResetCharge());
             StartCoroutine(ResetCharge());
@@ -175,6 +179,7 @@ public class Player : MonoBehaviour
                     break;
             }
         }
+        _UIController.UpdateGodSendBar(godsend, maxGodSend);
     }
 
     public void GetGodSend(int qtd)

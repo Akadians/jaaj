@@ -207,6 +207,7 @@ public class Cat : MonoBehaviour
                 if(currentState != CatState.DEAD)
                 {
                     ChangeState(CatState.DEAD);
+                    Destroy(other.gameObject);
                 }
             break;
         }

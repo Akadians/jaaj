@@ -15,6 +15,7 @@ public class Bat : MonoBehaviour, ISkill
     private Animator Anim;
 
     public BatState currentState;
+    public ParticleSystem particle;
     public bool isDetectedPlayer;
     public float shotSpeed;
     public Transform gunPoint;
@@ -136,11 +137,12 @@ public class Bat : MonoBehaviour, ISkill
         if(other.gameObject.tag == "PlayerHit" && currentState != BatState.DEAD)
         {
             ChangeState(BatState.DEAD);
+            Destroy(other.gameObject);
         }
         
         if(other.gameObject.layer == 11 && currentState == BatState.DEAD)
         {
-            //animacao de caido no chao
+            particle.Play();
         }
     }
     void AnimationChanger()

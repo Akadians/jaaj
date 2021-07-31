@@ -197,9 +197,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.027890205}
   serializedVersion: 2
-  m_Radius: 0.25
+  m_Radius: 0.49171376
 --- !u!50 &5242806545663998826
 Rigidbody2D:
   serializedVersion: 4
@@ -252,6 +252,9 @@ MonoBehaviour:
   - {fileID: 5242806545448211522}
   patrolSpeed: 3
   isLookLeft: 0
+  dropPrefab: {fileID: 5713876879067607550, guid: f097e4ff534ac3845b0661481b7e4c9d,
+    type: 3}
+  offsetY: 0.2
   side: 0
   target: {fileID: 0}
   idWayPoint: 0
