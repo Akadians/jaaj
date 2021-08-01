@@ -35,7 +35,7 @@ public class UIControler : MonoBehaviour
 
     private void Update() {
 
-        if(Input.GetKeyDown(KeyCode.Escape) && !pausePanel.activeSelf && !gameoverPanel.activeSelf)
+        if(Input.GetKeyDown(KeyCode.Escape) && !pausePanel.activeSelf && !gameoverPanel.activeSelf && !thanksPanel.activeSelf)
         {
             OpenPausePanel();
         }        
