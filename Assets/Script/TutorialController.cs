@@ -15,10 +15,12 @@ public class TutorialController : MonoBehaviour
     private GameObject col02;
     [SerializeField]
     private GameObject col03;
+
+    private Player _Player;
     // Start is called before the first frame update
     void Start()
     {
-
+        _Player = FindObjectOfType(typeof(Player)) as Player;
     }
 
     // Update is called once per frame
@@ -56,12 +58,13 @@ public class TutorialController : MonoBehaviour
     {
         if (PanelText.activeInHierarchy != false)
         {
-
+            _Player.isTutoActive = true;
             if (Input.GetKeyDown(KeyCode.Return))
             {
                 MainTex.text = TutorialTex[IdTex].text;
                 if (IdTex == 2)
                 {
+                    _Player.isTutoActive = false;
                     PanelText.SetActive(false);
                     IdTex++;
                     return;
@@ -77,12 +80,13 @@ public class TutorialController : MonoBehaviour
     {
         if (PanelText.activeInHierarchy != false)
         {
-
+            _Player.isTutoActive = true;
             if (Input.GetKeyDown(KeyCode.Return))
             {
                 MainTex.text = TutorialTex[IdTex].text;
                 if (IdTex == 5)
                 {
+                    _Player.isTutoActive = false;
                     PanelText.SetActive(false);
                     IdTex++;
                     return;
@@ -98,12 +102,13 @@ public class TutorialController : MonoBehaviour
     {
         if (PanelText.activeInHierarchy != false)
         {
-
+            _Player.isTutoActive = true;
             if (Input.GetKeyDown(KeyCode.Return))
             {
                 MainTex.text = TutorialTex[IdTex].text;
                 if (IdTex == 7)
                 {
+                    _Player.isTutoActive = false;
                     PanelText.SetActive(false);
                     IdTex++;
                     Destroy(col02);
@@ -120,12 +125,13 @@ public class TutorialController : MonoBehaviour
     {
         if (PanelText.activeInHierarchy != false)
         {
-
+            _Player.isTutoActive = true;
             if (Input.GetKeyDown(KeyCode.Return))
             {
                 MainTex.text = TutorialTex[IdTex].text;
                 if (IdTex == 10)
                 {
+                    _Player.isTutoActive = false;
                     PanelText.SetActive(false);
                     Destroy(col03);
                     return;
