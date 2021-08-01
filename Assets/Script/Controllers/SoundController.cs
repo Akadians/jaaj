@@ -51,7 +51,7 @@ public class SoundController : MonoBehaviour
     // Players Sounds Method //
     public void PlayerJump()
     {
-        //FMODUnity.RuntimeManager.PlayOneShot("");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/ui/sfx_ui_menu_creditos");
     }
     public void PlayerDeath()
     {
