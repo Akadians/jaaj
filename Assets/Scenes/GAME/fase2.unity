@@ -3238,22 +3238,22 @@ PrefabInstance:
     - target: {fileID: 4043337130785255331, guid: e4d88ca9a16db9247a8f0e1fbab038e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.66
+      value: 3.38
       objectReference: {fileID: 0}
     - target: {fileID: 4043337130785255331, guid: e4d88ca9a16db9247a8f0e1fbab038e9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.13
+      value: -2.81
       objectReference: {fileID: 0}
     - target: {fileID: 4043337130858713427, guid: e4d88ca9a16db9247a8f0e1fbab038e9,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.45
+      value: -2.29
       objectReference: {fileID: 0}
     - target: {fileID: 4043337130858713427, guid: e4d88ca9a16db9247a8f0e1fbab038e9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.13
+      value: -2.73
       objectReference: {fileID: 0}
     - target: {fileID: 4043337131208813576, guid: e4d88ca9a16db9247a8f0e1fbab038e9,
         type: 3}
@@ -9262,6 +9262,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958325378}
     m_Modifications:
+    - target: {fileID: 4043337130785255331, guid: e4d88ca9a16db9247a8f0e1fbab038e9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4043337130785255331, guid: e4d88ca9a16db9247a8f0e1fbab038e9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.09
+      objectReference: {fileID: 0}
     - target: {fileID: 4043337131208813576, guid: e4d88ca9a16db9247a8f0e1fbab038e9,
         type: 3}
       propertyPath: CatSound
@@ -16095,6 +16105,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1958325378}
     m_Modifications:
+    - target: {fileID: 4043337130785255331, guid: e4d88ca9a16db9247a8f0e1fbab038e9,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4043337130785255331, guid: e4d88ca9a16db9247a8f0e1fbab038e9,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.8
+      objectReference: {fileID: 0}
     - target: {fileID: 4043337131208813576, guid: e4d88ca9a16db9247a8f0e1fbab038e9,
         type: 3}
       propertyPath: CatSound
@@ -37366,7 +37386,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731862894}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.0562855, y: 2.6155806, z: -1.4080763}
+  m_LocalPosition: {x: -1.0565277, y: 2.6155806, z: -1.4080763}
   m_LocalScale: {x: 0.14080763, y: 0.14080763, z: 0.14080763}
   m_Children:
   - {fileID: 2109949421}
@@ -38059,7 +38079,7 @@ MonoBehaviour:
   pausePanel: {fileID: 7098288602471052486}
   timeToDisablePanel: 3
   attentionPanel: {fileID: 7098288602471052487}
-  txtAttention: {fileID: 0}
+  txtAttention: {fileID: 7098288602471052490}
 --- !u!1 &1748226447
 GameObject:
   m_ObjectHideFlags: 0
@@ -59524,7 +59544,7 @@ PrefabInstance:
     - target: {fileID: 3918684203179796127, guid: d59ad5213cbb7bd4a8c876c431cd6f47,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0562855
+      value: -1.0565277
       objectReference: {fileID: 0}
     - target: {fileID: 3918684203179796127, guid: d59ad5213cbb7bd4a8c876c431cd6f47,
         type: 3}
@@ -59892,5 +59912,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7098288602471052490 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3056964592816279684, guid: b31ee86d15337e946bfdf65a371d6d29,
+    type: 3}
+  m_PrefabInstance: {fileID: 7098288602471052484}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
