@@ -35,7 +35,7 @@ public class UIControler : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape) && !pausePanel.activeSelf)
         {
             OpenPausePanel();
-        }
+        }        
     }
 
     public void ChangeHUD(int id)
@@ -134,5 +134,9 @@ public class UIControler : MonoBehaviour
         {
             Time.timeScale = 1;
         }
+    }
+    public void Exit()
+    {
+        Application.Quit();
     }
 }
