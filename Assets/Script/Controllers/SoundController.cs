@@ -51,15 +51,22 @@ public class SoundController : MonoBehaviour
     // Players Sounds Method //
     public void PlayerJump()
     {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/ui/sfx_ui_menu_creditos");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_jump");
     }
     public void PlayerDeath()
     {
-        //FMODUnity.RuntimeManager.PlayOneShot("");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_death");
     }
     public void SkillPlayer()
     {
-        //FMODUnity.RuntimeManager.PlayOneShot("");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_projetil");
     }
-
+    public void DamgePlayer()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_dano");
+    }
+    public void SkillNyuPlayer()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_absorvendo");
+    }
 }

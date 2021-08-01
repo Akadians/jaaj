@@ -295,7 +295,7 @@ public class Player : MonoBehaviour
             {
                 players[IdPlayer].rigB.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                 players[IdPlayer].jumpParticle.Play();
-                //PlayerSound.PlayerJump();
+                PlayerSound.PlayerJump();
 
                 players[IdPlayer].IsJumping = true;
                 players[IdPlayer].Doublejump = true;
