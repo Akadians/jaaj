@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000013D1CCD42C8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001F298AB2F68 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,59 +18,59 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013CB81812E8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013CB81812E8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013CB817FCF8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013CB817FCF8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013CB7D65338
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013CB7D65338
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013CB8180C28
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013CB8180C28
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013CB8180568
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013CB8180568
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013CB81808C8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013CB81808C8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013CB8180A78
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013CB8180A78
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013CB8180DD8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013CB8180DD8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000013CB81803B8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000013CB81803B8
-[LOG] SoundI::release                          : mus_dual_gameplay_1_jug_drum (0000013D1C440238)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_jug_drum (0000013D1C3E59B8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_jug_drum (0000013CB817FCF8)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_bellsphere basic (0000013CB80C3C38)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_bellsphere basic (0000013D1C3E54D8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_bellsphere basic (0000013CB8180A78)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_harp (0000013CB80C38D8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_harp (0000013D1C3E6038)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_harp (0000013CB81812E8)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_oboe (0000013CB80C33C8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_oboe (0000013D1C3E5678)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_oboe (0000013CB81808C8)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_strgs (0000013CB1C52DF8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_strgs (0000013D1C3E5818)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_strgs (0000013CB8180DD8)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_labs cyclosa (0000013CB1C52A98)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_labs cyclosa (0000013D1C3E5B58)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_labs cyclosa (0000013CB8180C28)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_bass (0000013CB1C52228)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_bass (0000013D1C3E5CF8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_bass (0000013CB81803B8)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_ocarina (0000013D1AA0B198)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_ocarina (0000013D1C3E5338)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_ocarina (0000013CB8180568)
-[LOG] SoundI::release                          : mus_dual_gameplay_1_ample_perc (0000013D1AA0CAE8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_ample_perc (0000013CB85E4FA8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_1_ample_perc (0000013CB7D65338)
-[LOG] SoundI::release                          :  (0000013CB82FC348)
-[LOG] SoundI::release                          :     sfx_amb_passaros_1 (0000013CB6CA63F8)
-[LOG] SoundI::release                          :  (0000013CB82FC798)
-[LOG] SoundI::release                          :     sfx_amb_passaros_2 (0000013CB6CA5D78)
-[LOG] SoundI::release                          :  (0000013CB82FC4B8)
-[LOG] SoundI::release                          :     sfx_amb_passaros_3 (0000013CB6CA5898)
-[LOG] SoundI::release                          :  (0000013CB82FC628)
-[LOG] SoundI::release                          :     sfx_amb_ambiente (0000013CB6CA5BD8)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F2553EB298
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F2553EB298
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F2553EB958
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F2553EB958
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F03BF4AD08
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F03BF4AD08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F29AB77F68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F29AB77F68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F23087F298
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F23087F298
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F29AB78628
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F29AB78628
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F2553EABD8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F2553EABD8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F29AB78478
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F29AB78478
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001F23087E1B8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001F23087E1B8
+[LOG] SoundI::release                          : mus_dual_gameplay_1_jug_drum (000001F03BF4B3C8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_jug_drum (000001F2986CBB38)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_jug_drum (000001F2553EB958)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_bellsphere basic (000001F03BF4AB58)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bellsphere basic (000001F2986CB998)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bellsphere basic (000001F2553EABD8)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_harp (000001F2554A18E8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_harp (000001F2986CB318)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_harp (000001F2553EB298)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_oboe (000001F2554A1228)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_oboe (000001F2986CB178)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_oboe (000001F29AB78628)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_strgs (000001F2554A2D28)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_strgs (000001F2986CAFD8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_strgs (000001F29AB78478)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_labs cyclosa (000001F2554A2308)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_labs cyclosa (000001F2986CB7F8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_labs cyclosa (000001F29AB77F68)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_bass (000001F29863E968)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bass (000001F299009878)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_bass (000001F23087E1B8)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_ocarina (000001F298640468)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_ocarina (000001F2990096D8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_ocarina (000001F23087F298)
+[LOG] SoundI::release                          : mus_dual_gameplay_1_ample_perc (000001F29863F1D8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_ample_perc (000001F2335A7218)
+[LOG] SoundI::release                          :     mus_dual_gameplay_1_ample_perc (000001F03BF4AD08)
+[LOG] SoundI::release                          :  (000001F2333D6C08)
+[LOG] SoundI::release                          :     sfx_amb_passaros_1 (000001F23066B808)
+[LOG] SoundI::release                          :  (000001F2333D74A8)
+[LOG] SoundI::release                          :     sfx_amb_passaros_2 (000001F2325B8D58)
+[LOG] SoundI::release                          :  (000001F2333D4DD8)
+[LOG] SoundI::release                          :     sfx_amb_passaros_3 (000001F23066B4C8)
+[LOG] SoundI::release                          :  (000001F2333D6EE8)
+[LOG] SoundI::release                          :     sfx_amb_ambiente (000001F2325B8BB8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
