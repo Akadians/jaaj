@@ -22216,7 +22216,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731862894}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5314021, y: 0.19407955, z: -1.4080763}
+  m_LocalPosition: {x: 0.53192234, y: 0.19407955, z: -1.4080763}
   m_LocalScale: {x: 0.14080763, y: 0.14080763, z: 0.14080763}
   m_Children:
   - {fileID: 2109949421}
@@ -26824,7 +26824,7 @@ PrefabInstance:
     - target: {fileID: 3918684203179796127, guid: d59ad5213cbb7bd4a8c876c431cd6f47,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5314021
+      value: 0.53192234
       objectReference: {fileID: 0}
     - target: {fileID: 3918684203179796127, guid: d59ad5213cbb7bd4a8c876c431cd6f47,
         type: 3}
@@ -27092,7 +27092,7 @@ GameObject:
   - component: {fileID: 7304067193758297532}
   - component: {fileID: 8998579041038018022}
   m_Layer: 5
-  m_Name: Button
+  m_Name: BtnRestart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27218,7 +27218,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1747660466}
         m_MethodName: ChangeScene
         m_Mode: 5
         m_Arguments:
@@ -27695,7 +27695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &5255325805157310370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28207,7 +28207,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1747660466}
         m_MethodName: OpenPausePanel
         m_Mode: 1
         m_Arguments:
@@ -28249,7 +28249,7 @@ GameObject:
   - component: {fileID: 4647039343376959023}
   - component: {fileID: 5415729893899931002}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: btnContinue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28335,7 +28335,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1747660466}
         m_MethodName: ChangeScene
         m_Mode: 5
         m_Arguments:
@@ -28502,7 +28502,7 @@ GameObject:
   - component: {fileID: 5643695338287790020}
   - component: {fileID: 4896421428455300720}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: BtnQuit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28587,7 +28587,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1747660466}
         m_MethodName: ReloadScene
         m_Mode: 1
         m_Arguments:
@@ -29208,7 +29208,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1747660466}
         m_MethodName: ReloadScene
         m_Mode: 1
         m_Arguments:
