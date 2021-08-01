@@ -34,6 +34,7 @@ public class Interaction : MonoBehaviour
                 if(!isSecondInteraction)
                 {
                     _Player.GetGodSend(qtdGodSend);
+                    _Player.AddLife();
                 }
 
             break;
