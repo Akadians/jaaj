@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using TMPro;
 
 [Serializable]
 public struct Heart
@@ -25,6 +26,7 @@ public class UIControler : MonoBehaviour
     [SerializeField]private GameObject pausePanel;
     public float timeToDisablePanel = 3f;
     [SerializeField]private GameObject attentionPanel;
+    public TextMeshProUGUI txtAttention;
     void Start()
     {
         HavePower(false);
@@ -95,8 +97,9 @@ public class UIControler : MonoBehaviour
         PowerIconObject.SetActive(have);
     }
 
-    public void OpenAttentionPanel()
+    public void OpenAttentionPanel(string text)
     {
+        txtAttention.text = text;
         StopCoroutine(CloseAttectionPanel());
         StartCoroutine(CloseAttectionPanel());
     }

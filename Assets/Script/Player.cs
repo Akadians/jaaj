@@ -203,7 +203,7 @@ public class Player : MonoBehaviour
                     }
                     else
                     {
-                        _UIController.OpenAttentionPanel();
+                        _UIController.OpenAttentionPanel("Você não tem dádiva suficiente!");
                     }
                     break;
             }
