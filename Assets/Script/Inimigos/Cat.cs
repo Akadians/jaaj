@@ -161,9 +161,7 @@ public class Cat : MonoBehaviour
                 player = hit.transform;
 
                 if(hit.collider != null)
-                {
-                    print(hit.collider.gameObject.name);
-                    
+                { 
                     if(hit.collider.gameObject.tag == "Player" && isTouchInGround)
                     {
                         isLookToPlayer = true;
