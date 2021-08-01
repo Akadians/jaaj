@@ -108,6 +108,11 @@ public class Player : MonoBehaviour
         Interaction();
     }
 
+    private void FixedUpdate()
+    {
+        //Invoke("FootStepSound", 05f);        
+    }
+
     void Move()
     {
         movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
@@ -115,7 +120,7 @@ public class Player : MonoBehaviour
 
         if (movement != Vector3.zero)// Checkagem de movimento para animação.
         {
-            players[IdPlayer].anim.SetBool("Move", true);
+            players[IdPlayer].anim.SetBool("Move", true);            
         }
         else
         {
@@ -239,6 +244,16 @@ public class Player : MonoBehaviour
     void SkillAnimation()
     {
         players[IdPlayer].anim.SetTrigger("Attack");
+
+        if(IdPlayer == 0)
+        {
+            PlayerSound.SkillPlayer();
+        }
+        else if(IdPlayer == 1)
+        {
+            PlayerSound.SkillNyuPlayer();
+        }
+
     }
 
     void Changer() //Metodo de troca do heroi.
@@ -307,6 +322,7 @@ public class Player : MonoBehaviour
                 players[IdPlayer].rigB.velocity = new Vector2(players[IdPlayer].rigB.velocity.x, 0);
                 players[IdPlayer].rigB.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                 players[IdPlayer].Doublejump = false;
+                PlayerSound.PlayerDoubleJump();
                 return;
             }
         }
@@ -357,5 +373,13 @@ public class Player : MonoBehaviour
     {
         isDead = true;
         _UIController.OpenGameoverPanel();
+    }
+
+    void FootStepSound()
+    {
+        if (movement != Vector3.zero)// Checkagem de movimento para animação.
+        {
+            PlayerSound.PlayerFootStep();
+        }
     }
 }

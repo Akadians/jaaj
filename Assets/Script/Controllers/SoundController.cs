@@ -49,9 +49,17 @@ public class SoundController : MonoBehaviour
 
 
     // Players Sounds Method //
+    public void PlayerFootStep()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_footstep");
+    }
     public void PlayerJump()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_jump");
+    }
+    public void PlayerDoubleJump()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("sfx_player_jump_double");
     }
     public void PlayerDeath()
     {
@@ -61,7 +69,7 @@ public class SoundController : MonoBehaviour
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_projetil");
     }
-    public void DamgePlayer()
+    public void DamagePlayer()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_dano");
     }
