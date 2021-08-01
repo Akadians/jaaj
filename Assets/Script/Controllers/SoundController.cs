@@ -103,8 +103,20 @@ public class SoundController : MonoBehaviour
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_enemies_gato_aparecendo");
     }
-    public void Cat()
+    public void BatPatrol()
     {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_enemies_gato_footstep");
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_enemies_morcego_asas");
+    }
+    public void BatDead()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_enemies_morcego_morrendo");
+    }
+    public void BatAttack()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_morcego_ataque_asa");
+    }
+    public void BatBullet()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_enemies_morcego_projetil");
     }
 }
