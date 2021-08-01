@@ -252,7 +252,7 @@ MonoBehaviour:
   - {fileID: 5242806545448211522}
   patrolSpeed: 3
   isLookLeft: 0
-  dropPrefab: {fileID: 5713876879067607550, guid: f097e4ff534ac3845b0661481b7e4c9d,
+  dropPrefab: {fileID: 3438569503005256328, guid: 86bd42d60491e7e46abc37c1dca7a7ee,
     type: 3}
   offsetY: 0.2
   side: 0
@@ -272,6 +272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   behaviour: {fileID: 0}
   currentState: 0
+  particle: {fileID: 0}
   isDetectedPlayer: 0
   shotSpeed: 3
   gunPoint: {fileID: 5242806547242186917}
