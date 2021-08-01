@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001DF28AFB1E8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001DF28AF6688 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,113 +18,59 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 149557152
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 82560
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000009824BEF5B8
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF945E87EC0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF945E87E90
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF945E87F90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF945E88050
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DEA1491488
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='sfx_player_projetil_3', format=5, channels=1, frequency=48000, lengthbytes=19968, lengthpcm=29650, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.563786.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 149557152
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 82560
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000009824BEF5B8
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF945E87EC0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF945E87E90
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF945E87F90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF945E88050
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DEA1491488
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='sfx_player_projetil_1', format=5, channels=1, frequency=48000, lengthbytes=19680, lengthpcm=29650, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.278938.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 149557152
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 82560
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000009824BEF5B8
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FF945E87EC0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FF945E87E90
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FF945E87F90
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FF945E88050
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001DEA1491488
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='sfx_player_projetil_2', format=5, channels=1, frequency=48000, lengthbytes=20096, lengthpcm=29650, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.456441.
-[LOG] SoundI::release                          : mus_dual_gameplay_2_perc2 (000001DEECA46738)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc2 (000001DEEBDEB588)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc2 (000001DEA4AF1758)
-[LOG] SoundI::release                          : mus_dual_gameplay_2_ amb1 (000001DEECA46078)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_ amb1 (000001DEE8500D78)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_ amb1 (000001DEA39DD1A8)
-[LOG] SoundI::release                          : mus_dual_gameplay_2_flauta_lead_1 (000001DEECA47818)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_flauta_lead_1 (000001DEE8500558)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_flauta_lead_1 (000001DEA39DCE48)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_perc2 (000001DEA39DC938)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc2 (000001DEEF435CC8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc2 (000001DF2D745C68)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_ amb1 (000001DEA39DC278)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_ amb1 (000001DEEF435988)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_ amb1 (000001DF2D745098)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_flauta_lead_1 (000001DEECA479C8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_flauta_lead_1 (000001DEA47F72E8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_flauta_lead_1 (000001DF2D745758)
 [LOG] SoundI::release                          : mus_dual_gameplay_2_synth_bell (000001DEECA474B8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_synth_bell (000001DEE85003B8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_synth_bell (000001DEA39DDD78)
-[LOG] SoundI::release                          : mus_dual_gameplay_2_Delay (000001DEECA479C8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_Delay (000001DEE8500BD8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_Delay (000001DEA39DCAE8)
-[LOG] SoundI::release                          : mus_dual_gameplay_2_flauta_lead_2 (000001DF2D7455A8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_flauta_lead_2 (000001DEE8500218)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_flauta_lead_2 (000001DEA39DCC98)
-[LOG] SoundI::release                          : mus_dual_gameplay_2_synthbass (000001DF2D7464D8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_synthbass (000001DEE8500A38)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_synthbass (000001DEA39DC938)
-[LOG] SoundI::release                          : mus_dual_gameplay_2_perc3 (000001DF2D745098)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc3 (000001DEE8500898)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc3 (000001DEA39DDA18)
-[LOG] SoundI::release                          : mus_dual_gameplay_2_ complemento (000001DF2D745E18)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_ complemento (000001DEE8500F18)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_ complemento (000001DEA39DC788)
-[LOG] SoundI::release                          : mus_dual_gameplay_2_perc1 (000001DF2D745758)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc1 (000001DEE85006F8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc1 (000001DEECA46A98)
-[LOG] SoundI::release                          : mus_dual_gameplay_2_Reverb (000001DF2D746B98)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_Reverb (000001DF28CFAA98)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_Reverb (000001DEECA468E8)
-[LOG] SoundI::release                          : mus_dual_gameplay_2_vocal_pad (000001DF2D745FC8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_vocal_pad (000001DF28CFADD8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_vocal_pad (000001DEECA46228)
-[LOG] SoundI::release                          : mus_dual_gameplay_2_piano_arp (000001DEEC674EC8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_piano_arp (000001DF28CFA8F8)
-[LOG] SoundI::release                          :     mus_dual_gameplay_2_piano_arp (000001DEECA47308)
-[LOG] SoundI::release                          :  (000001DF282D13D8)
-[LOG] SoundI::release                          :     sfx_player_projetil_1 (000001DEEEE64C08)
-[LOG] SoundI::release                          :  (000001DF282D2238)
-[LOG] SoundI::release                          :     sfx_player_projetil_2 (000001DEEEE64728)
-[LOG] SoundI::release                          :  (000001DF282D0B38)
-[LOG] SoundI::release                          :     sfx_player_projetil_3 (000001DEEDE11FF8)
-[LOG] SoundI::release                          :  (000001DEE8825D78)
-[LOG] SoundI::release                          :     sfx_amb_lobo_1 (000001DEA0F1E738)
-[LOG] SoundI::release                          :  (000001DEE8824228)
-[LOG] SoundI::release                          :     sfx_amb_lobo_2 (000001DEEDE11CB8)
-[LOG] SoundI::release                          :  (000001DEE88251F8)
-[LOG] SoundI::release                          :     sfx_amb_grilos (000001DEA0F1EA78)
-[LOG] SoundI::release                          :  (000001DEE8825088)
-[LOG] SoundI::release                          :     sfx_amb_ambiente (000001DEA0F1E8D8)
-[LOG] SoundI::release                          :  (000001DEE8824508)
-[LOG] SoundI::release                          :     sfx_amb_coruja_1 (000001DEEDE11E58)
-[LOG] SoundI::release                          :  (000001DEE8824F18)
-[LOG] SoundI::release                          :     sfx_amb_coruja_2 (000001DEEDE11B18)
-[LOG] SoundI::release                          :  (000001DEE8826EB8)
-[LOG] SoundI::release                          :     sfx_amb_coruja_3 (000001DEA0F1EC18)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_synth_bell (000001DEA47F7148)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_synth_bell (000001DEA39DD1A8)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_Delay (000001DEECA468E8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_Delay (000001DEA47F6FA8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_Delay (000001DEA39DCE48)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_resp1 (000001DEECA46A98)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_resp1 (000001DEA47F7628)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_resp1 (000001DEA39DCC98)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_synthbass (000001DEECA47668)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_synthbass (000001DEA47F6E08)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_synthbass (000001DEA39DD358)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_perc3 (000001DEECA46FA8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc3 (000001DEA47F6AC8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc3 (000001DEA39DC788)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_ complemento (000001DEECA47B78)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_ complemento (000001DEA47F6928)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_ complemento (000001DEA39DDA18)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_perc1 (000001DEECA47158)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc1 (000001DEA47F7488)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_perc1 (000001DEA39DD868)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_Reverb (000001DEEC6758E8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_Reverb (000001DEA47F6C68)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_Reverb (000001DEA39DCAE8)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_vocal_pad (000001DEEC675588)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_vocal_pad (000001DEA1C273D8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_vocal_pad (000001DEA39DDD78)
+[LOG] SoundI::release                          : mus_dual_gameplay_2_piano_arp (000001DEEC6744A8)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_piano_arp (000001DEA1C27238)
+[LOG] SoundI::release                          :     mus_dual_gameplay_2_piano_arp (000001DEECA463D8)
+[LOG] SoundI::release                          :  (000001DE4B612898)
+[LOG] SoundI::release                          :     sfx_amb_lobo_1 (000001DEA1C26BB8)
+[LOG] SoundI::release                          :  (000001DE4B614558)
+[LOG] SoundI::release                          :     sfx_amb_lobo_2 (000001DEA1C26A18)
+[LOG] SoundI::release                          :  (000001DE4B6139D8)
+[LOG] SoundI::release                          :     sfx_amb_grilos (000001DEA1C26878)
+[LOG] SoundI::release                          :  (000001DE4B612728)
+[LOG] SoundI::release                          :     sfx_amb_ambiente (000001DEA1C26D58)
+[LOG] SoundI::release                          :  (000001DE4B613CB8)
+[LOG] SoundI::release                          :     sfx_amb_coruja_1 (000001DEA1C27098)
+[LOG] SoundI::release                          :  (000001DE4B613B48)
+[LOG] SoundI::release                          :     sfx_amb_coruja_2 (000001DEA1C26EF8)
+[LOG] SoundI::release                          :  (000001DE4B613588)
+[LOG] SoundI::release                          :     sfx_amb_coruja_3 (000001DEA1C266D8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
