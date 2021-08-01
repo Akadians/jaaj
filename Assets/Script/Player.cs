@@ -221,6 +221,15 @@ public class Player : MonoBehaviour
         _UIController.UpdateGodSendBar(godsend, maxGodSend);
     }
 
+    public void AddLife()
+    {
+        currentHp++;
+        if(currentHp >= maxHp)
+        {
+            currentHp = maxHp;
+        }
+    }
+
     public void ChangeSkill(SkillType newSkill)
     {
         currentSkill = newSkill;
@@ -350,6 +359,3 @@ public class Player : MonoBehaviour
         _UIController.OpenGameoverPanel();
     }
 }
-
-
-
