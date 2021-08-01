@@ -186,6 +186,12 @@ public class Player : MonoBehaviour
             {
                 case InteractionType.GET_SKILL:
                     players[IdPlayer].interactionObject.Interact();
+                    players[IdPlayer].interactionObject.attentionIcon.SetActive(false);
+                    
+                    players[IdPlayer].isCanInteract = false;
+                    Destroy(players[IdPlayer].interactionObject.gameObject);
+                    players[IdPlayer].interactionObject = null; 
+
                     break;
 
                 case InteractionType.OBJECT_INTERACTION:
