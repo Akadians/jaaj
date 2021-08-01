@@ -25,8 +25,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7842298898414157299}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.73, y: -0.26, z: 0}
-  m_LocalScale: {x: 0.84962285, y: 1, z: 1}
+  m_LocalPosition: {x: 2.92, y: -0.44, z: 0}
+  m_LocalScale: {x: 0.168973, y: 0.19887999, z: 0.19888}
   m_Children: []
   m_Father: {fileID: 7842298899410884710}
   m_RootOrder: 2
@@ -70,8 +70,9 @@ SpriteRenderer:
   m_SortingLayerID: 1674595419
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 252ca4e2079b6ca4b9461b2eab2c397e, type: 3}
-  m_Color: {r: 0.7924528, g: 0.34015664, b: 0.34015664, a: 1}
+  m_Sprite: {fileID: -2294464983008571971, guid: 18fd78bc421d43044bca4cbcf3515f1e,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -107,7 +108,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7842298898604546126}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.88, y: -1.6762078, z: 3.966351}
+  m_LocalPosition: {x: 2.88, y: -1.6762078, z: 0}
   m_LocalScale: {x: 2.3, y: 1.7, z: 1.7}
   m_Children: []
   m_Father: {fileID: 7842298899410884710}
@@ -229,7 +230,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7842298899099716674}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.8, y: -3.3, z: 3.966351}
+  m_LocalPosition: {x: 2.8, y: -3.3, z: 0}
   m_LocalScale: {x: 2.3, y: 1.7, z: 1.7}
   m_Children: []
   m_Father: {fileID: 7842298899410884710}
@@ -313,9 +314,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7842298899410884713}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.457, y: -0.0923991, z: -0.5584925}
-  m_LocalScale: {x: 0.14080763, y: 0.14080763, z: 0.14080763}
+  m_LocalScale: {x: 0.14080761, y: 0.14080761, z: 0.14080761}
   m_Children:
   - {fileID: 7842298898604546127}
   - {fileID: 7842298899099716675}

@@ -6,6 +6,7 @@ public class StoneEventPlat : MonoBehaviour
 {
     private Animator treeAnimator;
     public string triggerName;
+    public SoundController StoneSound;
 
     private void Start()
     {
@@ -15,5 +16,6 @@ public class StoneEventPlat : MonoBehaviour
     public void Interaction()
     {
         treeAnimator.SetTrigger(triggerName);
+        StoneSound.StoneEvent();
     }
 }

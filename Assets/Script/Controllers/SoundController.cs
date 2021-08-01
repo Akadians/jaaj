@@ -42,7 +42,7 @@ public class SoundController : MonoBehaviour
 
     // Fase01 Sounds Method //
 
-    public void HoverButton ()
+    public void HoverButton()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/ui/sfx_ui_menu_hover");
     }
@@ -119,4 +119,9 @@ public class SoundController : MonoBehaviour
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_enemies_morcego_projetil");
     }
+    public void StoneEvent()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/general/sfx_general_pedra");
+    }
+
 }

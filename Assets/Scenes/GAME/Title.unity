@@ -179,7 +179,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Art Design/Conception Arts:\n\nAzartras \nGabriel \nPeslo \n\nMusic/Sound
     design/Fmod:\n\nBruno Marques\nDani Stob\nLilla Stip\n\nProgrammer/Level Design:\n\nErick
-    Torres - CanvasDev\nIgor Sant'Anna - Isannta GameDev\n\n\nJAAJ 6 \n"
+    Torres - CanvasDev\nIgor Sant'Anna - Isantanna GameDev\n\n\nJAAJ 6 \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -290,11 +290,11 @@ RectTransform:
   m_Father: {fileID: 1890315389}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.010253906, y: 0}
+  m_SizeDelta: {x: 1923, y: 1080}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &107513764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2576,11 +2576,11 @@ RectTransform:
   m_Father: {fileID: 1890315389}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: -0.010253906, y: 0}
+  m_SizeDelta: {x: 1923, y: 1080}
+  m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1069614299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3663,7 +3663,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1575348595}
   - component: {fileID: 1575348594}
-  - component: {fileID: 1575348596}
   m_Layer: 0
   m_Name: TitleController
   m_TagString: Untagged
@@ -3699,29 +3698,6 @@ Transform:
   m_Father: {fileID: 2010537084}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1575348596
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575348593}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: 
-  PlayEvent: 1
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 0
-  OverrideMaxDistance: 0
 --- !u!1 &1588798407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4478,7 +4454,7 @@ MonoBehaviour:
   CollisionTag: 
   Event: event:/music/music_menu
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -4521,11 +4497,11 @@ RectTransform:
   m_Father: {fileID: 1890315389}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -33, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: -33.01172, y: 490.0078}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!1 &2010537083
 GameObject:
   m_ObjectHideFlags: 0

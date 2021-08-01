@@ -8140,26 +8140,6 @@ PrefabInstance:
       propertyPath: BullSound
       value: 
       objectReference: {fileID: 1552347667}
-    - target: {fileID: 7505568428158132875, guid: 6ab666a42d58baf418e6e69046e0d715,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7505568428158132875, guid: 6ab666a42d58baf418e6e69046e0d715,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7505568428158132875, guid: 6ab666a42d58baf418e6e69046e0d715,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7505568428158132875, guid: 6ab666a42d58baf418e6e69046e0d715,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7505568428524431714, guid: 6ab666a42d58baf418e6e69046e0d715,
         type: 3}
       propertyPath: m_Name
@@ -20413,40 +20393,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 478316492}
     m_Modifications:
-    - target: {fileID: 7842298898604546124, guid: 811d6e2a06be7a44295d2075e7b508ab,
+    - target: {fileID: 7842298899410884709, guid: 811d6e2a06be7a44295d2075e7b508ab,
         type: 3}
-      propertyPath: m_UsedByEffector
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7842298898604546127, guid: 811d6e2a06be7a44295d2075e7b508ab,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7842298899099716675, guid: 811d6e2a06be7a44295d2075e7b508ab,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
+      propertyPath: StoneSound
+      value: 
+      objectReference: {fileID: 1552347667}
     - target: {fileID: 7842298899410884710, guid: 811d6e2a06be7a44295d2075e7b508ab,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7842298899410884710, guid: 811d6e2a06be7a44295d2075e7b508ab,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.14080761
-      objectReference: {fileID: 0}
-    - target: {fileID: 7842298899410884710, guid: 811d6e2a06be7a44295d2075e7b508ab,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.14080761
-      objectReference: {fileID: 0}
-    - target: {fileID: 7842298899410884710, guid: 811d6e2a06be7a44295d2075e7b508ab,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.14080761
       objectReference: {fileID: 0}
     - target: {fileID: 7842298899410884710, guid: 811d6e2a06be7a44295d2075e7b508ab,
         type: 3}
@@ -25847,7 +25802,7 @@ MonoBehaviour:
   CollisionTag: 
   Event: event:/sfx/ambience/sfx_ambience_fase_1
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 1
@@ -25882,7 +25837,7 @@ MonoBehaviour:
   CollisionTag: 
   Event: event:/music/music_level_1
   PlayEvent: 1
-  StopEvent: 0
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
@@ -27363,7 +27318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1731862894}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5317276, y: 0.19407955, z: -1.4080763}
+  m_LocalPosition: {x: 0.5320265, y: 0.19407955, z: -1.4080763}
   m_LocalScale: {x: 0.14080763, y: 0.14080763, z: 0.14080763}
   m_Children:
   - {fileID: 2109949421}
@@ -46632,7 +46587,7 @@ PrefabInstance:
     - target: {fileID: 3918684203179796127, guid: d59ad5213cbb7bd4a8c876c431cd6f47,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.5317276
+      value: 0.5320265
       objectReference: {fileID: 0}
     - target: {fileID: 3918684203179796127, guid: d59ad5213cbb7bd4a8c876c431cd6f47,
         type: 3}

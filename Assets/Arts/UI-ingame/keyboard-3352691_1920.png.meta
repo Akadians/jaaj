@@ -1,0 +1,1628 @@
+fileFormatVersion: 2
+guid: 18fd78bc421d43044bca4cbcf3515f1e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4353464170528324635
+    second: keyboard-3352691_1920_0
+  - first:
+      213: 8956177170531244596
+    second: keyboard-3352691_1920_1
+  - first:
+      213: 7285462571999566850
+    second: keyboard-3352691_1920_2
+  - first:
+      213: 3604053222717928086
+    second: keyboard-3352691_1920_3
+  - first:
+      213: 1000031874103424400
+    second: keyboard-3352691_1920_4
+  - first:
+      213: 5674214575642696557
+    second: keyboard-3352691_1920_5
+  - first:
+      213: 222109360263647365
+    second: keyboard-3352691_1920_6
+  - first:
+      213: -6124571498917276368
+    second: keyboard-3352691_1920_7
+  - first:
+      213: 5945546214709197769
+    second: keyboard-3352691_1920_8
+  - first:
+      213: 7533264386301867
+    second: keyboard-3352691_1920_9
+  - first:
+      213: -3646389732443370577
+    second: keyboard-3352691_1920_10
+  - first:
+      213: 267325102543052137
+    second: keyboard-3352691_1920_11
+  - first:
+      213: -598608713121535805
+    second: keyboard-3352691_1920_12
+  - first:
+      213: 5566668076779377477
+    second: keyboard-3352691_1920_13
+  - first:
+      213: -1036139377114059905
+    second: keyboard-3352691_1920_14
+  - first:
+      213: 4991691679997990846
+    second: keyboard-3352691_1920_15
+  - first:
+      213: -2294464983008571971
+    second: keyboard-3352691_1920_16
+  - first:
+      213: 4663591427023657150
+    second: keyboard-3352691_1920_17
+  - first:
+      213: 8634951174722586418
+    second: keyboard-3352691_1920_18
+  - first:
+      213: 4640410324316172550
+    second: keyboard-3352691_1920_19
+  - first:
+      213: -3830972013586408897
+    second: keyboard-3352691_1920_20
+  - first:
+      213: 2749987160597690635
+    second: keyboard-3352691_1920_21
+  - first:
+      213: 5323539724330827152
+    second: keyboard-3352691_1920_22
+  - first:
+      213: 1310218441792038029
+    second: keyboard-3352691_1920_23
+  - first:
+      213: -2970138886994008740
+    second: keyboard-3352691_1920_24
+  - first:
+      213: -578152885844631451
+    second: keyboard-3352691_1920_25
+  - first:
+      213: 7636499268798673588
+    second: keyboard-3352691_1920_26
+  - first:
+      213: 5020976261799715987
+    second: keyboard-3352691_1920_27
+  - first:
+      213: 5757887589263843292
+    second: keyboard-3352691_1920_28
+  - first:
+      213: 231425983824651969
+    second: keyboard-3352691_1920_29
+  - first:
+      213: 7939192443584748095
+    second: keyboard-3352691_1920_30
+  - first:
+      213: -3853981612860058657
+    second: keyboard-3352691_1920_31
+  - first:
+      213: -7913399533418409676
+    second: keyboard-3352691_1920_32
+  - first:
+      213: -2551440361350119014
+    second: keyboard-3352691_1920_33
+  - first:
+      213: 4390710093551196001
+    second: keyboard-3352691_1920_34
+  - first:
+      213: -634860405810533775
+    second: keyboard-3352691_1920_35
+  - first:
+      213: 2664438392419809183
+    second: keyboard-3352691_1920_36
+  - first:
+      213: 7561167487985589072
+    second: keyboard-3352691_1920_37
+  - first:
+      213: 8453227724831811139
+    second: keyboard-3352691_1920_38
+  - first:
+      213: 6559300216015279010
+    second: keyboard-3352691_1920_39
+  - first:
+      213: -2613402891600482771
+    second: keyboard-3352691_1920_40
+  - first:
+      213: -4058582380674337812
+    second: keyboard-3352691_1920_41
+  - first:
+      213: -1872245812896413819
+    second: keyboard-3352691_1920_42
+  - first:
+      213: 2440915205356965295
+    second: keyboard-3352691_1920_43
+  - first:
+      213: 5521129946390498199
+    second: keyboard-3352691_1920_44
+  - first:
+      213: -6718610226435683298
+    second: keyboard-3352691_1920_45
+  - first:
+      213: 1079707610484941048
+    second: keyboard-3352691_1920_46
+  - first:
+      213: 63263912762452867
+    second: keyboard-3352691_1920_47
+  - first:
+      213: -5960526061854644247
+    second: keyboard-3352691_1920_48
+  - first:
+      213: -4913473464573007886
+    second: keyboard-3352691_1920_49
+  - first:
+      213: 2398094518744902293
+    second: keyboard-3352691_1920_50
+  - first:
+      213: -831242407264317965
+    second: keyboard-3352691_1920_51
+  - first:
+      213: 1034960849562038951
+    second: keyboard-3352691_1920_52
+  - first:
+      213: -4468743280670743252
+    second: keyboard-3352691_1920_53
+  - first:
+      213: -5900712427122075628
+    second: keyboard-3352691_1920_54
+  - first:
+      213: 7288379514956819250
+    second: keyboard-3352691_1920_55
+  - first:
+      213: -3253983331011048875
+    second: keyboard-3352691_1920_56
+  - first:
+      213: 5452711951712950975
+    second: keyboard-3352691_1920_57
+  - first:
+      213: 430912719853257269
+    second: keyboard-3352691_1920_58
+  - first:
+      213: -7657438533117916718
+    second: keyboard-3352691_1920_59
+  - first:
+      213: -4793624147197226684
+    second: keyboard-3352691_1920_60
+  - first:
+      213: -3359847919976318280
+    second: keyboard-3352691_1920_61
+  - first:
+      213: 6961258815259335972
+    second: keyboard-3352691_1920_62
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1c3bb2f89c9a6c30800000000000000
+      internalID: 4353464170528324635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a5afa4fabba4c70800000000000000
+      internalID: 8956177170531244596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c1074fb992b1560800000000000000
+      internalID: 7285462571999566850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69234bb9f4b240230800000000000000
+      internalID: 3604053222717928086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_4
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095b00ce0b3d0ed00800000000000000
+      internalID: 1000031874103424400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_5
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bd680e71cdebe40800000000000000
+      internalID: 5674214575642696557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_6
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580ddcf4947151300800000000000000
+      internalID: 222109360263647365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_7
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035dd8dcba6210ba0800000000000000
+      internalID: -6124571498917276368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_8
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbf86b08c2d28250800000000000000
+      internalID: 5945546214709197769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_9
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf9ebbc673ca1000800000000000000
+      internalID: 7533264386301867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_10
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabc4159bdb656dc0800000000000000
+      internalID: -3646389732443370577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_11
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d9f90b3cab5b300800000000000000
+      internalID: 267325102543052137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_12
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 591.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8efe60c8051b7f0800000000000000
+      internalID: -598608713121535805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54311f25f17c04d40800000000000000
+      internalID: 5566668076779377477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b6259e9b4ee91f0800000000000000
+      internalID: -1036139377114059905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_15
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb79d86c22d064540800000000000000
+      internalID: 4991691679997990846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_16
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd833a214c6820e0800000000000000
+      internalID: -2294464983008571971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_17
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb85d41b1b768b040800000000000000
+      internalID: 4663591427023657150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_18
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2378e2ee75285d770800000000000000
+      internalID: 8634951174722586418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_19
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601bbe0aa9c066040800000000000000
+      internalID: 4640410324316172550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_20
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a18b14047a5dac0800000000000000
+      internalID: -3830972013586408897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_21
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b097f44a0cae92620800000000000000
+      internalID: 2749987160597690635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_22
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d7b688c2301e940800000000000000
+      internalID: 5323539724330827152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_23
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d842e212bb4de2210800000000000000
+      internalID: 1310218441792038029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_24
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55e5233b62f7c6d0800000000000000
+      internalID: -2970138886994008740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_25
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 444.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5602d55730df9f7f0800000000000000
+      internalID: -578152885844631451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2764400ab4af960800000000000000
+      internalID: 7636499268798673588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_27
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394ad3ece471ea540800000000000000
+      internalID: 5020976261799715987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_28
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf93be714028ef40800000000000000
+      internalID: 5757887589263843292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_29
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6e9a5c4b0363300800000000000000
+      internalID: 231425983824651969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_30
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a955bb67dad2e60800000000000000
+      internalID: 7939192443584748095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_31
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3d6927428e38ac0800000000000000
+      internalID: -3853981612860058657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_32
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4319ad42d05fd2290800000000000000
+      internalID: -7913399533418409676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_33
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91c12c6286779cd0800000000000000
+      internalID: -2551440361350119014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_34
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16757dd219feeec30800000000000000
+      internalID: 4390710093551196001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_35
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ae3b513d58037f0800000000000000
+      internalID: -634860405810533775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_36
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f977812e99cf9f420800000000000000
+      internalID: 2664438392419809183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_37
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b1d9005c9aee860800000000000000
+      internalID: 7561167487985589072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_38
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 297.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346651024d5ef4570800000000000000
+      internalID: 8453227724831811139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3dbb63bc0570b50800000000000000
+      internalID: 6559300216015279010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_40
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2eac2f9ae35bbbd0800000000000000
+      internalID: -2613402891600482771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_41
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce33f3cf3d40da7c0800000000000000
+      internalID: -4058582380674337812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_42
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587c81e4a527406e0800000000000000
+      internalID: -1872245812896413819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_43
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadc62e527fdfd120800000000000000
+      internalID: 2440915205356965295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_44
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b806d1f6efe9c40800000000000000
+      internalID: 5521129946390498199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_45
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c8ef48893b2c2a0800000000000000
+      internalID: -6718610226435683298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_46
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0ad38e954ebfe00800000000000000
+      internalID: 1079707610484941048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_47
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bae478132c0e000800000000000000
+      internalID: 63263912762452867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_48
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e722b08025f74da0800000000000000
+      internalID: -5960526061854644247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_49
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f761daaae5dfcbb0800000000000000
+      internalID: -4913473464573007886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_50
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ae997524eb74120800000000000000
+      internalID: 2398094518744902293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_51
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 150.2
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd05c84f65d674f0800000000000000
+      internalID: -831242407264317965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_52
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 3.199997
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2f492c86bec5e00800000000000000
+      internalID: 1034960849562038951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_53
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 3.199997
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25e433a9a5dbf1c0800000000000000
+      internalID: -4468743280670743252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_54
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 3.199997
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418d7a39f457c1ea0800000000000000
+      internalID: -5900712427122075628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_55
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 3.199997
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b2c39ad86852560800000000000000
+      internalID: 7288379514956819250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_56
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 3.199997
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a4b0a966787d2d0800000000000000
+      internalID: -3253983331011048875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_57
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 3.199997
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fba906061acebab40800000000000000
+      internalID: 5452711951712950975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_58
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 3.199997
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5320d0ce5d8eaf500800000000000000
+      internalID: 430912719853257269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_59
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 3.199997
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d94e1899305bb590800000000000000
+      internalID: -7657438533117916718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_60
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3.199997
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441139f5c30a97db0800000000000000
+      internalID: -4793624147197226684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_61
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 3.199997
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8baf9763e1c6f51d0800000000000000
+      internalID: -3359847919976318280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: keyboard-3352691_1920_62
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 3.199997
+        width: 147.6923
+        height: 147.8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42dd619920c5b9060800000000000000
+      internalID: 6961258815259335972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
