@@ -88,6 +88,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-9144643626393094440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-9141859669092506896
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,6 +330,29 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-9078488150886239264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/enemies/sfx_enemies_morcego_asas
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/enemies/sfx_enemies_morcego_asas
+  guid: 5cc61c43ecd1a342800e252feb4f3a3e
+  Banks:
+  - {fileID: 5430786642446066253}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 638
 --- !u!114 &-9071534848052221342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -660,6 +705,29 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-8928830299483594793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/player/sfx_player_absorvendo
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/player/sfx_player_absorvendo
+  guid: 9c6859a6b6f70a4392aa3f52d9515ea3
+  Banks:
+  - {fileID: 5430786642446066253}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 131
 --- !u!114 &-8927000652964132643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -748,6 +816,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-8877372119506533529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-8874140878993931699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -814,6 +904,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-8863526331220845647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-8844647717656904672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1142,6 +1254,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-8752718534026532422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &-8751317547044845920
@@ -1807,6 +1941,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-8446590550358224415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-8443137787972115874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2218,15 +2374,15 @@ MonoBehaviour:
   Path: event:/music/music_level_1
   guid: 502962596d3ecc42a7ee3eecb58b4942
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 3723819681807196963}
+  - {fileID: -3807868774068534515}
   MinDistance: 0
   MaxDistance: 0
-  Length: 131517
+  Length: 128000
 --- !u!114 &-8312980939297152187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2335,6 +2491,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-8272512953859072986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &-8259706565193718126
@@ -2645,6 +2823,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-8113018983323890184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-8093143707461605023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3320,11 +3520,12 @@ MonoBehaviour:
   Path: event:/music/music_level_2
   guid: 162df395e3a57248b5b86631c3c2eb23
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 1365402525474947576}
   MinDistance: 0
   MaxDistance: 0
   Length: 162461
@@ -3769,6 +3970,29 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-7594680322537297713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/player/sfx_player_projetil
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/player/sfx_player_projetil
+  guid: ce2c38e64221d64ca7783410fffe1e9c
+  Banks:
+  - {fileID: 5430786642446066253}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 617
 --- !u!114 &-7583347212595811219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3893,7 +4117,7 @@ MonoBehaviour:
   Path: event:/sfx/ambience/sfx_ambience_fase_3
   guid: 9cf86e9a447a5d4d94833a53cc028a5a
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -4298,6 +4522,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-7373737708633219696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-7372686916148604200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4364,6 +4610,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-7355280469606701129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-7351620664967715021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4408,6 +4676,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-7342945938960886567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-7342232352595880876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4450,6 +4740,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-7323079476697125090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &-7322428510440031219
@@ -4561,6 +4873,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-7267115052152231292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-7257340661901855362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4649,6 +4983,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-7212134144479088679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-7180056960618472227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5623,6 +5979,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-6823293513445359656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-6815867845736025017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5907,6 +6285,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-6617523256770295816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &-6603927053355554814
@@ -7121,6 +7521,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-6177386569051357275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-6159031700553545704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7335,7 +7757,7 @@ MonoBehaviour:
   Path: event:/music/music_creditos
   guid: 70a8cf43f0f37748a1338edd31e92ec3
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -7445,7 +7867,7 @@ MonoBehaviour:
   Path: event:/sfx/general/sfx_general_letras
   guid: 175a46e8da5af8489bdc21786ef94c71
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -8205,6 +8627,51 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-5764310810165456840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/enemies/sfx_enemies_gato_footstep
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/enemies/sfx_enemies_gato_footstep
+  guid: 8b5a9a2e1475ba48800d5372c02cc0e8
+  Banks:
+  - {fileID: 5430786642446066253}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 700
+--- !u!114 &-5749477934907814612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-5746592451431932575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8536,6 +9003,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-5642546868605421817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-5631348715400259921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8667,6 +9156,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-5546718148766688690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &-5541946741519812334
@@ -9089,6 +9600,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 250
+--- !u!114 &-5375698253491148758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-5374507667083940543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9928,6 +10461,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-4979695364294999837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-4964411589441254720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10257,6 +10812,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-4847393827169162671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &-4843288238964581848
@@ -10793,6 +11370,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-4623590127460133297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-4622151082037785861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11057,6 +11656,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-4540945847630799372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-4540292466275265728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11271,7 +11892,7 @@ MonoBehaviour:
   Path: event:/sfx/ambience/sfx_ambience_fase_2
   guid: 20c87ed05347cc459d1bcfff175d6a25
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -11365,6 +11986,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-4391964378674514681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &-4385248139630366868
@@ -11515,14 +12158,14 @@ MonoBehaviour:
   Path: event:/sfx/ui/sfx_ui_menu_creditos
   guid: 9816e30ad579f841ba343d763955d5a5
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 500
 --- !u!114 &-4305648402894631977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11873,6 +12516,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-4161900498471600391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &-4149202898681879605
@@ -12602,6 +13267,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-3807868774068534515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-3792466937560346880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13637,6 +14324,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-3220213017448819255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-3219128083508378535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13652,7 +14361,7 @@ MonoBehaviour:
   Path: event:/sfx/enemies/sfx_enemies_boi_footstep
   guid: 8f284362a72ec64e83c69b3d37153ffa
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -13879,6 +14588,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-3139499222986573125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
   IsGlobal: 0
   Exists: 0
 --- !u!114 &-3138227908317504572
@@ -14322,6 +15053,29 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-2929413654993443546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/player/sfx_player_coletar
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/player/sfx_player_coletar
+  guid: 5501a8cb3e771146924c7673c3103932
+  Banks:
+  - {fileID: 5430786642446066253}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 384
 --- !u!114 &-2925536254946003524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14381,7 +15135,7 @@ MonoBehaviour:
   Path: event:/sfx/ui/sfx_ui_menu_continue
   guid: 421c6dea9cf69042a33c06f818b06e72
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -14543,6 +15297,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-2784591531461687202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-2779913885542593783
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14874,6 +15650,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-2674235247811283258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-2648265353590286425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15756,6 +16554,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-2385495168444724311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-2372864954675275734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15889,6 +16709,29 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-2355369836856255655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/enemies/sfx_morcego_ataque_asa
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/enemies/sfx_morcego_ataque_asa
+  guid: 0f85d32b0ccd5d45807ba4d4de758e9d
+  Banks:
+  - {fileID: 5430786642446066253}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 750
 --- !u!114 &-2354549934692698264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16727,6 +17570,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-2069208482400390621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-2066630195367363893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16815,6 +17680,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-2048786697872186066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-2047283468577312818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16837,6 +17724,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-2044240185594475517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-2019082089657015450
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17455,6 +18364,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-1760272156805043433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-1759139407045328545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17909,14 +18840,14 @@ MonoBehaviour:
   Path: event:/sfx/player/sfx_player_jump_double
   guid: 0742d5431ae86444a59f8cc8b6d0d250
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1875
+  Length: 1300
 --- !u!114 &-1618785806047495691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18350,14 +19281,14 @@ MonoBehaviour:
   Path: event:/sfx/player/sfx_player_dano
   guid: 90f312bd7e401c44882b01a778f8d2be
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 674
 --- !u!114 &-1403526140361052648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19067,6 +19998,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-1118766507044880309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-1118118385218667374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19082,14 +20035,14 @@ MonoBehaviour:
   Path: event:/sfx/player/sfx_player_jump
   guid: 0d43b2a1695bb54088ac3a2334175eb9
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1125
+  Length: 650
 --- !u!114 &-1117861757744322360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19201,6 +20154,29 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-1074043806668006636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/enemies/sfx_enemies_morcego_morrendo
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/enemies/sfx_enemies_morcego_morrendo
+  guid: b32a177643302c44bd0d4652fdc61494
+  Banks:
+  - {fileID: 5430786642446066253}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 875
 --- !u!114 &-1054016496371365679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19729,6 +20705,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 162461
+--- !u!114 &-867052965100959786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-866727789261524396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19971,6 +20969,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-753951482447794377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-734828570666000105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20167,6 +21187,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-633905047156574782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &-627934913607411208
@@ -21096,6 +22138,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-240673012827676726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-240332233292867623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21659,8 +22723,8 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: -7583347212595811219}
-  - {fileID: 8493504613905417749}
+  - {fileID: 186309725666039202}
+  - {fileID: 5430786642446066253}
   EditorEvents:
   - {fileID: -1619525785073918656}
   - {fileID: 726500376401823974}
@@ -21690,12 +22754,22 @@ MonoBehaviour:
   - {fileID: 6077152210295134037}
   - {fileID: 4369352303605553842}
   - {fileID: 4581778964627191914}
+  - {fileID: -2355369836856255655}
+  - {fileID: -2929413654993443546}
+  - {fileID: -9078488150886239264}
+  - {fileID: 7558124019877760290}
+  - {fileID: 1214032503679389914}
+  - {fileID: -5764310810165456840}
+  - {fileID: 7287793408392119643}
+  - {fileID: -8928830299483594793}
+  - {fileID: -1074043806668006636}
+  - {fileID: -7594680322537297713}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   StringsBanks:
-  - {fileID: -7583347212595811219}
-  stringsBankWriteTime: 637632625320000000
+  - {fileID: 186309725666039202}
+  stringsBankWriteTime: 637633746860000000
   cacheVersion: 8
 --- !u!114 &2914292658022854
 MonoBehaviour:
@@ -22115,6 +23189,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &110480589638988730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &116318510467417976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22292,6 +23388,49 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &184925064248901384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &186309725666039202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/00000/JAAJ v1/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637633746860000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 3044
+  Exists: 1
 --- !u!114 &188144518228515330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22446,6 +23585,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &249150465363225524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &270771324363529337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22491,6 +23652,28 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 8164
+--- !u!114 &276949652319040198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &280996668845974113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22625,6 +23808,28 @@ MonoBehaviour:
   IsGlobal: 0
   Exists: 0
 --- !u!114 &304394380397633120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &320244241063847672
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23552,6 +24757,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &725863064298131242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &726500376401823974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23567,7 +24794,7 @@ MonoBehaviour:
   Path: event:/sfx/ui/sfx_ui_menu_play
   guid: 097b26582cdd1d45a9525e89f9add83d
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -24318,12 +25545,12 @@ MonoBehaviour:
   Path: event:/sfx/enemies/sfx_enemies_boi_hit
   guid: 11ef54355e8ef64798111a1e1032324f
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 5388246143222401697}
+  - {fileID: -7342945938960886567}
   MinDistance: 0
   MaxDistance: 0
   Length: 2146
@@ -24350,6 +25577,28 @@ MonoBehaviour:
   IsGlobal: 0
   Exists: 0
 --- !u!114 &1018820351722174739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &1033483835647573191
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -24903,6 +26152,29 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &1214032503679389914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/enemies/sfx_enemies_gato_aparecendo
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/enemies/sfx_enemies_gato_aparecendo
+  guid: 87689a8da45f09489331b9c47b1db2e0
+  Banks:
+  - {fileID: 5430786642446066253}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1216
 --- !u!114 &1216195123209984348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25278,6 +26550,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &1365402525474947576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &1382980638213590729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25322,6 +26616,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &1388825282687837629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &1391646684401238991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25568,6 +26884,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &1489431931118412879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &1490866682009938262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25787,6 +27125,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &1582725225281324896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &1583678403028436150
@@ -26052,6 +27412,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &1752015149873393667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &1754379965529552605
@@ -26335,7 +27717,7 @@ MonoBehaviour:
   Path: event:/sfx/ui/sfx_ui_menu_config
   guid: 192f38bde06b194fafdcc66445a5a361
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -27792,14 +29174,14 @@ MonoBehaviour:
   Path: event:/sfx/player/sfx_player_impact
   guid: a1ad7bba2106d94faf0a09d73c293f3a
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 68
+  Length: 333
 --- !u!114 &2460304277080203906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27886,6 +29268,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &2501394142926856935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &2516294726292282591
@@ -28454,6 +29858,28 @@ MonoBehaviour:
   m_Name: parameter:/sfx_enemies_boi_hit/release
   m_EditorClassIdentifier: 
   Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &2707078737682972609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
   Min: 0
   Max: 2
   Default: 0
@@ -29146,6 +30572,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &2938518349863632759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &2940494029425302975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29402,6 +30850,28 @@ MonoBehaviour:
   m_Name: parameter:/sfx_enemies_boi_hit/release
   m_EditorClassIdentifier: 
   Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &3091237658439218906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
   Min: 0
   Max: 2
   Default: 0
@@ -30371,6 +31841,28 @@ MonoBehaviour:
   m_Name: parameter:/sfx_enemies_boi_hit/release
   m_EditorClassIdentifier: 
   Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &3476002603030702002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
   Min: 0
   Max: 2
   Default: 0
@@ -31473,7 +32965,7 @@ MonoBehaviour:
   Path: event:/sfx/ui/sfx_ui_menu_volume_mais
   guid: 6f27be41f45b2f4fbf3a877465263c67
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -31736,6 +33228,28 @@ MonoBehaviour:
   m_Name: parameter:/sfx_enemies_boi_hit/release
   m_EditorClassIdentifier: 
   Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &4047017452939705869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
   Min: 0
   Max: 2
   Default: 0
@@ -32120,6 +33634,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 1
+--- !u!114 &4230579435856367167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &4231176927960112534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32161,6 +33697,28 @@ MonoBehaviour:
   ID:
     data1: 869759483
     data2: 4261273093
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &4247855590088571313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Type: 0
   IsGlobal: 0
   Exists: 0
@@ -32466,14 +34024,14 @@ MonoBehaviour:
   Path: event:/sfx/ui/sfx_ui_menu_hover
   guid: ec306ce4604e5240af1210f517531fbb
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 406
 --- !u!114 &4374791466909630225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32931,14 +34489,15 @@ MonoBehaviour:
   Path: event:/music/music_level_3
   guid: f3a0b907ffab7c45892fec3d4f558e61
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -4540945847630799372}
   MinDistance: 0
   MaxDistance: 0
-  Length: 79505
+  Length: 72452
 --- !u!114 &4586836953864008668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33218,7 +34777,7 @@ MonoBehaviour:
   Path: event:/sfx/ui/sfx_ui_menu_volume_menos
   guid: 9fab94b970f47f4eaf3f285a712d1d44
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -33263,7 +34822,7 @@ MonoBehaviour:
   Path: event:/sfx/ambience/sfx_ambience_fase_1
   guid: 9d717316fd1ecb459ec4af0cf7898eaf
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -33536,6 +35095,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &4775620246728313350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &4775847523624999234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34151,6 +35732,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &5027545513476045398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &5032477887969775589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34188,7 +35791,7 @@ MonoBehaviour:
   Path: event:/music/music_menu
   guid: 2e5fd1ff8202c94d87bdd578e58e7748
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -35073,7 +36676,7 @@ MonoBehaviour:
   Path: event:/music/music_cutscene
   guid: 6aa5261d1d9afd42ad045d52f173d069
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -35170,6 +36773,27 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &5430786642446066253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../Documents/00000/JAAJ v1/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637633746860000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 149639712
+  Exists: 1
 --- !u!114 &5437798344210725405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36010,6 +37634,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 1
+--- !u!114 &5736103900904245080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &5748425690295283004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36340,6 +37986,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &5896366954963155175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &5906130993507198108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36360,6 +38028,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &5908242898814568817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &5916435640213110817
@@ -36626,6 +38316,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &6064605500310340051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &6077152210295134037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36641,14 +38353,14 @@ MonoBehaviour:
   Path: event:/sfx/player/sfx_player_death
   guid: ce46e048e0d7ff41aeede65f1bb302f4
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 1691
 --- !u!114 &6089723915100867733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37511,6 +39223,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &6426605389655221281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_3/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &6446420741056877172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37863,6 +39597,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &6619292983492644176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &6621839787305717345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38678,6 +40434,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &7000532600853430877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &7004885688993239343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39045,7 +40823,7 @@ MonoBehaviour:
   Path: snapshot:/pause
   guid: b914a602200dcc4ab32638ca9111b012
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -39271,6 +41049,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &7171388754209374027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &7172422196667498020
@@ -39603,6 +41403,29 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &7287793408392119643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/enemies/sfx_enemies_gato_desaparecendo
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/enemies/sfx_enemies_gato_desaparecendo
+  guid: 9726d3e1e64b924fbf1f1dcc51ec7b0c
+  Banks:
+  - {fileID: 5430786642446066253}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 392
 --- !u!114 &7293600316040165720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40373,6 +42196,29 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &7558124019877760290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx/enemies/sfx_enemies_morcego_projetil
+  m_EditorClassIdentifier: 
+  Path: event:/sfx/enemies/sfx_enemies_morcego_projetil
+  guid: 62f1c5cd3d12024dae3d47d11bf1d0ab
+  Banks:
+  - {fileID: 5430786642446066253}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1138
 --- !u!114 &7576369743260347433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41423,7 +43269,7 @@ MonoBehaviour:
   Path: event:/sfx/ui/sfx_ui_menu_exit
   guid: 42a5b57d7700ec4eb3ebbcb12b783e7c
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -41909,14 +43755,14 @@ MonoBehaviour:
   Path: event:/sfx/ui/sfx_ui_menu_pause
   guid: 7e57e8b87e83c14da12e26b0702ab6af
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 0
+  Length: 500
 --- !u!114 &8080878559781263394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42571,12 +44417,12 @@ MonoBehaviour:
   Path: event:/sfx/player/sfx_player_footstep
   guid: 09d3521ba0f94248968134c159482f27
   Banks:
-  - {fileID: 8493504613905417749}
+  - {fileID: 5430786642446066253}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -4964411589441254720}
+  - {fileID: 1388825282687837629}
   MinDistance: 0
   MaxDistance: 0
   Length: 261
@@ -42600,6 +44446,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &8483941326697191695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_2/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &8493504613905417749
@@ -42712,6 +44580,28 @@ MonoBehaviour:
   IsGlobal: 0
   Exists: 1
 --- !u!114 &8535910412947896804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/music_level_1/batalha
+  m_EditorClassIdentifier: 
+  Name: batalha
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &8538278408468214907
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43814,6 +45704,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &8997438424102046603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_player_footstep/footstep
+  m_EditorClassIdentifier: 
+  Name: footstep
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &9017028358092716792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44076,6 +45988,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 1
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &9100197366117241218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_enemies_boi_hit/release
+  m_EditorClassIdentifier: 
+  Name: release
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
   IsGlobal: 0
   Exists: 0
 --- !u!114 &9101325684202261463

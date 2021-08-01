@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 5242806545663998825}
   m_Layer: 13
   m_Name: BatBody
-  m_TagString: Untagged
+  m_TagString: EnemyHit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -236,7 +236,7 @@ MonoBehaviour:
   lookDistance: 5
   raycastLayers:
     serializedVersion: 2
-    m_Bits: 2049
+    m_Bits: 18432
   wayPoints:
   - {fileID: 5242806547082734150}
   - {fileID: 5242806545448211522}
@@ -282,6 +282,7 @@ MonoBehaviour:
   timeAttack: 1.5
   isRandomMoviment: 1
   changeAnimation: 0
+  BatSound: {fileID: 0}
 --- !u!95 &5242806545663998825
 Animator:
   serializedVersion: 3
@@ -324,7 +325,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5242806545763721554}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -0.9, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:

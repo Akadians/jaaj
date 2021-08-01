@@ -25,6 +25,7 @@ public class Bat : MonoBehaviour, ISkill
     private bool isAttack;
     public bool isRandomMoviment;
     public int changeAnimation;
+    public SoundController BatSound;
 
     void Start()
     {
@@ -90,6 +91,7 @@ public class Bat : MonoBehaviour, ISkill
         if(playerTransform != null)
         {            
             GameObject temp = Instantiate(shotPrefab, gunPoint.position, Quaternion.identity);
+            BatSound.BatBullet();
             temp.transform.right = gunPoint.right;
             temp.GetComponent<Shot>().SetBulletSpeed(shotSpeed);
         }
@@ -149,5 +151,23 @@ public class Bat : MonoBehaviour, ISkill
     {
         changeAnimation = ((int)currentState);
         Anim.SetInteger("State", changeAnimation);
+    }
+    void Sound()
+    {
+        if ((int)currentState == 0)
+        {
+            BatSound.BatPatrol();
+            return;
+        }
+        if ((int)currentState == 1)
+        {
+            BatSound.BatAttack();            
+            return;
+        }
+        if ((int)currentState == 2)
+        {
+            BatSound.BatDead();
+            return;
+        }
     }
 }
