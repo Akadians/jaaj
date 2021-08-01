@@ -26,6 +26,7 @@ public class UIControler : MonoBehaviour
     [SerializeField]private GameObject pausePanel;
     public float timeToDisablePanel = 3f;
     [SerializeField]private GameObject attentionPanel;
+    public GameObject thanksPanel;
     public TextMeshProUGUI txtAttention;
     void Start()
     {

@@ -8,6 +8,7 @@ public class TutorialController : MonoBehaviour
     public TextMeshProUGUI MainTex;
     public TextMeshProUGUI[] TutorialTex;
     public int IdTex;
+    public bool isFinishScene;
 
     [SerializeField]
     private GameObject col01;
@@ -17,10 +18,12 @@ public class TutorialController : MonoBehaviour
     private GameObject col03;
 
     private Player _Player;
+    private UIControler _UIController;
     // Start is called before the first frame update
     void Start()
     {
         _Player = FindObjectOfType(typeof(Player)) as Player;
+        _UIController = FindObjectOfType(typeof(UIControler)) as UIControler; 
     }
 
     // Update is called once per frame
@@ -88,10 +91,18 @@ public class TutorialController : MonoBehaviour
                 MainTex.text = TutorialTex[IdTex].text;
                 if (IdTex == 5)
                 {
-                    _Player.isTutoActive = false;
-                    _Player.players[0].rigB.gameObject.layer = 14;
-                    _Player.players[1].rigB.gameObject.layer = 14;
-                    PanelText.SetActive(false);
+                    if(isFinishScene)
+                    {
+                        _UIController.thanksPanel.SetActive(true);
+                    }
+                    else
+                    {
+                        _Player.isTutoActive = false;
+                        _Player.players[0].rigB.gameObject.layer = 14;
+                        _Player.players[1].rigB.gameObject.layer = 14;
+                        PanelText.SetActive(false);
+                    }
+                    
                     IdTex++;
                     return;
                 }

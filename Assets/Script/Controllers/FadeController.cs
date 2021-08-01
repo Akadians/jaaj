@@ -15,21 +15,25 @@ public class FadeController : MonoBehaviour
 
     public void NextScene()
     {
+        Time.timeScale = 1;
         StartCoroutine(NextSceneFade());
     }
 
     public void LoadSaveScene()
     {
+        Time.timeScale = 1;
         StartCoroutine(LoadSaveSceneFade());
     }
 
     public void ChangeScene(string name)
     {
+        Time.timeScale = 1;
         StartCoroutine(ChangeSceneFade(name));
     }
 
     public void ReloadScene()
     {
+        Time.timeScale = 1;
         StartCoroutine(ReloadSceneFade());
     }
 
