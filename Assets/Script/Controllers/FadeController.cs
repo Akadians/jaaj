@@ -73,6 +73,10 @@ public class FadeController : MonoBehaviour
         yield return new WaitUntil(() => isFadeCompleted);
         SceneManager.LoadScene(name);
         anim.SetTrigger("fade");
+        if(name != "title")
+        {
+            SaveGame.Instance.Save();
+        }
     }
 
     public void OnFadeCompleted()
