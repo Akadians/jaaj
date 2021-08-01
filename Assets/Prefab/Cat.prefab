@@ -270,6 +270,7 @@ MonoBehaviour:
   offsetY: 3
   downMass: 50
   isTeleportedBack: 1
+  CatSound: {fileID: 0}
   floorLayer:
     serializedVersion: 2
     m_Bits: 2048

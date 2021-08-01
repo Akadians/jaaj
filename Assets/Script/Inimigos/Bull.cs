@@ -17,6 +17,7 @@ public class Bull : MonoBehaviour, ISkill
     public ParticleSystem chargeParticle;
     public float chargeSpeed;
     public bool isRevived;
+    public SoundController BullSound;
     
     
     
@@ -32,13 +33,13 @@ public class Bull : MonoBehaviour, ISkill
     {
         switch (currentState)
         {
-            case BullState.PATROL:
-                behaviour.Patrol();
-            break;
+            case BullState.PATROL:                
+                behaviour.Patrol();                
+                break;
             
             case BullState.RUN:
-                Skill();
-            break;
+                Skill();                
+                break;
         }
         AnimationChanger();
                 
@@ -48,6 +49,7 @@ public class Bull : MonoBehaviour, ISkill
     {
         if(behaviour.isLookLeft) { behaviour.side = 1; } else { behaviour.side = -1;}
         transform.position += transform.right * behaviour.side * chargeSpeed * Time.deltaTime;
+        
     }
 
     void Dead()
@@ -58,17 +60,17 @@ public class Bull : MonoBehaviour, ISkill
 
     void ChangeState(BullState newState)
     {
+        Sound();
         currentState = newState;
         switch (currentState)
         {
-            case BullState.STUN:
+            case BullState.STUN:                
                 StopCoroutine(Delay(BullState.PATROL, 2.5f));
                 StartCoroutine(Delay(BullState.PATROL, 2.5f));
             break;
 
             case BullState.DEAD:
-                behaviour.Dead();
-                Dead();
+                behaviour.Dead();                
             break;
         }
     }
@@ -86,7 +88,7 @@ public class Bull : MonoBehaviour, ISkill
             case "Wall":
                 if(currentState == BullState.RUN)
                 {
-                    ChangeState(BullState.STUN);
+                    ChangeState(BullState.STUN);                    
                 }
 
             break;
@@ -113,7 +115,7 @@ public class Bull : MonoBehaviour, ISkill
                 {
                     if(hit.collider.gameObject.tag == "Player" && currentState != BullState.RUN)
                     {
-                        ChangeState(BullState.RUN);
+                        ChangeState(BullState.RUN);                        
                         chargeParticle.Play();
                     }
                 }
@@ -124,6 +126,23 @@ public class Bull : MonoBehaviour, ISkill
     void AnimationChanger ()
     {
         changeAnimation = ((int)currentState);
-        Anim.SetInteger("State", changeAnimation);
+        Anim.SetInteger("State", changeAnimation);        
+    }
+    void Sound()
+    {
+        if ((int)currentState == 0)
+        {
+            BullSound.BullFootStep();
+            return;
+        }
+        if ((int)currentState == 1)
+        {
+            BullSound.BullFootStep();
+            return;
+        }
+        if ((int)currentState == 3)
+        {
+            
+        }
     }
 }

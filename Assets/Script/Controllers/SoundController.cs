@@ -42,9 +42,9 @@ public class SoundController : MonoBehaviour
 
     // Fase01 Sounds Method //
 
-    public void BackgroundMusic ()
+    public void HoverButton ()
     {
-        
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/ui/sfx_ui_menu_hover");
     }
 
 
@@ -76,5 +76,35 @@ public class SoundController : MonoBehaviour
     public void SkillNyuPlayer()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_absorvendo");
+    }
+    public void GetGodSend()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_coletar");
+    }
+
+    // Enemy Sounds Method //
+    public void BullFootStep()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_enemies_boi_footstep");
+    }
+    public void BullHit()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_enemies_boi_hit");
+    }
+    public void CatFootStep()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_enemies_gato_footstep");
+    }
+    public void CatDead()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("sfx_enemies_gato_desaparecendo");
+    }
+    public void CatTeleporting()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_enemies_gato_aparecendo");
+    }
+    public void Cat()
+    {
+        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/enemies/sfx_enemies_gato_footstep");
     }
 }

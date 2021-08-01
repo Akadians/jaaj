@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7505568427925558737}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.05, y: 0, z: 0}
+  m_LocalPosition: {x: 7.35, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7505568428524431715}
@@ -234,6 +234,7 @@ MonoBehaviour:
   chargeParticle: {fileID: 5790070191177686749}
   chargeSpeed: 8
   isRevived: 0
+  BullSound: {fileID: 0}
 --- !u!95 &7505568428158132868
 Animator:
   serializedVersion: 3
@@ -310,7 +311,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7505568429083746900}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.09, y: 0, z: 0}
+  m_LocalPosition: {x: -1.73, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7505568428524431715}

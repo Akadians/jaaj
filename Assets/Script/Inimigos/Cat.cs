@@ -13,7 +13,8 @@ public class Cat : MonoBehaviour
     public float waitTime = 3f;
     public float offsetY = 3f;
     public float downMass = 30f;
-    public bool isTeleportedBack = true; //teleportou para o ponto de patrulha    
+    public bool isTeleportedBack = true; //teleportou para o ponto de patrulha
+    public SoundController CatSound;
 
     [Header("Ground Check")]
     public LayerMask floorLayer;
@@ -32,6 +33,7 @@ public class Cat : MonoBehaviour
     private Animator Anim;
     private float startMass;
     private int changeAnimation;
+
 
 
     private void Start() 
@@ -84,6 +86,7 @@ public class Cat : MonoBehaviour
 
     void ChangeState(CatState newState)
     {
+        Sound();
         if(currentState == CatState.DEAD) {return;}
         if(!isBacking)
         {
@@ -214,5 +217,23 @@ public class Cat : MonoBehaviour
     {
         changeAnimation = ((int)currentState);
         Anim.SetInteger("State", changeAnimation);
+    }
+    void Sound()
+    {
+        if((int)currentState == 0)
+        {
+            CatSound.CatFootStep();
+            return;
+        }
+        if((int)currentState == 1)
+        {
+            CatSound.CatTeleporting();
+            return;
+        }
+        if((int)currentState == 3)
+        {
+            CatSound.CatDead();
+            return;
+        }
     }
 }
