@@ -27,13 +27,6 @@ public class Shot : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        switch(other.gameObject.tag)
-        {
-            case "Player":
-                print("Bateu Player");
-            break;
-        }
-
         switch(other.gameObject.layer)
         {
             case 11:
