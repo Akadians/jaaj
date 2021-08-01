@@ -65,6 +65,8 @@ public class TutorialController : MonoBehaviour
                 if (IdTex == 2)
                 {
                     _Player.isTutoActive = false;
+                    _Player.players[0].rigB.gameObject.layer = 14;
+                    _Player.players[1].rigB.gameObject.layer = 14;
                     PanelText.SetActive(false);
                     IdTex++;
                     return;
@@ -87,6 +89,8 @@ public class TutorialController : MonoBehaviour
                 if (IdTex == 5)
                 {
                     _Player.isTutoActive = false;
+                    _Player.players[0].rigB.gameObject.layer = 14;
+                    _Player.players[1].rigB.gameObject.layer = 14;
                     PanelText.SetActive(false);
                     IdTex++;
                     return;
@@ -109,6 +113,8 @@ public class TutorialController : MonoBehaviour
                 if (IdTex == 7)
                 {
                     _Player.isTutoActive = false;
+                    _Player.players[0].rigB.gameObject.layer = 14;
+                    _Player.players[1].rigB.gameObject.layer = 14;
                     PanelText.SetActive(false);
                     IdTex++;
                     Destroy(col02);
@@ -132,6 +138,8 @@ public class TutorialController : MonoBehaviour
                 if (IdTex == 10)
                 {
                     _Player.isTutoActive = false;
+                    _Player.players[0].rigB.gameObject.layer = 14;
+                    _Player.players[1].rigB.gameObject.layer = 14;
                     PanelText.SetActive(false);
                     Destroy(col03);
                     return;

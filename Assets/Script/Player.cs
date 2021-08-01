@@ -19,6 +19,7 @@ public struct PlayerStruct
     [Header("Bools")]
     public bool IsJumping;
     public bool Doublejump;
+    public bool isTakeDamage;
 
     [Header("Interaction System")]
     public Interaction interactionObject;
@@ -92,11 +93,6 @@ public class Player : MonoBehaviour
             players[0].anim.SetBool("Move", false);
             players[1].anim.SetBool("Move", false);
             return;
-        }
-        else if(players[0].rigB.gameObject.layer != 14)
-        {
-            players[0].rigB.gameObject.layer = 14;
-            players[1].rigB.gameObject.layer = 14;
         }
 
         if (isDead) { movement = Vector3.zero; return; }
@@ -192,10 +188,10 @@ public class Player : MonoBehaviour
                 case InteractionType.GET_SKILL:
                     players[IdPlayer].interactionObject.Interact();
                     players[IdPlayer].interactionObject.attentionIcon.SetActive(false);
-                    
                     players[IdPlayer].isCanInteract = false;
                     Destroy(players[IdPlayer].interactionObject.gameObject);
-                    players[IdPlayer].interactionObject = null; 
+                    players[IdPlayer].interactionObject = null;
+                    AddLife();
 
                     break;
 
@@ -233,6 +229,7 @@ public class Player : MonoBehaviour
         {
             currentHp = maxHp;
         }
+        _UIController.UpdateHUD(currentHp);
     }
 
     public void ChangeSkill(SkillType newSkill)
@@ -345,21 +342,26 @@ public class Player : MonoBehaviour
         if (!isDead)
         {
             players[id].rigB.gameObject.layer = 14;
+            players[id].isTakeDamage = false;
         }
     }
 
     public void GetDamage(int id)
     {
-        currentHp--;
-        if (currentHp <= 0)
+        if(!players[id].isTakeDamage)
         {
-            currentHp = 0;
-            Dead();
-        }
+            players[id].isTakeDamage = true;
+            currentHp--;
+            if (currentHp <= 0)
+            {
+                currentHp = 0;
+                Dead();
+            }
 
-        StartCoroutine(InvencibleDelay(id));
-        KnockBack(id);
-        _UIController.UpdateHUD(currentHp);
+            StartCoroutine(InvencibleDelay(id));
+            KnockBack(id);
+            _UIController.UpdateHUD(currentHp);
+        }
     }
 
     void KnockBack(int id)
