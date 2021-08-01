@@ -177,8 +177,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Art Design/Conception Arts:\n\nAzartras \nGabriel \nPeslo \n\nMusic/Sound
-    design/Fmod:\n\nBruno Marques Souza\nDani Stob\nLilla Stip\n\nProgrammer/Level
+  m_text: "Art Design/Conception Arts:\n\nAzartras \nGabriel Nonenmacher Souza\nPeslo
+    \n\nMusic/Sound design/Fmod:\n\nBruno Marques\nDani Stob\nLilla Stipp\n\nProgrammer/Level
     Design:\n\nErick Torres - CanvasDev\nIgor Sant'Anna - Isantanna GameDev\n\n\nJAAJ
     6 \n"
   m_isRightToLeft: 0
