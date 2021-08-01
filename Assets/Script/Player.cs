@@ -188,21 +188,9 @@ public class Player : MonoBehaviour
                     players[IdPlayer].interactionObject.Interact();
                     players[IdPlayer].interactionObject.attentionIcon.SetActive(false);
                     
-                    if(players[0].interactionObject == players[1].interactionObject)
-                    {
-                        players[0].isCanInteract = false;
-                        players[1].isCanInteract = false;
-                        Destroy(players[IdPlayer].interactionObject.gameObject);
-                        players[0].interactionObject = null;
-                        players[1].interactionObject = null;
-                    }
-                    else
-                    {
-                        players[IdPlayer].isCanInteract = false;
-                        Destroy(players[IdPlayer].interactionObject.gameObject);
-                        players[IdPlayer].interactionObject = null;
-                    }
-                        
+                    players[IdPlayer].isCanInteract = false;
+                    Destroy(players[IdPlayer].interactionObject.gameObject);
+                    players[IdPlayer].interactionObject = null; 
 
                     break;
 
