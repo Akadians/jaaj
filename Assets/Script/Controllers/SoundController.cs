@@ -6,7 +6,7 @@ public class SoundController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        soundInstance = FMODUnity.RuntimeManager.CreateInstance("event:/sfx/player/sfx_player_footstep");
     }
 
     // Update is called once per frame
@@ -49,10 +49,7 @@ public class SoundController : MonoBehaviour
 
 
     // Players Sounds Method //
-    public void PlayerFootStep()
-    {
-        FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_footstep");
-    }
+ 
     public void PlayerJump()
     {
         FMODUnity.RuntimeManager.PlayOneShot("event:/sfx/player/sfx_player_jump");

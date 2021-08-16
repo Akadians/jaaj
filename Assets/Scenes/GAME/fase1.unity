@@ -7411,6 +7411,7 @@ GameObject:
   - component: {fileID: 356392683}
   - component: {fileID: 356392684}
   - component: {fileID: 356392685}
+  - component: {fileID: 356392686}
   m_Layer: 14
   m_Name: Nyu
   m_TagString: Player
@@ -7556,6 +7557,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   idPlayer: 1
   downParticle: {fileID: 1942395361}
+--- !u!114 &356392686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356392679}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  Event: event:/sfx/player/sfx_player_footstep
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: footstep
+    Value: 0.4
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &360703060
 GameObject:
   m_ObjectHideFlags: 0
@@ -26244,6 +26270,7 @@ GameObject:
   - component: {fileID: 1578358510}
   - component: {fileID: 1578358511}
   - component: {fileID: 1578358512}
+  - component: {fileID: 1578358513}
   m_Layer: 14
   m_Name: Niu
   m_TagString: Player
@@ -26390,6 +26417,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   idPlayer: 0
   downParticle: {fileID: 2142799792}
+--- !u!114 &1578358513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578358506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  Event: event:/sfx/player/sfx_player_footstep
+  PlayEvent: 11
+  StopEvent: 12
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params:
+  - Name: footstep
+    Value: 0.6
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1604394849
 GameObject:
   m_ObjectHideFlags: 0

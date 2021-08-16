@@ -14,7 +14,7 @@ public struct PlayerStruct
     public Transform groundCheckB;
 
     [Header("FX")]
-    public ParticleSystem jumpParticle;
+    public ParticleSystem jumpParticle;    
 
     [Header("Bools")]
     public bool IsJumping;
@@ -37,6 +37,7 @@ public class Player : MonoBehaviour
     public SkillType currentSkill;
     public SoundController PlayerSound;
     public bool isTutoActive;
+    private bool walking;
 
     [Header("Niu Shot")]
     public GameObject niuShotPrefab;
@@ -45,7 +46,7 @@ public class Player : MonoBehaviour
     public int shotCharges = 3;
     private int currentCharge; 
     public float addChargeTime = 2f;
-    private bool isShoting;
+    private bool isShoting;    
 
     [Header("Config")]
     public int maxGodSend = 5;
@@ -101,7 +102,7 @@ public class Player : MonoBehaviour
         Changer();
         GroundCheck();
         Jump();        
-        Interaction();
+        Interaction();        
     }
 
     private void FixedUpdate()
@@ -110,17 +111,20 @@ public class Player : MonoBehaviour
     }
 
     void Move()
-    {
+    {        
         movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
         players[IdPlayer].rigB.transform.position += movement * Time.deltaTime * Speed;
-
+        
         if (movement != Vector3.zero)// Checkagem de movimento para animação.
         {
-            players[IdPlayer].anim.SetBool("Move", true);            
+            players[IdPlayer].anim.SetBool("Move", true);
+            walking = true;
         }
         else
         {
             players[IdPlayer].anim.SetBool("Move", false);
+            walking = false;
+            //PlayerSound.PlayerFootStepStop();
         }
 
         if (Input.GetAxis("Horizontal") < 0f)
@@ -130,7 +134,7 @@ public class Player : MonoBehaviour
         else if (Input.GetAxis("Horizontal") > 0f)
         {
             players[IdPlayer].rigB.transform.eulerAngles = new Vector3(0f, 180f, 0f);
-        }
+        }    
 
         players[0].anim.SetBool("Jumping", players[0].IsJumping);
         players[1].anim.SetBool("Jumping", players[1].IsJumping);
@@ -250,7 +254,6 @@ public class Player : MonoBehaviour
         {
             PlayerSound.SkillNyuPlayer();
         }
-
     }
 
     void Changer() //Metodo de troca do heroi.
@@ -297,7 +300,6 @@ public class Player : MonoBehaviour
         players[1].IsJumping = !Physics2D.OverlapArea(players[1].groundCheckA.position, players[1].groundCheckB.position, FloorCheck);
     }
 
-
     void Jump()
     {
 
@@ -307,7 +309,7 @@ public class Player : MonoBehaviour
             {
                 players[IdPlayer].rigB.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                 players[IdPlayer].jumpParticle.Play();
-                PlayerSound.PlayerJump();
+                PlayerSound.PlayerJump();                
 
                 players[IdPlayer].IsJumping = true;
                 players[IdPlayer].Doublejump = true;
@@ -375,13 +377,5 @@ public class Player : MonoBehaviour
     {
         isDead = true;
         _UIController.OpenGameoverPanel();
-    }
-
-    void FootStepSound()
-    {
-        if (movement != Vector3.zero)// Checkagem de movimento para animação.
-        {
-            PlayerSound.PlayerFootStep();
-        }
     }
 }
